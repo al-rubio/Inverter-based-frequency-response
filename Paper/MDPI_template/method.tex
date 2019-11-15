@@ -1,4 +1,4 @@
-As it was explained in chapter 2, the transitory frequency response of the system and therefore its stable and reliable operation after a perturbation, depends on the inherent characteristics of the power system and the counteraction measurements engaged automatically by the system (primary reserve). As the share of inverter based generation increases, the more sensible to instability the power system becomes. In this sense the added inverter based fast power reserve must be capable of maintaining transitory frequency value within the allowed limits. 
+The transitory frequency response of the system and therefore its stable and reliable operation after a perturbation, depends on the inherent characteristics of the power system and the counteraction measurements engaged automatically by the power system. As the share of inverter based generation increases, the more sensible to instability the power system becomes. In this sense the added inverter based fast power reserve must be capable of maintaining transitory frequency value within the allowed limits. 
 Two terms commonly found in the literature of power system stability will be used along this section:
 
 \begin{itemize}[leftmargin=*,labelsep=5.8mm]
@@ -101,7 +101,7 @@ Recalling \eqref{eq:swing}; it is necessary that the machine’s accelerating po
 
 Where $ P_a $ is accelerating power, $ P_{mech} $ is mechanical power, $ P_{elec} $ is electrical power load, $ t_{cr} $ is the critical time and $ P_{IBFPR} $ is inverter based fast power reserve.
 %Typical primary power reserve response follows the indicated behavior shown in Figure 3 . Conventional turbine governor response is frequency dependent and may not respond linearly. For the estimation of IBFPR it was %assumed a linear power deployment over time until the critical time. Inspecting Equation 3 1; it can be notice that only the power imbalance determines the rate of change in frequency in the system along with the kinetic energy stored in the rotating masses of the generators. For this reason the analysis is focused on the change on mechanical power after the event, ignoring the electrical load and mechanical power in the stable operation before the perturbation.
-From the assumption of a linear mechanical deployment given from the synchronous machines governors, the rate of change in mechanical power, after a power imbalance $ \Delta P $, is given by $ \Delta P/t_{nadir} $, where $ t_{nadir} $ represents the time at which the frequency nadir occurs. Given the power balance \eqref{eq:powerbalance} at the critical time, $ t_{cr} $; the IBFPR response must be equal to $ P_{elec}-P_{mech} $, being $ P_{elec} $ equal to $ \Delta P $. %Figure 3  illustrates the behavior of both responses together. The sum of both at critical time counteracts power imbalance.
+From the assumption of a linear mechanical deployment given from the synchronous machines governors, the rate of change in mechanical power, after a power imbalance $ \Delta P $, is given by $ \Delta P/t_{nadir} $, where $ t_{nadir} $ represents the time at which the frequency nadir occurs. Given the power balance at the critical time, $ t_{cr} $; the IBFPR response must be equal to $ P_{elec}-P_{mech} $, being $ P_{elec} $ equal to $ \Delta P $. %Figure 3  illustrates the behavior of both responses together. The sum of both at critical time counteracts power imbalance.
 
 
 Substituting $ P_{mech} $ by $ \Delta P* t_{cr} /_{tnadir} $ and $ P_{elec} $ by $ \Delta P $ in \eqref{eq:powerbalance}, the following expression is obtained for the $ P_{IBFPR} $ at time $ t_{cr} $:
@@ -125,13 +125,13 @@ According to the obtained expression; it can be realized that the desired power 
 
 \subsection{Simulation Cases}
 
-As presented in the previous section, the values of critical time and frequency nadir time depend on the system imbalance and primary reserve deployment time. In chapter 2 it was illustrated the different governor response for different primary reserve type. To be able to assess the influence of the grid size and the primary reserve characteristics, two main cases are considered. In all cases is assumed that the initial steady frequency is the nominal 50 Hz.
+As presented in the previous section, the values of critical time and frequency nadir time depend on the system imbalance and primary reserve deployment time.  In spite of assessing the influence of the grid size and the primary reserve characteristics, two main cases are considered. In both cases is assumed that the initial steady frequency is the nominal 50 Hz.
 
 
 \begin{itemize}[leftmargin=*,labelsep=5.8mm]
-	\item \textbf{Small scale grid case:} For the evaluation of this case; typical governor data is considered in a well-known and studied benchmark grid topology as the WSCC model, also known as the IEEE 9 bus model. Synchronous reserve deployment is in the order of a few seconds due to governor response [7, 11].
-	\subitem Scenario A-Simplified Model: The power system is represented by an equivalent single machine model in which losses are neglected. It is investigated the critical time for inverters' activation and the required IBFPR is  also determined. Furthermore, the impact of synthetic inertia and the frequency measurement delay in frequency response is analyzed.
-	\subitem Scenario B-Extended Model: All the power system components (transmission lines, transformers, exciters and governors of the three generators) and its dynamic characteristics are considered in the IEEE 9 bus model.\\
+	\item \textbf{Small scale grid case:} For the evaluation of this case typical governor data is considered in a well-known and studied benchmark grid topology as the WSCC model, also known as the IEEE 9 bus model. Synchronous reserve deployment is in the order of a few seconds due to governor response [7, 11].
+	\subitem Scenario A - Simplified Model: The power system is represented by an equivalent single machine model in which losses are neglected. It is investigated the critical time for inverters' activation and the required IBFPR is  also determined. Furthermore, the impact of synthetic inertia and the frequency measurement delay in frequency response is analyzed.
+	\subitem Scenario B - Extended Model: All the power system components (transmission lines, transformers, exciters and governors of the three generators) and its dynamic characteristics are considered in the IEEE 9 bus model.\\
 	\item \textbf{Large scale grid case:} The European grid scale in which all the synchronous machines are modeled and simplified as one single machine, provided with the characteristic expected from the overall system. Synchronous primary reserve deployment is in the order of $ \sim30 $ s [1, 19]. Island frequency response is assumed to be the same that the European response analyzed by ENTSOE ref.
 \end{itemize}
 
@@ -165,13 +165,13 @@ As a first step to evaluate the impact of inverter based generation and power im
 
 
 Figure \ref{fig:ieeesimple} is the block representation of the swing equation \eqref{eq:swing}, it only differs in the fact that a source representing the inverter based generation has been included. This power source output would typically remain constant during an imbalance. The mechanical power is represented by the output of a steam turbine governor model, which is used to represent the synchronous machine [8]. The addition of the former sources represents the total generation. When steady state conditions are met, the accelerating power resulting from the subtraction of the load from the total generation is zero. When equilibrium is lost, the accelerating power is multiply by the transfer function $ 1/(2*H*S) $, where $ H $ is the machine’s inertia constant and $ S $ is the machine’s power rating. From \ref{eq:swing} this product equals the derivative of frequency, therefore an integrator block, denoted by $ 1/s $ is added to obtain the frequency response [7, 21, 22]. A feedback loop is added and an error signal obtained from the reference frequency so the synchronous machine can react as frequency deviates from nominal. \\ %The step response of the governor model under a three different penetration of non-synchronous generation is presented in Figure 3 5. From that, rise time is between 1.14-3.24 s.
-The values of kinetic energy and time constants of a synchronous machines of 835 MVA were selected to represent the synchronous response, with the load of 315 MW the system acceleration time constant is 14 s [8], which is approximately today’s Europe acceleration constant [1]. This is the base scenario, assuming 100\% synchronous generation. To evaluate the impact of the penetration of inverter based generation; the values of lower capacity generators were selected [8].% assuming the compensation of the remaining power by a constant power source representing the inverter based generation, decreasing in this manner the total system acceleration time constant, thus the kinetic energy of the generator. Up to this point, neither synthetic inertia nor frequency support from renewables is considered. Inverter based power output remains constant before, during and after the perturbation. Therefore the system imbalance is covered only by the synchronous equivalent machine.
+The values of kinetic energy and time constants of a synchronous machines of 835 MVA were selected to represent the synchronous response, with the load of 315 MW the system acceleration time constant is 14 s [8], which is approximately today’s Europe acceleration constant [1]. This is the base scenario, assuming 100\% synchronous generation. To evaluate the impact of the penetration of inverter based generation; the values of lower capacity generators were selected [8].\\% assuming the compensation of the remaining power by a constant power source representing the inverter based generation, decreasing in this manner the total system acceleration time constant, thus the kinetic energy of the generator. Up to this point, neither synthetic inertia nor frequency support from renewables is considered. Inverter based power output remains constant before, during and after the perturbation. Therefore the system imbalance is covered only by the synchronous equivalent machine.
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.75\textwidth]{/method/ieee}
-	\label{fig:ieeesimple}
+	\includegraphics[width=0.6\textwidth]{/method/ieee}
 	\caption{Blocks linked by the solid line represent the conventional swing equation given by \eqref{eq:swing}. Represented with doted lines, the respective frequency signals to the blocks of IBFPR and synthetic inertia, which add power to the system.}
+	\label{fig:ieeesimple}
 \end{figure}
 
 
@@ -185,15 +185,15 @@ All the acquired values of critical time, as result from the simulations, are th
 \subsection{Extended IEEE 9 bus Model}
 
 %It was previously stated that in the first approach, only the total load was considered in the simulations as well as the synchronous generation represented by one single machine and no system losses. 
-Since it is desired to compare the results of the system with such simplifications against some model that takes into account the whole system components, losses and dynamics; An  extended representation of the IEEE 9 bus model was implemented in SIMULINK [20]. In this representation, simulations for different values of system inertia and load imbalance were performed, similarly as it was done with the simplified representation of the model. Figure \ref{fig:ieeeext} shows the extended IEEE 9 bus grid architecture with IBG added.
+Since it is desired to compare the results of the system with such simplifications against some model that takes into account the whole system components, losses and dynamics; An  extended representation of the IEEE 9 bus model was implemented in SIMULINK [20]. In this representation, simulations for different values of system inertia and load imbalance were performed, similarly as it was done with the simplified representation of the model. Figure \ref{fig:ieeeext} shows the extended IEEE 9 bus grid architecture with IBG added.\\
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.75\textwidth]{/method/IEEE_FPRmodel}
+	\includegraphics[width=0.5\textwidth]{/method/IEEE_FPRmodel}
+	\caption{One line diagram of the IEEE 9 bus model. The inverter based frequency response has been added At the same bus of the generating units.}
 	\label{fig:ieeeext}
-	\caption{One line diagram of the IEEE 9 bus model. At the same bus of the generating units the inverter based frequency response has been added.}
 \end{figure}
 In order to evaluate the validity of the equation describing the IBFPR needed to avoid ULFS, the IEEE model was modified with the insertion of ideal controlled power sources blocks, which were set up to inject power into the grid accordingly to the simulated scenario. Therefore, no means of frequency measurement were included and only IBFPR was assessed.
-Similarly as it was done in section \ref{ssec:simpleieee}, the total acceleration time constant of the system equals 14 s. Hence the same kinetic energy should be distributed among the three generators' rotating masses in the extended model as in the simplified representation. From \eqref{eq:t_sys} for system acceleration time constant, it can be easily calculated that the system kinetic energy with 14 s (100\% synchronous generation) is 2205 MWs.
+Similarly as it was done in section \ref{ssec:simpleieee}, the total acceleration time constant of the system equals 14 s. Hence the same kinetic energy should be distributed among the three generators' rotating masses in the extended model as in the simplified representation. From \eqref{eq:t_sys} it can be easily calculated that the system kinetic energy with 14 s (100\% synchronous generation) is 2205 MWs.
 \begin{equation}
 	\label{eq:t_sys}
 	T_{sys}=(2*E_{k})/P_{load}
