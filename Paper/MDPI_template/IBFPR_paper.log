@@ -1,385 +1,64 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2019.11.5)  15 NOV 2019 15:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2019.9.29)  17 NOV 2019 18:04
 entering extended mode
-**IBFPR_paper.tex
-("H:\Thesis PPRE\Paper\MDPI_template\IBFPR_paper.tex"
-LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
-abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
-croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
-lician, german, german-x-2009-06-19, greek, gujarati, hindi, hungarian, iceland
-ic, indonesian, interlingua, irish, italian, kannada, kurmanji, lao, latin, lat
-vian, lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerm
-an, ngerman-x-2009-06-19, nynorsk, oriya, panjabi, pinyin, polish, portuguese, 
-romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swis
-sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
-senglishmax, welsh, loaded.
-("H:\Thesis PPRE\Paper\MDPI_template\Definitions/mdpi.cls"
+**./IBFPR_paper.tex
+(IBFPR_paper.tex
+LaTeX2e <2018-04-01> patch level 5
+(Definitions/mdpi.cls
 Document Class: Definitions/mdpi 09/09/2019 MDPI paper class
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\base\article.cls"
-Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\base\size10.clo"
-File: size10.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+
+("C:\Users\Alejandro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\article.c
+ls"
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+
+("C:\Users\Alejandro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size10.cl
+o"
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
-\c@part=\count79
-\c@section=\count80
-\c@subsection=\count81
-\c@subsubsection=\count82
-\c@paragraph=\count83
-\c@subparagraph=\count84
-\c@figure=\count85
-\c@table=\count86
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-) ("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\base\fontenc.st
-y"
-Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
- ("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\base\t1enc.def"
-File: t1enc.def 2018/08/11 v2.0j Standard LaTeX file
+)
+("C:\Users\Alejandro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fontenc.s
+ty"
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+
+("C:\Users\Alejandro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1enc.def
+"
+File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\base\inputenc.sty
-"
-Package: inputenc 2018/08/11 v1.3c Input encoding file
+("C:\Users\Alejandro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.
+sty"
+Package: inputenc 2018/04/06 v1.3b Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
- ("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\base\utf8.def"
-File: utf8.def 2018/10/05 v1.2f UTF-8 support for inputenc
-Now handling font encoding OML ...
-... no UTF-8 mapping file for font encoding OML
-Now handling font encoding T1 ...
-... processing UTF-8 mapping file for font encoding T1
-
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\base\t1enc.dfu"
-File: t1enc.dfu 2018/10/05 v1.2f UTF-8 support for inputenc
-   defining Unicode char U+00A0 (decimal 160)
-   defining Unicode char U+00A1 (decimal 161)
-   defining Unicode char U+00A3 (decimal 163)
-   defining Unicode char U+00AB (decimal 171)
-   defining Unicode char U+00AD (decimal 173)
-   defining Unicode char U+00BB (decimal 187)
-   defining Unicode char U+00BF (decimal 191)
-   defining Unicode char U+00C0 (decimal 192)
-   defining Unicode char U+00C1 (decimal 193)
-   defining Unicode char U+00C2 (decimal 194)
-   defining Unicode char U+00C3 (decimal 195)
-   defining Unicode char U+00C4 (decimal 196)
-   defining Unicode char U+00C5 (decimal 197)
-   defining Unicode char U+00C6 (decimal 198)
-   defining Unicode char U+00C7 (decimal 199)
-   defining Unicode char U+00C8 (decimal 200)
-   defining Unicode char U+00C9 (decimal 201)
-   defining Unicode char U+00CA (decimal 202)
-   defining Unicode char U+00CB (decimal 203)
-   defining Unicode char U+00CC (decimal 204)
-   defining Unicode char U+00CD (decimal 205)
-   defining Unicode char U+00CE (decimal 206)
-   defining Unicode char U+00CF (decimal 207)
-   defining Unicode char U+00D0 (decimal 208)
-   defining Unicode char U+00D1 (decimal 209)
-   defining Unicode char U+00D2 (decimal 210)
-   defining Unicode char U+00D3 (decimal 211)
-   defining Unicode char U+00D4 (decimal 212)
-   defining Unicode char U+00D5 (decimal 213)
-   defining Unicode char U+00D6 (decimal 214)
-   defining Unicode char U+00D8 (decimal 216)
-   defining Unicode char U+00D9 (decimal 217)
-   defining Unicode char U+00DA (decimal 218)
-   defining Unicode char U+00DB (decimal 219)
-   defining Unicode char U+00DC (decimal 220)
-   defining Unicode char U+00DD (decimal 221)
-   defining Unicode char U+00DE (decimal 222)
-   defining Unicode char U+00DF (decimal 223)
-   defining Unicode char U+00E0 (decimal 224)
-   defining Unicode char U+00E1 (decimal 225)
-   defining Unicode char U+00E2 (decimal 226)
-   defining Unicode char U+00E3 (decimal 227)
-   defining Unicode char U+00E4 (decimal 228)
-   defining Unicode char U+00E5 (decimal 229)
-   defining Unicode char U+00E6 (decimal 230)
-   defining Unicode char U+00E7 (decimal 231)
-   defining Unicode char U+00E8 (decimal 232)
-   defining Unicode char U+00E9 (decimal 233)
-   defining Unicode char U+00EA (decimal 234)
-   defining Unicode char U+00EB (decimal 235)
-   defining Unicode char U+00EC (decimal 236)
-   defining Unicode char U+00ED (decimal 237)
-   defining Unicode char U+00EE (decimal 238)
-   defining Unicode char U+00EF (decimal 239)
-   defining Unicode char U+00F0 (decimal 240)
-   defining Unicode char U+00F1 (decimal 241)
-   defining Unicode char U+00F2 (decimal 242)
-   defining Unicode char U+00F3 (decimal 243)
-   defining Unicode char U+00F4 (decimal 244)
-   defining Unicode char U+00F5 (decimal 245)
-   defining Unicode char U+00F6 (decimal 246)
-   defining Unicode char U+00F8 (decimal 248)
-   defining Unicode char U+00F9 (decimal 249)
-   defining Unicode char U+00FA (decimal 250)
-   defining Unicode char U+00FB (decimal 251)
-   defining Unicode char U+00FC (decimal 252)
-   defining Unicode char U+00FD (decimal 253)
-   defining Unicode char U+00FE (decimal 254)
-   defining Unicode char U+00FF (decimal 255)
-   defining Unicode char U+0100 (decimal 256)
-   defining Unicode char U+0101 (decimal 257)
-   defining Unicode char U+0102 (decimal 258)
-   defining Unicode char U+0103 (decimal 259)
-   defining Unicode char U+0104 (decimal 260)
-   defining Unicode char U+0105 (decimal 261)
-   defining Unicode char U+0106 (decimal 262)
-   defining Unicode char U+0107 (decimal 263)
-   defining Unicode char U+0108 (decimal 264)
-   defining Unicode char U+0109 (decimal 265)
-   defining Unicode char U+010A (decimal 266)
-   defining Unicode char U+010B (decimal 267)
-   defining Unicode char U+010C (decimal 268)
-   defining Unicode char U+010D (decimal 269)
-   defining Unicode char U+010E (decimal 270)
-   defining Unicode char U+010F (decimal 271)
-   defining Unicode char U+0110 (decimal 272)
-   defining Unicode char U+0111 (decimal 273)
-   defining Unicode char U+0112 (decimal 274)
-   defining Unicode char U+0113 (decimal 275)
-   defining Unicode char U+0114 (decimal 276)
-   defining Unicode char U+0115 (decimal 277)
-   defining Unicode char U+0116 (decimal 278)
-   defining Unicode char U+0117 (decimal 279)
-   defining Unicode char U+0118 (decimal 280)
-   defining Unicode char U+0119 (decimal 281)
-   defining Unicode char U+011A (decimal 282)
-   defining Unicode char U+011B (decimal 283)
-   defining Unicode char U+011C (decimal 284)
-   defining Unicode char U+011D (decimal 285)
-   defining Unicode char U+011E (decimal 286)
-   defining Unicode char U+011F (decimal 287)
-   defining Unicode char U+0120 (decimal 288)
-   defining Unicode char U+0121 (decimal 289)
-   defining Unicode char U+0122 (decimal 290)
-   defining Unicode char U+0123 (decimal 291)
-   defining Unicode char U+0124 (decimal 292)
-   defining Unicode char U+0125 (decimal 293)
-   defining Unicode char U+0128 (decimal 296)
-   defining Unicode char U+0129 (decimal 297)
-   defining Unicode char U+012A (decimal 298)
-   defining Unicode char U+012B (decimal 299)
-   defining Unicode char U+012C (decimal 300)
-   defining Unicode char U+012D (decimal 301)
-   defining Unicode char U+012E (decimal 302)
-   defining Unicode char U+012F (decimal 303)
-   defining Unicode char U+0130 (decimal 304)
-   defining Unicode char U+0131 (decimal 305)
-   defining Unicode char U+0132 (decimal 306)
-   defining Unicode char U+0133 (decimal 307)
-   defining Unicode char U+0134 (decimal 308)
-   defining Unicode char U+0135 (decimal 309)
-   defining Unicode char U+0136 (decimal 310)
-   defining Unicode char U+0137 (decimal 311)
-   defining Unicode char U+0139 (decimal 313)
-   defining Unicode char U+013A (decimal 314)
-   defining Unicode char U+013B (decimal 315)
-   defining Unicode char U+013C (decimal 316)
-   defining Unicode char U+013D (decimal 317)
-   defining Unicode char U+013E (decimal 318)
-   defining Unicode char U+0141 (decimal 321)
-   defining Unicode char U+0142 (decimal 322)
-   defining Unicode char U+0143 (decimal 323)
-   defining Unicode char U+0144 (decimal 324)
-   defining Unicode char U+0145 (decimal 325)
-   defining Unicode char U+0146 (decimal 326)
-   defining Unicode char U+0147 (decimal 327)
-   defining Unicode char U+0148 (decimal 328)
-   defining Unicode char U+014A (decimal 330)
-   defining Unicode char U+014B (decimal 331)
-   defining Unicode char U+014C (decimal 332)
-   defining Unicode char U+014D (decimal 333)
-   defining Unicode char U+014E (decimal 334)
-   defining Unicode char U+014F (decimal 335)
-   defining Unicode char U+0150 (decimal 336)
-   defining Unicode char U+0151 (decimal 337)
-   defining Unicode char U+0152 (decimal 338)
-   defining Unicode char U+0153 (decimal 339)
-   defining Unicode char U+0154 (decimal 340)
-   defining Unicode char U+0155 (decimal 341)
-   defining Unicode char U+0156 (decimal 342)
-   defining Unicode char U+0157 (decimal 343)
-   defining Unicode char U+0158 (decimal 344)
-   defining Unicode char U+0159 (decimal 345)
-   defining Unicode char U+015A (decimal 346)
-   defining Unicode char U+015B (decimal 347)
-   defining Unicode char U+015C (decimal 348)
-   defining Unicode char U+015D (decimal 349)
-   defining Unicode char U+015E (decimal 350)
-   defining Unicode char U+015F (decimal 351)
-   defining Unicode char U+0160 (decimal 352)
-   defining Unicode char U+0161 (decimal 353)
-   defining Unicode char U+0162 (decimal 354)
-   defining Unicode char U+0163 (decimal 355)
-   defining Unicode char U+0164 (decimal 356)
-   defining Unicode char U+0165 (decimal 357)
-   defining Unicode char U+0168 (decimal 360)
-   defining Unicode char U+0169 (decimal 361)
-   defining Unicode char U+016A (decimal 362)
-   defining Unicode char U+016B (decimal 363)
-   defining Unicode char U+016C (decimal 364)
-   defining Unicode char U+016D (decimal 365)
-   defining Unicode char U+016E (decimal 366)
-   defining Unicode char U+016F (decimal 367)
-   defining Unicode char U+0170 (decimal 368)
-   defining Unicode char U+0171 (decimal 369)
-   defining Unicode char U+0172 (decimal 370)
-   defining Unicode char U+0173 (decimal 371)
-   defining Unicode char U+0174 (decimal 372)
-   defining Unicode char U+0175 (decimal 373)
-   defining Unicode char U+0176 (decimal 374)
-   defining Unicode char U+0177 (decimal 375)
-   defining Unicode char U+0178 (decimal 376)
-   defining Unicode char U+0179 (decimal 377)
-   defining Unicode char U+017A (decimal 378)
-   defining Unicode char U+017B (decimal 379)
-   defining Unicode char U+017C (decimal 380)
-   defining Unicode char U+017D (decimal 381)
-   defining Unicode char U+017E (decimal 382)
-   defining Unicode char U+01CD (decimal 461)
-   defining Unicode char U+01CE (decimal 462)
-   defining Unicode char U+01CF (decimal 463)
-   defining Unicode char U+01D0 (decimal 464)
-   defining Unicode char U+01D1 (decimal 465)
-   defining Unicode char U+01D2 (decimal 466)
-   defining Unicode char U+01D3 (decimal 467)
-   defining Unicode char U+01D4 (decimal 468)
-   defining Unicode char U+01E2 (decimal 482)
-   defining Unicode char U+01E3 (decimal 483)
-   defining Unicode char U+01E6 (decimal 486)
-   defining Unicode char U+01E7 (decimal 487)
-   defining Unicode char U+01E8 (decimal 488)
-   defining Unicode char U+01E9 (decimal 489)
-   defining Unicode char U+01EA (decimal 490)
-   defining Unicode char U+01EB (decimal 491)
-   defining Unicode char U+01F0 (decimal 496)
-   defining Unicode char U+01F4 (decimal 500)
-   defining Unicode char U+01F5 (decimal 501)
-   defining Unicode char U+0218 (decimal 536)
-   defining Unicode char U+0219 (decimal 537)
-   defining Unicode char U+021A (decimal 538)
-   defining Unicode char U+021B (decimal 539)
-   defining Unicode char U+0232 (decimal 562)
-   defining Unicode char U+0233 (decimal 563)
-   defining Unicode char U+0237 (decimal 567)
-   defining Unicode char U+02D9 (decimal 729)
-   defining Unicode char U+02DB (decimal 731)
-   defining Unicode char U+1E02 (decimal 7682)
-   defining Unicode char U+1E03 (decimal 7683)
-   defining Unicode char U+1E9E (decimal 7838)
-   defining Unicode char U+200C (decimal 8204)
-   defining Unicode char U+2010 (decimal 8208)
-   defining Unicode char U+2011 (decimal 8209)
-   defining Unicode char U+2012 (decimal 8210)
-   defining Unicode char U+2013 (decimal 8211)
-   defining Unicode char U+2014 (decimal 8212)
-   defining Unicode char U+2015 (decimal 8213)
-   defining Unicode char U+2018 (decimal 8216)
-   defining Unicode char U+2019 (decimal 8217)
-   defining Unicode char U+201A (decimal 8218)
-   defining Unicode char U+201C (decimal 8220)
-   defining Unicode char U+201D (decimal 8221)
-   defining Unicode char U+201E (decimal 8222)
-   defining Unicode char U+2030 (decimal 8240)
-   defining Unicode char U+2031 (decimal 8241)
-   defining Unicode char U+2039 (decimal 8249)
-   defining Unicode char U+203A (decimal 8250)
-   defining Unicode char U+2423 (decimal 9251)
-   defining Unicode char U+1E20 (decimal 7712)
-   defining Unicode char U+1E21 (decimal 7713)
 )
-Now handling font encoding OT1 ...
-... processing UTF-8 mapping file for font encoding OT1
-
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\base\ot1enc.dfu"
-File: ot1enc.dfu 2018/10/05 v1.2f UTF-8 support for inputenc
-   defining Unicode char U+00A0 (decimal 160)
-   defining Unicode char U+00A1 (decimal 161)
-   defining Unicode char U+00A3 (decimal 163)
-   defining Unicode char U+00AD (decimal 173)
-   defining Unicode char U+00B8 (decimal 184)
-   defining Unicode char U+00BF (decimal 191)
-   defining Unicode char U+00C5 (decimal 197)
-   defining Unicode char U+00C6 (decimal 198)
-   defining Unicode char U+00D8 (decimal 216)
-   defining Unicode char U+00DF (decimal 223)
-   defining Unicode char U+00E6 (decimal 230)
-   defining Unicode char U+00EC (decimal 236)
-   defining Unicode char U+00ED (decimal 237)
-   defining Unicode char U+00EE (decimal 238)
-   defining Unicode char U+00EF (decimal 239)
-   defining Unicode char U+00F8 (decimal 248)
-   defining Unicode char U+0131 (decimal 305)
-   defining Unicode char U+0141 (decimal 321)
-   defining Unicode char U+0142 (decimal 322)
-   defining Unicode char U+0152 (decimal 338)
-   defining Unicode char U+0153 (decimal 339)
-   defining Unicode char U+0174 (decimal 372)
-   defining Unicode char U+0175 (decimal 373)
-   defining Unicode char U+0176 (decimal 374)
-   defining Unicode char U+0177 (decimal 375)
-   defining Unicode char U+0218 (decimal 536)
-   defining Unicode char U+0219 (decimal 537)
-   defining Unicode char U+021A (decimal 538)
-   defining Unicode char U+021B (decimal 539)
-   defining Unicode char U+0237 (decimal 567)
-   defining Unicode char U+2013 (decimal 8211)
-   defining Unicode char U+2014 (decimal 8212)
-   defining Unicode char U+2018 (decimal 8216)
-   defining Unicode char U+2019 (decimal 8217)
-   defining Unicode char U+201C (decimal 8220)
-   defining Unicode char U+201D (decimal 8221)
-)
-Now handling font encoding OMS ...
-... processing UTF-8 mapping file for font encoding OMS
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\base\omsenc.dfu"
-File: omsenc.dfu 2018/10/05 v1.2f UTF-8 support for inputenc
-   defining Unicode char U+00A7 (decimal 167)
-   defining Unicode char U+00B6 (decimal 182)
-   defining Unicode char U+00B7 (decimal 183)
-   defining Unicode char U+2020 (decimal 8224)
-   defining Unicode char U+2021 (decimal 8225)
-   defining Unicode char U+2022 (decimal 8226)
-)
-Now handling font encoding OMX ...
-... no UTF-8 mapping file for font encoding OMX
-Now handling font encoding U ...
-... no UTF-8 mapping file for font encoding U
-   defining Unicode char U+00A9 (decimal 169)
-   defining Unicode char U+00AA (decimal 170)
-   defining Unicode char U+00AE (decimal 174)
-   defining Unicode char U+00BA (decimal 186)
-   defining Unicode char U+02C6 (decimal 710)
-   defining Unicode char U+02DC (decimal 732)
-   defining Unicode char U+200C (decimal 8204)
-   defining Unicode char U+2026 (decimal 8230)
-   defining Unicode char U+2122 (decimal 8482)
-   defining Unicode char U+2423 (decimal 9251)
-   defining Unicode char U+FEFF (decimal 65279)
-)) ("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\tools\calc.sty
+("C:\Users\Alejandro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\calc.sty
 "
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count87
-\calc@Bcount=\count88
+\calc@Acount=\count88
+\calc@Bcount=\count89
 \calc@Adimen=\dimen103
 \calc@Bdimen=\dimen104
 \calc@Askip=\skip43
 \calc@Bskip=\skip44
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count89
+\calc@Ccount=\count90
 \calc@Cskip=\skip45
 )
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\tools\indentfirst
-.sty"
+("C:\Users\Alejandro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\indentfi
+rst.sty"
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
-)
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\fancyhdr\fancyhdr
-.sty"
+) ("C:\Program Files\MiKTeX 2.9\tex/latex\fancyhdr\fancyhdr.sty"
 Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
 s
 \f@nch@headwidth=\skip46
@@ -392,74 +71,74 @@ s
 \f@nch@O@olf=\skip53
 \f@nch@O@orf=\skip54
 )
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\graphics\graphicx
-.sty"
+("C:\Users\Alejandro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graph
+icx.sty"
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\graphics\keyval.s
-ty"
+("C:\Users\Alejandro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyva
+l.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
 )
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\graphics\graphics
-.sty"
+("C:\Users\Alejandro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graph
+ics.sty"
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\graphics\trig.sty
-"
+("C:\Users\Alejandro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.
+sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\graphics-cfg\grap
-hics.cfg"
+("C:\Users\Alejandro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\g
+raphics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\graphics-def\pdft
-ex.def"
+("C:\Users\Alejandro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\p
+dftex.def"
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen105
 \Gin@req@width=\dimen106
 )
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\oberdiek\epstopdf
-.sty"
+("C:\Users\Alejandro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epsto
+pdf.sty"
 Package: epstopdf 2016/05/15 v2.6 Conversion with epstopdf on the fly (HO)
 
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\oberdiek\epstopdf
--base.sty"
+("C:\Users\Alejandro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epsto
+pdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/generic\oberdiek\infwar
-err.sty"
+("C:\Users\Alejandro\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\inf
+warerr.sty"
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\oberdiek\grfext.s
-ty"
+("C:\Users\Alejandro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfex
+t.sty"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/generic\oberdiek\kvdefi
-nekeys.sty"
+("C:\Users\Alejandro\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvd
+efinekeys.sty"
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/generic\oberdiek\ltxcmd
-s.sty"
+("C:\Users\Alejandro\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltx
+cmds.sty"
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )))
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\oberdiek\kvoption
-s.sty"
+("C:\Users\Alejandro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvopt
+ions.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/generic\oberdiek\kvsetk
-eys.sty"
+("C:\Users\Alejandro\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvs
+etkeys.sty"
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/generic\oberdiek\etexcm
-ds.sty"
+("C:\Users\Alejandro\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ete
+xcmds.sty"
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/generic\oberdiek\ifluat
-ex.sty"
+("C:\Users\Alejandro\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifl
+uatex.sty"
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -468,13 +147,13 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/generic\oberdiek\pdftex
-cmds.sty"
+("C:\Users\Alejandro\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdf
+texcmds.sty"
 Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/generic\oberdiek\ifpdf.
-sty"
+("C:\Users\Alejandro\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifp
+df.sty"
 Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
 )
 Package pdftexcmds Info: LuaTeX not detected.
@@ -488,95 +167,89 @@ Package grfext Info: Graphics extension search list:
 (grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
-))
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\lastpage\lastpage
-.sty"
-
-LaTeX Warning: You have requested release `2014/05/01' of LaTeX,
-               but only release `2011/06/27' is available.
-
+)) ("C:\Program Files\MiKTeX 2.9\tex/latex\lastpage\lastpage.sty"
 Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
-) ("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\base\ifthen.sty
-"
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\lineno\lineno.sty
-"
+("C:\Users\Alejandro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ifthen.st
+y"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+) ("C:\Program Files\MiKTeX 2.9\tex/latex\lineno\lineno.sty"
 Package: lineno 2005/11/02 line numbers on paragraphs v4.41
-\linenopenalty=\count90
+\linenopenalty=\count91
 \output=\toks17
-\linenoprevgraf=\count91
+\linenoprevgraf=\count92
 \linenumbersep=\dimen107
 \linenumberwidth=\dimen108
-\c@linenumber=\count92
-\c@pagewiselinenumber=\count93
-\c@LN@truepage=\count94
-\c@internallinenumber=\count95
-\c@internallinenumbers=\count96
+\c@linenumber=\count93
+\c@pagewiselinenumber=\count94
+\c@LN@truepage=\count95
+\c@internallinenumber=\count96
+\c@internallinenumbers=\count97
 \quotelinenumbersep=\dimen109
 \bframerule=\dimen110
 \bframesep=\dimen111
 \bframebox=\box26
 LaTeX Info: Redefining \\ on input line 3056.
-) ("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\float\float.sty
-"
+)
+("C:\Users\Alejandro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\float\float.st
+y"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count97
+\c@float@type=\count98
 \float@exts=\toks18
 \float@box=\box27
 \@float@everytoks=\toks19
 \@floatcapt=\box28
 )
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\amsmath\amsmath.s
-ty"
-Package: amsmath 2018/12/01 v2.17b AMS math features
+("C:\Users\Alejandro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmat
+h.sty"
+Package: amsmath 2017/09/02 v2.17a AMS math features
 \@mathmargin=\skip55
 
 For additional information on amsmath, use the `?' option.
 
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\amsmath\amstext.s
-ty"
+("C:\Users\Alejandro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstex
+t.sty"
 Package: amstext 2000/06/29 v2.01 AMS text
 
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\amsmath\amsgen.st
-y"
+("C:\Users\Alejandro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen
+.sty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks20
 \ex@=\dimen112
 ))
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\amsmath\amsbsy.st
-y"
+("C:\Users\Alejandro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy
+.sty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen113
 )
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\amsmath\amsopn.st
-y"
+("C:\Users\Alejandro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn
+.sty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count98
-LaTeX Info: Redefining \frac on input line 223.
-\uproot@=\count99
-\leftroot@=\count100
-LaTeX Info: Redefining \overline on input line 385.
-\classnum@=\count101
-\DOTSCASE@=\count102
-LaTeX Info: Redefining \ldots on input line 482.
-LaTeX Info: Redefining \dots on input line 485.
-LaTeX Info: Redefining \cdots on input line 606.
+\inf@bad=\count99
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count100
+\leftroot@=\count101
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count102
+\DOTSCASE@=\count103
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
 \Mathstrutbox@=\box29
 \strutbox@=\box30
 \big@size=\dimen114
-LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
-\macc@depth=\count103
-\c@MaxMatrixCols=\count104
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count104
+\c@MaxMatrixCols=\count105
 \dotsspace@=\muskip10
-\c@parentequation=\count105
-\dspbrk@lvl=\count106
+\c@parentequation=\count106
+\dspbrk@lvl=\count107
 \tag@help=\toks21
-\row@=\count107
-\column@=\count108
-\maxfields@=\count109
+\row@=\count108
+\column@=\count109
+\maxfields@=\count110
 \andhelp@=\toks22
 \eqnshift@=\dimen115
 \alignsep@=\dimen116
@@ -588,30 +261,25 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
 \multlinegap=\skip56
 \multlinetaggap=\skip57
 \mathdisplay@stack=\toks24
-LaTeX Info: Redefining \[ on input line 2844.
-LaTeX Info: Redefining \] on input line 2845.
-)
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\setspace\setspace
-.sty"
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+) ("C:\Program Files\MiKTeX 2.9\tex/latex\setspace\setspace.sty"
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\enumitem\enumitem
-.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex\enumitem\enumitem.sty"
 Package: enumitem 2019/02/04 v3.8 Customized lists
 \labelindent=\skip58
 \enit@outerparindent=\dimen121
 \enit@toks=\toks25
 \enit@inbox=\box31
-\enit@count@id=\count110
-\enitdp@description=\count111
+\enit@count@id=\count111
+\enitdp@description=\count112
 )
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\psnfss\mathpazo.s
-ty"
+("C:\Users\Alejandro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\mathpaz
+o.sty"
 Package: mathpazo 2005/04/12 PSNFSS-v9.2a Palatino w/ Pazo Math (D.Puga, WaS) 
 \symupright=\mathgroup4
-)
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\booktabs\booktabs
-.sty"
+) ("C:\Program Files\MiKTeX 2.9\tex/latex\booktabs\booktabs.sty"
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \heavyrulewidth=\dimen122
 \lightrulewidth=\dimen123
@@ -623,16 +291,15 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \cmidrulesep=\dimen129
 \cmidrulekern=\dimen130
 \defaultaddspace=\dimen131
-\@cmidla=\count112
-\@cmidlb=\count113
+\@cmidla=\count113
+\@cmidlb=\count114
 \@aboverulesep=\dimen132
 \@belowrulesep=\dimen133
-\@thisruleclass=\count114
-\@lastruleclass=\count115
+\@thisruleclass=\count115
+\@lastruleclass=\count116
 \@thisrulewidth=\dimen134
 )
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\titlesec\titlesec
-.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex\titlesec\titlesec.sty"
 Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \ttl@box=\box32
 \beforetitleunit=\skip59
@@ -644,39 +311,29 @@ Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \titlewidthlast=\dimen138
 \titlewidthfirst=\dimen139
 )
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\etoolbox\etoolbox
-.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex\etoolbox\etoolbox.sty"
 Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
-
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\etex-pkg\etex.sty
-"
-Package: etex 2016/08/01 v2.7 eTeX basic definition package (PEB,DPC)
-\et@xins=\count116
-)
 \etb@tempcnta=\count117
 )
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\tabto-ltx\tabto.s
-ty"
+("C:\Program Files\MiKTeX 2.9\tex/latex\tabto-ltx\tabto.sty"
 Package: tabto 2018/12/28  v 1.4  Another tabbing mechanism
 \CurrentLineWidth=\dimen140
 \TabPrevPos=\dimen141
 )
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\xcolor\xcolor.sty
-"
+("C:\Program Files\MiKTeX 2.9\tex/latex\xcolor\xcolor.sty"
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\graphics-cfg\colo
-r.cfg"
+("C:\Users\Alejandro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\c
+olor.cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
-
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\colortbl\colortbl
-.sty"
+ ("C:\Program Files\MiKTeX 2.9\tex/latex\colortbl\colortbl.sty"
 Package: colortbl 2018/12/12 v1.0d Color table columns (DPC)
 
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\tools\array.sty"
-Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
+("C:\Users\Alejandro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\array.st
+y"
+Package: array 2018/04/30 v2.4h Tabular extension package (FMi)
 \col@sep=\dimen142
 \ar@mcellbox=\box33
 \extrarowheight=\dimen143
@@ -698,7 +355,7 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
-) ("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\soul\soul.sty"
+) ("C:\Program Files\MiKTeX 2.9\tex/latex\soul\soul.sty"
 Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 \SOUL@word=\toks29
 \SOUL@lasttoken=\toks30
@@ -710,16 +367,14 @@ Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 \SOUL@uldp=\dimen145
 \SOUL@ulht=\dimen146
 )
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\multirow\multirow
-.sty"
-Package: multirow 2019/01/01 v2.4 Span multiple rows of a table
+("C:\Users\Alejandro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\multirow\multi
+row.sty"
+Package: multirow 2018/08/03 v2.3 Span multiple rows of a table
 \multirow@colwidth=\skip65
 \multirow@cntb=\count119
 \multirow@dima=\skip66
 \bigstrutjot=\dimen147
-)
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\microtype\microty
-pe.sty"
+) ("C:\Program Files\MiKTeX 2.9\tex/latex\microtype\microtype.sty"
 Package: microtype 2019/02/28 v2.7b Micro-typographical refinements (RS)
 \MT@toks=\toks34
 \MT@count=\count120
@@ -728,8 +383,7 @@ LaTeX Info: Redefining \textls on input line 790.
 LaTeX Info: Redefining \textmicrotypecontext on input line 1336.
 \MT@listname@count=\count121
 
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\microtype\microty
-pe-pdftex.def"
+("C:\Program Files\MiKTeX 2.9\tex/latex\microtype\microtype-pdftex.def"
 File: microtype-pdftex.def 2019/02/28 v2.7b Definitions specific to pdftex (RS)
 
 LaTeX Info: Redefining \lsstyle on input line 914.
@@ -738,54 +392,40 @@ LaTeX Info: Redefining \lslig on input line 914.
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\microtype\microty
-pe.cfg"
+("C:\Program Files\MiKTeX 2.9\tex/latex\microtype\microtype.cfg"
 File: microtype.cfg 2019/02/28 v2.7b microtype main configuration file (RS)
 ))
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\pgf\frontendlayer
-\tikz.sty"
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\pgf\basiclayer\pg
-f.sty"
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\pgf\utilities\pgf
-rcs.sty"
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/generic\pgf\utilities\p
-gfutil-common.tex"
+("C:\Program Files\MiKTeX 2.9\tex/latex\pgf\frontendlayer\tikz.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex\pgf\basiclayer\pgf.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex\pgf\utilities\pgfrcs.sty"
+("C:\Program Files\MiKTeX 2.9\tex/generic\pgf\utilities\pgfutil-common.tex"
 \pgfutil@everybye=\toks35
 \pgfutil@tempdima=\dimen149
 \pgfutil@tempdimb=\dimen150
 
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/generic\pgf\utilities\p
-gfutil-common-lists.tex"))
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/generic\pgf\utilities\p
-gfutil-latex.def"
+("C:\Program Files\MiKTeX 2.9\tex/generic\pgf\utilities\pgfutil-common-lists.te
+x")) ("C:\Program Files\MiKTeX 2.9\tex/generic\pgf\utilities\pgfutil-latex.def"
 \pgfutil@abb=\box35
-
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\ms\everyshi.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex\ms\everyshi.sty"
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/generic\pgf\utilities\p
-gfrcs.code.tex"
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/generic\pgf\pgf.revisio
-n.tex")
+("C:\Program Files\MiKTeX 2.9\tex/generic\pgf\utilities\pgfrcs.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex/generic\pgf\pgf.revision.tex")
 Package: pgfrcs 2019/04/04 v3.1.2 (3.1.2)
 ))
 Package: pgf 2019/04/04 v3.1.2 (3.1.2)
 
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\pgf\basiclayer\pg
-fcore.sty"
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\pgf\systemlayer\p
-gfsys.sty"
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/generic\pgf\systemlayer
-\pgfsys.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex/latex\pgf\basiclayer\pgfcore.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex\pgf\systemlayer\pgfsys.sty"
+("C:\Program Files\MiKTeX 2.9\tex/generic\pgf\systemlayer\pgfsys.code.tex"
 Package: pgfsys 2019/04/04 v3.1.2 (3.1.2)
 
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/generic\pgf\utilities\p
-gfkeys.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex/generic\pgf\utilities\pgfkeys.code.tex"
 \pgfkeys@pathtoks=\toks36
 \pgfkeys@temptoks=\toks37
 
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/generic\pgf\utilities\p
-gfkeysfiltered.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex/generic\pgf\utilities\pgfkeysfiltered.code.te
+x"
 \pgfkeys@tmptoks=\toks38
 ))
 \pgf@x=\dimen151
@@ -806,43 +446,33 @@ gfkeysfiltered.code.tex"
 \t@pgf@tokb=\toks40
 \t@pgf@tokc=\toks41
 \pgf@sys@id@count=\count126
-
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/generic\pgf\systemlayer
-\pgf.cfg"
+ ("C:\Program Files\MiKTeX 2.9\tex/generic\pgf\systemlayer\pgf.cfg"
 File: pgf.cfg 2019/04/04 v3.1.2 (3.1.2)
 )
 Driver file for pgf: pgfsys-pdftex.def
 
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/generic\pgf\systemlayer
-\pgfsys-pdftex.def"
+("C:\Program Files\MiKTeX 2.9\tex/generic\pgf\systemlayer\pgfsys-pdftex.def"
 File: pgfsys-pdftex.def 2019/04/04 v3.1.2 (3.1.2)
 
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/generic\pgf\systemlayer
-\pgfsys-common-pdf.def"
+("C:\Program Files\MiKTeX 2.9\tex/generic\pgf\systemlayer\pgfsys-common-pdf.def
+"
 File: pgfsys-common-pdf.def 2019/04/04 v3.1.2 (3.1.2)
 )))
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/generic\pgf\systemlayer
-\pgfsyssoftpath.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex/generic\pgf\systemlayer\pgfsyssoftpath.code.t
+ex"
 File: pgfsyssoftpath.code.tex 2019/04/04 v3.1.2 (3.1.2)
 \pgfsyssoftpath@smallbuffer@items=\count127
 \pgfsyssoftpath@bigbuffer@items=\count128
 )
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/generic\pgf\systemlayer
-\pgfsysprotocol.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex/generic\pgf\systemlayer\pgfsysprotocol.code.t
+ex"
 File: pgfsysprotocol.code.tex 2019/04/04 v3.1.2 (3.1.2)
-))
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/generic\pgf\basiclayer\
-pgfcore.code.tex"
+)) ("C:\Program Files\MiKTeX 2.9\tex/generic\pgf\basiclayer\pgfcore.code.tex"
 Package: pgfcore 2019/04/04 v3.1.2 (3.1.2)
-
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/generic\pgf\math\pgfmat
-h.code.tex"
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/generic\pgf\math\pgfmat
-hcalc.code.tex"
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/generic\pgf\math\pgfmat
-hutil.code.tex")
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/generic\pgf\math\pgfmat
-hparser.code.tex"
+ ("C:\Program Files\MiKTeX 2.9\tex/generic\pgf\math\pgfmath.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex/generic\pgf\math\pgfmathcalc.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex/generic\pgf\math\pgfmathutil.code.tex")
+("C:\Program Files\MiKTeX 2.9\tex/generic\pgf\math\pgfmathparser.code.tex"
 \pgfmath@dimen=\dimen159
 \pgfmath@count=\count129
 \pgfmath@box=\box36
@@ -850,30 +480,28 @@ hparser.code.tex"
 \pgfmath@stack@operand=\toks43
 \pgfmath@stack@operation=\toks44
 )
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/generic\pgf\math\pgfmat
-hfunctions.code.tex"
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/generic\pgf\math\pgfmat
-hfunctions.basic.code.tex")
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/generic\pgf\math\pgfmat
-hfunctions.trigonometric.code.tex")
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/generic\pgf\math\pgfmat
-hfunctions.random.code.tex")
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/generic\pgf\math\pgfmat
-hfunctions.comparison.code.tex")
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/generic\pgf\math\pgfmat
-hfunctions.base.code.tex")
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/generic\pgf\math\pgfmat
-hfunctions.round.code.tex")
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/generic\pgf\math\pgfmat
-hfunctions.misc.code.tex")
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/generic\pgf\math\pgfmat
-hfunctions.integerarithmetics.code.tex")))
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/generic\pgf\math\pgfmat
-hfloat.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex/generic\pgf\math\pgfmathfunctions.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex/generic\pgf\math\pgfmathfunctions.basic.code.
+tex")
+("C:\Program Files\MiKTeX 2.9\tex/generic\pgf\math\pgfmathfunctions.trigonometr
+ic.code.tex")
+("C:\Program Files\MiKTeX 2.9\tex/generic\pgf\math\pgfmathfunctions.random.code
+.tex")
+("C:\Program Files\MiKTeX 2.9\tex/generic\pgf\math\pgfmathfunctions.comparison.
+code.tex")
+("C:\Program Files\MiKTeX 2.9\tex/generic\pgf\math\pgfmathfunctions.base.code.t
+ex")
+("C:\Program Files\MiKTeX 2.9\tex/generic\pgf\math\pgfmathfunctions.round.code.
+tex")
+("C:\Program Files\MiKTeX 2.9\tex/generic\pgf\math\pgfmathfunctions.misc.code.t
+ex")
+("C:\Program Files\MiKTeX 2.9\tex/generic\pgf\math\pgfmathfunctions.integerarit
+hmetics.code.tex")))
+("C:\Program Files\MiKTeX 2.9\tex/generic\pgf\math\pgfmathfloat.code.tex"
 \c@pgfmathroundto@lastzeros=\count130
 ))
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/generic\pgf\basiclayer\
-pgfcorepoints.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex/generic\pgf\basiclayer\pgfcorepoints.code.tex
+"
 File: pgfcorepoints.code.tex 2019/04/04 v3.1.2 (3.1.2)
 \pgf@picminx=\dimen160
 \pgf@picmaxx=\dimen161
@@ -890,133 +518,117 @@ File: pgfcorepoints.code.tex 2019/04/04 v3.1.2 (3.1.2)
 \pgf@zx=\dimen172
 \pgf@zy=\dimen173
 )
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/generic\pgf\basiclayer\
-pgfcorepathconstruct.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex/generic\pgf\basiclayer\pgfcorepathconstruct.c
+ode.tex"
 File: pgfcorepathconstruct.code.tex 2019/04/04 v3.1.2 (3.1.2)
 \pgf@path@lastx=\dimen174
 \pgf@path@lasty=\dimen175
 )
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/generic\pgf\basiclayer\
-pgfcorepathusage.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex/generic\pgf\basiclayer\pgfcorepathusage.code.
+tex"
 File: pgfcorepathusage.code.tex 2019/04/04 v3.1.2 (3.1.2)
 \pgf@shorten@end@additional=\dimen176
 \pgf@shorten@start@additional=\dimen177
 )
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/generic\pgf\basiclayer\
-pgfcorescopes.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex/generic\pgf\basiclayer\pgfcorescopes.code.tex
+"
 File: pgfcorescopes.code.tex 2019/04/04 v3.1.2 (3.1.2)
 \pgfpic=\box37
 \pgf@hbox=\box38
 \pgf@layerbox@main=\box39
 \pgf@picture@serial@count=\count131
 )
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/generic\pgf\basiclayer\
-pgfcoregraphicstate.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex/generic\pgf\basiclayer\pgfcoregraphicstate.co
+de.tex"
 File: pgfcoregraphicstate.code.tex 2019/04/04 v3.1.2 (3.1.2)
 \pgflinewidth=\dimen178
 )
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/generic\pgf\basiclayer\
-pgfcoretransformations.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex/generic\pgf\basiclayer\pgfcoretransformations
+.code.tex"
 File: pgfcoretransformations.code.tex 2019/04/04 v3.1.2 (3.1.2)
 \pgf@pt@x=\dimen179
 \pgf@pt@y=\dimen180
 \pgf@pt@temp=\dimen181
 )
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/generic\pgf\basiclayer\
-pgfcorequick.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex/generic\pgf\basiclayer\pgfcorequick.code.tex"
 File: pgfcorequick.code.tex 2019/04/04 v3.1.2 (3.1.2)
 )
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/generic\pgf\basiclayer\
-pgfcoreobjects.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex/generic\pgf\basiclayer\pgfcoreobjects.code.te
+x"
 File: pgfcoreobjects.code.tex 2019/04/04 v3.1.2 (3.1.2)
 )
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/generic\pgf\basiclayer\
-pgfcorepathprocessing.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex/generic\pgf\basiclayer\pgfcorepathprocessing.
+code.tex"
 File: pgfcorepathprocessing.code.tex 2019/04/04 v3.1.2 (3.1.2)
 )
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/generic\pgf\basiclayer\
-pgfcorearrows.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex/generic\pgf\basiclayer\pgfcorearrows.code.tex
+"
 File: pgfcorearrows.code.tex 2019/04/04 v3.1.2 (3.1.2)
 \pgfarrowsep=\dimen182
 )
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/generic\pgf\basiclayer\
-pgfcoreshade.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex/generic\pgf\basiclayer\pgfcoreshade.code.tex"
 File: pgfcoreshade.code.tex 2019/04/04 v3.1.2 (3.1.2)
 \pgf@max=\dimen183
 \pgf@sys@shading@range@num=\count132
 \pgf@shadingcount=\count133
-)
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/generic\pgf\basiclayer\
-pgfcoreimage.code.tex"
+) ("C:\Program Files\MiKTeX 2.9\tex/generic\pgf\basiclayer\pgfcoreimage.code.te
+x"
 File: pgfcoreimage.code.tex 2019/04/04 v3.1.2 (3.1.2)
 
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/generic\pgf\basiclayer\
-pgfcoreexternal.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex/generic\pgf\basiclayer\pgfcoreexternal.code.t
+ex"
 File: pgfcoreexternal.code.tex 2019/04/04 v3.1.2 (3.1.2)
 \pgfexternal@startupbox=\box40
 ))
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/generic\pgf\basiclayer\
-pgfcorelayers.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex/generic\pgf\basiclayer\pgfcorelayers.code.tex
+"
 File: pgfcorelayers.code.tex 2019/04/04 v3.1.2 (3.1.2)
 )
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/generic\pgf\basiclayer\
-pgfcoretransparency.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex/generic\pgf\basiclayer\pgfcoretransparency.co
+de.tex"
 File: pgfcoretransparency.code.tex 2019/04/04 v3.1.2 (3.1.2)
 )
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/generic\pgf\basiclayer\
-pgfcorepatterns.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex/generic\pgf\basiclayer\pgfcorepatterns.code.t
+ex"
 File: pgfcorepatterns.code.tex 2019/04/04 v3.1.2 (3.1.2)
 )
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/generic\pgf\basiclayer\
-pgfcorerdf.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex/generic\pgf\basiclayer\pgfcorerdf.code.tex"
 File: pgfcorerdf.code.tex 2019/04/04 v3.1.2 (3.1.2)
-)))
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/generic\pgf\modules\pgf
-moduleshapes.code.tex"
+))) ("C:\Program Files\MiKTeX 2.9\tex/generic\pgf\modules\pgfmoduleshapes.code.
+tex"
 File: pgfmoduleshapes.code.tex 2019/04/04 v3.1.2 (3.1.2)
 \pgfnodeparttextbox=\box41
-)
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/generic\pgf\modules\pgf
-moduleplot.code.tex"
+) ("C:\Program Files\MiKTeX 2.9\tex/generic\pgf\modules\pgfmoduleplot.code.tex"
 File: pgfmoduleplot.code.tex 2019/04/04 v3.1.2 (3.1.2)
 )
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\pgf\compatibility
-\pgfcomp-version-0-65.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex\pgf\compatibility\pgfcomp-version-0-65.
+sty"
 Package: pgfcomp-version-0-65 2019/04/04 v3.1.2 (3.1.2)
 \pgf@nodesepstart=\dimen184
 \pgf@nodesepend=\dimen185
 )
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\pgf\compatibility
-\pgfcomp-version-1-18.sty"
-Package: pgfcomp-version-1-18 2019/04/04 v3.1.2 (3.1.2)
-))
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\pgf\utilities\pgf
-for.sty"
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\pgf\utilities\pgf
-keys.sty"
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/generic\pgf\utilities\p
-gfkeys.code.tex"))
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\pgf\math\pgfmath.
+("C:\Program Files\MiKTeX 2.9\tex/latex\pgf\compatibility\pgfcomp-version-1-18.
 sty"
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/generic\pgf\math\pgfmat
-h.code.tex"))
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/generic\pgf\utilities\p
-gffor.code.tex"
+Package: pgfcomp-version-1-18 2019/04/04 v3.1.2 (3.1.2)
+)) ("C:\Program Files\MiKTeX 2.9\tex/latex\pgf\utilities\pgffor.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex\pgf\utilities\pgfkeys.sty"
+("C:\Program Files\MiKTeX 2.9\tex/generic\pgf\utilities\pgfkeys.code.tex"))
+("C:\Program Files\MiKTeX 2.9\tex/latex\pgf\math\pgfmath.sty"
+("C:\Program Files\MiKTeX 2.9\tex/generic\pgf\math\pgfmath.code.tex"))
+("C:\Program Files\MiKTeX 2.9\tex/generic\pgf\utilities\pgffor.code.tex"
 Package: pgffor 2019/04/04 v3.1.2 (3.1.2)
 
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/generic\pgf\math\pgfmat
-h.code.tex")
+("C:\Program Files\MiKTeX 2.9\tex/generic\pgf\math\pgfmath.code.tex")
 \pgffor@iter=\dimen186
 \pgffor@skip=\dimen187
 \pgffor@stack=\toks45
 \pgffor@toks=\toks46
 ))
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/generic\pgf\frontendlay
-er\tikz\tikz.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex/generic\pgf\frontendlayer\tikz\tikz.code.tex"
 Package: tikz 2019/04/04 v3.1.2 (3.1.2)
 
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/generic\pgf\libraries\p
-gflibraryplothandlers.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex/generic\pgf\libraries\pgflibraryplothandlers.
+code.tex"
 File: pgflibraryplothandlers.code.tex 2019/04/04 v3.1.2 (3.1.2)
 \pgf@plot@mark@count=\count134
 \pgfplotmarksize=\dimen188
@@ -1036,8 +648,7 @@ File: pgflibraryplothandlers.code.tex 2019/04/04 v3.1.2 (3.1.2)
 \tikznumberofcurrentchild=\count137
 \tikz@fig@count=\count138
 
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/generic\pgf\modules\pgf
-modulematrix.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex/generic\pgf\modules\pgfmodulematrix.code.tex"
 File: pgfmodulematrix.code.tex 2019/04/04 v3.1.2 (3.1.2)
 \pgfmatrixcurrentrow=\count139
 \pgfmatrixcurrentcolumn=\count140
@@ -1045,15 +656,15 @@ File: pgfmodulematrix.code.tex 2019/04/04 v3.1.2 (3.1.2)
 )
 \tikz@expandcount=\count142
 
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/generic\pgf\frontendlay
-er\tikz\libraries\tikzlibrarytopaths.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex/generic\pgf\frontendlayer\tikz\libraries\tikz
+librarytopaths.code.tex"
 File: tikzlibrarytopaths.code.tex 2019/04/04 v3.1.2 (3.1.2)
 )))
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\totcount\totcount
-.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex\totcount\totcount.sty"
 Package: totcount 2011/01/25 v1.2 package for gettingthe total value of LaTeX c
 ounters
-) ("H:\Thesis PPRE\Paper\MDPI_template\Definitions/journalnames.tex")
+)
+(Definitions/journalnames.tex)
 
 Class mdpi Warning: You used an invalid journal name or you have not specified 
 the journal. The first option of the documentclass command specifies the journa
@@ -1061,8 +672,9 @@ l. The word 'journal' should be replaced by one of the journal names specified
 in template.tex (in the comment 'Choose between the following MDPI journal'). o
 n input line 123.
 
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\amscls\amsthm.sty
-"
+
+("C:\Users\Alejandro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amscls\amsthm.
+sty"
 Package: amsthm 2017/10/31 v2.20.4
 \thm@style=\toks47
 \thm@bodyfont=\toks48
@@ -1088,32 +700,29 @@ Package: amsthm 2017/10/31 v2.20.4
 \c@hypothesis=\count154
 \c@notation=\count155
 \c@assumption=\count156
-
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\hyphenat\hyphenat
-.sty"
+ ("C:\Program Files\MiKTeX 2.9\tex/latex\hyphenat\hyphenat.sty"
 Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
-\langwohyphens=\language70
+\langwohyphens=\language79
 LaTeX Info: Redefining \_ on input line 43.
 )
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\natbib\natbib.sty
-"
+("C:\Program Files\MiKTeX 2.9\tex/latex\natbib\natbib.sty"
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip71
 \bibsep=\skip72
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count157
 )
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\hyperref\hyperref
-.sty"
-Package: hyperref 2018/11/30 v6.88e Hypertext links for LaTeX
+("C:\Users\Alejandro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\hyper
+ref.sty"
+Package: hyperref 2018/09/30 v6.88a Hypertext links for LaTeX
 
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/generic\oberdiek\hobsub
--hyperref.sty"
+("C:\Users\Alejandro\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\hob
+sub-hyperref.sty"
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 
 
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/generic\oberdiek\hobsub
--generic.sty"
+("C:\Users\Alejandro\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\hob
+sub-generic.sty"
 Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
@@ -1142,89 +751,87 @@ Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 )
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/generic\ifxetex\ifxetex
-.sty"
+("C:\Users\Alejandro\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ifxetex\ifxe
+tex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\oberdiek\auxhook.
-sty"
+("C:\Users\Alejandro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\auxho
+ok.sty"
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
 \@linkdim=\dimen195
 \Hy@linkcounter=\count158
 \Hy@pagecounter=\count159
 
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\hyperref\pd1enc.d
-ef"
-File: pd1enc.def 2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
+("C:\Users\Alejandro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\pd1en
+c.def"
+File: pd1enc.def 2018/09/30 v6.88a Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
 \Hy@SavedSpaceFactor=\count160
 
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\00miktex\hyperref
-.cfg"
+("C:\Users\Alejandro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\hyper
+ref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Option `unicode' set `true' on input line 4393.
+Package hyperref Info: Option `unicode' set `true' on input line 4409.
 
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\hyperref\puenc.de
-f"
-File: puenc.def 2018/11/30 v6.88e Hyperref: PDF Unicode definition (HO)
+("C:\Users\Alejandro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\puenc
+.def"
+File: puenc.def 2018/09/30 v6.88a Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 4393.
-Package hyperref Info: Option `pdffitwindow' set `true' on input line 4393.
-Package hyperref Info: Option `colorlinks' set `true' on input line 4393.
-Package hyperref Info: Option `hyperfootnotes' set `false' on input line 4393.
-Package hyperref Info: Hyper figures OFF on input line 4519.
-Package hyperref Info: Link nesting OFF on input line 4524.
-Package hyperref Info: Hyper index ON on input line 4527.
-Package hyperref Info: Plain pages OFF on input line 4534.
-Package hyperref Info: Backreferencing OFF on input line 4539.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 4409.
+Package hyperref Info: Option `pdffitwindow' set `true' on input line 4409.
+Package hyperref Info: Option `colorlinks' set `true' on input line 4409.
+Package hyperref Info: Option `hyperfootnotes' set `false' on input line 4409.
+Package hyperref Info: Hyper figures OFF on input line 4535.
+Package hyperref Info: Link nesting OFF on input line 4540.
+Package hyperref Info: Hyper index ON on input line 4543.
+Package hyperref Info: Plain pages OFF on input line 4550.
+Package hyperref Info: Backreferencing OFF on input line 4555.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4772.
+Package hyperref Info: Bookmarks ON on input line 4788.
 \c@Hy@tempcnt=\count161
- ("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\url\url.sty"
+ ("C:\Program Files\MiKTeX 2.9\tex/latex\url\url.sty"
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5125.
+LaTeX Info: Redefining \url on input line 5141.
 \XeTeXLinkMargin=\dimen196
 \Fld@menulength=\count162
 \Field@Width=\dimen197
 \Fld@charsize=\dimen198
-Package hyperref Info: Hyper figures OFF on input line 6380.
-Package hyperref Info: Link nesting OFF on input line 6385.
-Package hyperref Info: Hyper index ON on input line 6388.
-Package hyperref Info: backreferencing OFF on input line 6395.
-Package hyperref Info: Link coloring ON on input line 6398.
-Package hyperref Info: Link coloring with OCG OFF on input line 6405.
-Package hyperref Info: PDF/A mode OFF on input line 6410.
-LaTeX Info: Redefining \ref on input line 6450.
-LaTeX Info: Redefining \pageref on input line 6454.
+Package hyperref Info: Hyper figures OFF on input line 6396.
+Package hyperref Info: Link nesting OFF on input line 6401.
+Package hyperref Info: Hyper index ON on input line 6404.
+Package hyperref Info: backreferencing OFF on input line 6411.
+Package hyperref Info: Link coloring ON on input line 6414.
+Package hyperref Info: Link coloring with OCG OFF on input line 6421.
+Package hyperref Info: PDF/A mode OFF on input line 6426.
+LaTeX Info: Redefining \ref on input line 6466.
+LaTeX Info: Redefining \pageref on input line 6470.
 \Hy@abspage=\count163
 \c@Item=\count164
 )
 Package hyperref Info: Driver: hpdftex.
 
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\hyperref\hpdftex.
-def"
-File: hpdftex.def 2018/11/30 v6.88e Hyperref driver for pdfTeX
+("C:\Users\Alejandro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\hpdft
+ex.def"
+File: hpdftex.def 2018/09/30 v6.88a Hyperref driver for pdfTeX
 \Fld@listcount=\count165
 \c@bookmark@seq@number=\count166
 
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\oberdiek\rerunfil
-echeck.sty"
+("C:\Users\Alejandro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\rerun
+filecheck.sty"
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip73
-)
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\footmisc\footmisc
-.sty"
+) ("C:\Program Files\MiKTeX 2.9\tex/latex\footmisc\footmisc.sty"
 Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
 \FN@temptoken=\toks53
 \footnotemargin=\dimen199
@@ -1239,31 +846,27 @@ Package footmisc Info: Declaring symbol style lamport*-robust on input line 924
 .
 )
 \c@page@totc=\count168
-
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\titlesec\block.ts
-s"
+ ("C:\Program Files\MiKTeX 2.9\tex/latex\titlesec\block.tss"
 File: block.tss 2016/03/15
 )
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\geometry\geometry
-.sty"
+("C:\Users\Alejandro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geome
+try.sty"
 Package: geometry 2018/04/16 v5.8 Page Geometry
 \Gm@cnth=\count169
 \Gm@cntv=\count170
 \c@Gm@tempcnt=\count171
-\Gm@bindingoffset=\dimen200
-\Gm@wd@mp=\dimen201
-\Gm@odd@mp=\dimen202
-\Gm@even@mp=\dimen203
-\Gm@layoutwidth=\dimen204
-\Gm@layoutheight=\dimen205
-\Gm@layouthoffset=\dimen206
-\Gm@layoutvoffset=\dimen207
+\Gm@bindingoffset=\dimen256
+\Gm@wd@mp=\dimen257
+\Gm@odd@mp=\dimen258
+\Gm@even@mp=\dimen259
+\Gm@layoutwidth=\dimen260
+\Gm@layoutheight=\dimen261
+\Gm@layouthoffset=\dimen262
+\Gm@layoutvoffset=\dimen263
 \Gm@dimlist=\toks54
 
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\geometry\geometry
-.cfg"))
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\caption\newfloat.
-sty"
+("C:\Users\Alejandro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geome
+try.cfg")) ("C:\Program Files\MiKTeX 2.9\tex/latex\caption\newfloat.sty"
 Package: newfloat 2018/03/04 v1.1a Defining new floating environments (AR)
 )
 Package newfloat Info: New float `listing' with options `' on input line 986.
@@ -1280,21 +883,19 @@ Package newfloat Info: New float `scheme' with options `' on input line 989.
 \c@scheme=\count175
 Package newfloat Info: float type `scheme'=32 on input line 989.
 
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\caption\caption.s
-ty"
+("C:\Program Files\MiKTeX 2.9\tex/latex\caption\caption.sty"
 Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
 
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\caption\caption3.
-sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex\caption\caption3.sty"
 Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 64.
-\captionmargin=\dimen208
-\captionmargin@=\dimen209
-\captionwidth=\dimen210
-\caption@tempdima=\dimen211
-\caption@indent=\dimen212
-\caption@parindent=\dimen213
-\caption@hangindent=\dimen214
+\captionmargin=\dimen264
+\captionmargin@=\dimen265
+\captionwidth=\dimen266
+\caption@tempdima=\dimen267
+\caption@indent=\dimen268
+\caption@parindent=\dimen269
+\caption@hangindent=\dimen270
 )
 \c@caption@flags=\count176
 \c@ContinuedFloat=\count177
@@ -1304,8 +905,7 @@ Package caption Info: hyperref package is loaded.
 \@justcentbox=\box46
 \wideitemsep=\skip74
 )
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\caption\subcaptio
-n.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex\caption\subcaption.sty"
 Package: subcaption 2018/05/01 v1.1-162 Sub-captions (AR)
 \c@subfigure=\count178
 \c@subtable=\count179
@@ -1314,35 +914,30 @@ Package: subcaption 2018/05/01 v1.1-162 Sub-captions (AR)
 \c@subchart=\count182
 \c@subscheme=\count183
 )
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\mdwtools\footnote
-.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex\mdwtools\footnote.sty"
 Package: footnote 1997/01/28 1.13 Save footnotes around boxes
 \fn@notes=\box47
-\fn@width=\dimen215
+\fn@width=\dimen271
 )
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\steinmetz\steinme
-tz.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex\steinmetz\steinmetz.sty"
 Package: steinmetz 2009/06/14 v1.0 Steinmetz symbol for electrotechnics
 
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\pict2e\pict2e.sty
-"
+("C:\Program Files\MiKTeX 2.9\tex/latex\pict2e\pict2e.sty"
 Package: pict2e 2016/02/05 v0.3b Improved picture commands (HjG,RN,JT)
 
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\pict2e\pict2e.cfg
-"
+("C:\Program Files\MiKTeX 2.9\tex/latex\pict2e\pict2e.cfg"
 File: pict2e.cfg 2016/02/05 v0.1u pict2e configuration for teTeX/TeXLive
 )
 Package pict2e Info: Driver file: pdftex.def on input line 119.
 Package pict2e Info: Driver file for pict2e: p2e-pdftex.def on input line 121.
 
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\pict2e\p2e-pdftex
-.def"
+("C:\Program Files\MiKTeX 2.9\tex/latex\pict2e\p2e-pdftex.def"
 File: p2e-pdftex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
 )
 \pIIe@GRAPH=\toks55
-\@arclen=\dimen216
-\@arcrad=\dimen217
-\@tempdimd=\dimen218
+\@arclen=\dimen272
+\@arcrad=\dimen273
+\@tempdimd=\dimen274
 )
 \stm@phasebox=\box48
 \stm@phasedp=\skip75
@@ -1350,90 +945,20 @@ File: p2e-pdftex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
 \stm@phasetot=\skip77
 \stm@phasewd=\skip78
 )
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\base\fixltx2e.sty
-"
+("C:\Users\Alejandro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fixltx2e.
+sty"
 Package: fixltx2e 2016/12/29 v2.1a fixes to LaTeX (obsolete)
-
-! Undefined control sequence.
-l.46 \IncludeInRelease
-                      {2015/01/01}{\fixltxe}{Old fixltx2e package}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.46 \IncludeInRelease{2
-                        015/01/01}{\fixltxe}{Old fixltx2e package}
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Undefined control sequence.
-l.46 \IncludeInRelease{2015/01/01}{\fixltxe
-                                           }{Old fixltx2e package}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+Applying: [2015/01/01] Old fixltx2e package on input line 46.
 
 
 Package fixltx2e Warning: fixltx2e is not required with releases after 2015
 (fixltx2e)                All fixes are now in the LaTeX kernel.
 (fixltx2e)                See the latexrelease package for details.
 
-! Undefined control sequence.
-l.52 \EndIncludeInRelease
-                         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+Already applied: [0000/00/00] Old fixltx2e package on input line 53.
+) (IBFPR_paper.aux)
+\openout1 = `IBFPR_paper.aux'.
 
-! Undefined control sequence.
-l.53 \IncludeInRelease
-                      {0000/00/00}{\fixltxe}{Old fixltx2e package}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.53 \IncludeInRelease{0000/00/00}{\fixltxe
-                                           }{Old fixltx2e package}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-LaTeX Info: Redefining \em on input line 426.
-LaTeX Info: The control sequence `\[' is already robust on input line 477.
-LaTeX Info: The control sequence `\]' is already robust on input line 478.
-! Undefined control sequence.
-l.551 \EndIncludeInRelease
-                          
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-)
-Underfull \hbox (badness 10000) in paragraph at lines 46--17
-[]\T1/cmr/m/n/10 2015/01/01Old fixltx2e pack-age  0000/00/00Old fixltx2e
- []
-
-("H:\Thesis PPRE\Paper\MDPI_template\IBFPR_paper.aux")
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 142.
 LaTeX Font Info:    ... okay on input line 142.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 142.
@@ -1452,20 +977,19 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 142.
 LaTeX Font Info:    ... okay on input line 142.
 LaTeX Font Info:    Try loading font information for T1+ppl on input line 142.
 
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\psnfss\t1ppl.fd"
+("C:\Users\Alejandro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\t1ppl.f
+d"
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
-)
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\mkii\supp-
-pdf.mkii"
+) ("C:\Program Files\MiKTeX 2.9\tex\context\base\mkii\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count184
-\scratchdimen=\dimen219
+\scratchdimen=\dimen275
 \scratchbox=\box49
 \nofMPsegments=\count185
 \nofMParguments=\count186
 \everyMPshowfont=\toks56
 \MPscratchCnt=\count187
-\MPscratchDim=\dimen220
+\MPscratchDim=\dimen276
 \MPnumerator=\count188
 \makeMPintoPDFobject=\count189
 \everyMPtoPDFconversion=\toks57
@@ -1483,20 +1007,19 @@ Package microtype Info: Using default expansion set `basictext'.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
-
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\microtype\mt-ppl.
-cfg"
+ ("C:\Program Files\MiKTeX 2.9\tex/latex\microtype\mt-ppl.cfg"
 File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
-) ABD: EveryShipout initializing macros
+)
+ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box50
 Package hyperref Info: Link coloring ON on input line 142.
 
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\hyperref\nameref.
-sty"
+("C:\Users\Alejandro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\namer
+ef.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/generic\oberdiek\gettit
-lestring.sty"
+("C:\Users\Alejandro\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\get
+titlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count190
@@ -1504,9 +1027,10 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 142.
 LaTeX Info: Redefining \pageref on input line 142.
 LaTeX Info: Redefining \nameref on input line 142.
- ("H:\Thesis PPRE\Paper\MDPI_template\IBFPR_paper.out")
-("H:\Thesis PPRE\Paper\MDPI_template\IBFPR_paper.out")
+ (IBFPR_paper.out) (IBFPR_paper.out)
 \@outlinefile=\write4
+\openout4 = `IBFPR_paper.out'.
+
 \symAMSb=\mathgroup5
 
 *geometry* detected driver: pdftex
@@ -1544,15 +1068,12 @@ LaTeX Info: Redefining \nameref on input line 142.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-[1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
-
-]
 Package epstopdf Info: Source file: <Definitions/logo-mdpi.eps>
-(epstopdf)                    date: 2019-11-15 14:46:31
-(epstopdf)                    size: 736786 bytes
+(epstopdf)                    date: 2019-11-17 15:06:17
+(epstopdf)                    size: 736802 bytes
 (epstopdf)             Output file: <Definitions/logo-mdpi-eps-converted-to.pdf
 >
-(epstopdf)                    date: 2019-11-15 14:46:31
+(epstopdf)                    date: 2019-11-17 15:06:17
 (epstopdf)                    size: 557509 bytes
 (epstopdf)             Command: <epstopdf --outfile=Definitions/logo-mdpi-eps-c
 onverted-to.pdf Definitions/logo-mdpi.eps>
@@ -1560,10 +1081,9 @@ onverted-to.pdf Definitions/logo-mdpi.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 
-pdfTeX warning: pdflatex.exe (file H:/Thesis PPRE/Paper/MDPI_template/Definitio
-ns/logo-mdpi-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but
- at most version <1.5> allowed
-<Definitions/logo-mdpi-eps-converted-to.pdf, id=106, 88.33pt x 58.2175pt>
+pdfTeX warning: pdflatex.exe (file ./Definitions/logo-mdpi-eps-converted-to.pdf
+): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Definitions/logo-mdpi-eps-converted-to.pdf, id=98, 88.33pt x 58.2175pt>
 File: Definitions/logo-mdpi-eps-converted-to.pdf Graphic file (type pdf)
 <use Definitions/logo-mdpi-eps-converted-to.pdf>
 Package pdftex.def Info: Definitions/logo-mdpi-eps-converted-to.pdf  used on in
@@ -1573,35 +1093,37 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <18> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 142.
 LaTeX Font Info:    Try loading font information for OT1+ppl on input line 142.
 
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\psnfss\ot1ppl.fd"
+
+("C:\Users\Alejandro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\ot1ppl.
+fd"
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
 LaTeX Font Info:    Try loading font information for OML+zplm on input line 142
 .
 
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\psnfss\omlzplm.fd
-"
+("C:\Users\Alejandro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\omlzplm
+.fd"
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
 LaTeX Font Info:    Try loading font information for OMS+zplm on input line 142
 .
 
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\psnfss\omszplm.fd
-"
+("C:\Users\Alejandro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\omszplm
+.fd"
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
 LaTeX Font Info:    Try loading font information for OMX+zplm on input line 142
 .
 
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\psnfss\omxzplm.fd
-"
+("C:\Users\Alejandro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\omxzplm
+.fd"
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
 LaTeX Font Info:    Try loading font information for OT1+zplm on input line 142
 .
 
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\psnfss\ot1zplm.fd
-"
+("C:\Users\Alejandro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\ot1zplm
+.fd"
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
 Package microtype Info: Loading generic protrusion settings for font family
@@ -1610,9 +1132,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 10.42007pt on input line 142.
-
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\microtype\mt-msb.
-cfg"
+ ("C:\Program Files\MiKTeX 2.9\tex/latex\microtype\mt-msb.cfg"
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
@@ -1622,11 +1142,11 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 142.
 Package epstopdf Info: Source file: <Definitions/logo-orcid.eps>
-(epstopdf)                    date: 2019-11-15 14:46:31
+(epstopdf)                    date: 2019-11-17 15:06:17
 (epstopdf)                    size: 284378 bytes
 (epstopdf)             Output file: <Definitions/logo-orcid-eps-converted-to.pd
 f>
-(epstopdf)                    date: 2019-11-15 14:46:31
+(epstopdf)                    date: 2019-11-17 15:06:17
 (epstopdf)                    size: 12409 bytes
 (epstopdf)             Command: <epstopdf --outfile=Definitions/logo-orcid-eps-
 converted-to.pdf Definitions/logo-orcid.eps>
@@ -1634,10 +1154,9 @@ converted-to.pdf Definitions/logo-orcid.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 
-pdfTeX warning: pdflatex.exe (file H:/Thesis PPRE/Paper/MDPI_template/Definitio
-ns/logo-orcid-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, bu
-t at most version <1.5> allowed
-<Definitions/logo-orcid-eps-converted-to.pdf, id=108, 102.3825pt x 102.3825pt>
+pdfTeX warning: pdflatex.exe (file ./Definitions/logo-orcid-eps-converted-to.pd
+f): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Definitions/logo-orcid-eps-converted-to.pdf, id=100, 102.3825pt x 102.3825pt>
 File: Definitions/logo-orcid-eps-converted-to.pdf Graphic file (type pdf)
 <use Definitions/logo-orcid-eps-converted-to.pdf>
 Package pdftex.def Info: Definitions/logo-orcid-eps-converted-to.pdf  used on i
@@ -1653,31 +1172,34 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 142.
 LaTeX Font Info:    Try loading font information for T1+cmss on input line 142.
 
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\base\t1cmss.fd"
+("C:\Users\Alejandro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1cmss.fd
+"
 File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmss' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+ [1
 
-[2 <H:/Thesis PPRE/Paper/MDPI_template/Definitions/logo-mdpi-eps-converted-to.p
-df> <H:/Thesis PPRE/Paper/MDPI_template/Definitions/logo-orcid-eps-converted-to
-.pdf>]
+{C:/Users/Alejandro/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./Defin
+itions/logo-mdpi-eps-converted-to.pdf> <./Definitions/logo-orcid-eps-converted-
+to.pdf>]
 LaTeX Font Info:    Try loading font information for OMS+ppl on input line 171.
 
 
-("C:\Users\AlRubi\AppData\Local\Programs\MiKTeX 2.9\tex/latex\psnfss\omsppl.fd"
+("C:\Users\Alejandro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\omsppl.
+fd"
 File: omsppl.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 171.
 Package epstopdf Info: Source file: <Definitions/logo-mdpi.eps>
-(epstopdf)                    date: 2019-11-15 14:46:31
-(epstopdf)                    size: 736786 bytes
+(epstopdf)                    date: 2019-11-17 15:06:17
+(epstopdf)                    size: 736802 bytes
 (epstopdf)             Output file: <Definitions/logo-mdpi-eps-converted-to.pdf
 >
-(epstopdf)                    date: 2019-11-15 14:46:31
+(epstopdf)                    date: 2019-11-17 15:06:17
 (epstopdf)                    size: 557509 bytes
 (epstopdf)             Command: <epstopdf --outfile=Definitions/logo-mdpi-eps-c
 onverted-to.pdf Definitions/logo-mdpi.eps>
@@ -1688,73 +1210,86 @@ File: Definitions/logo-mdpi-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: Definitions/logo-mdpi-eps-converted-to.pdf  used on in
 put line 192.
 (pdftex.def)             Requested size: 56.9055pt x 37.50601pt.
- [3] ("H:\Thesis PPRE\Paper\MDPI_template\method.tex"
+ [2] (method.tex
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <7.6> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 6.
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 41--42
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
 
  []
 
+<img//method/SI.png, id=147, 834.11626pt x 133.24782pt>
+File: img//method/SI.png Graphic file (type png)
+<use img//method/SI.png>
+Package pdftex.def Info: img//method/SI.png  used on input line 44.
+(pdftex.def)             Requested size: 266.32062pt x 42.5446pt.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <7> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 61.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 74.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 63.
+(Font)              scaled to size 8.33606pt on input line 76.
 
-Underfull \hbox (badness 10000) in paragraph at lines 73--74
+Underfull \hbox (badness 10000) in paragraph at lines 86--87
 
  []
 
-<img/method/fig1.png, id=149, 1195.46625pt x 697.8572pt>
+<img/method/fig1.png, id=153, 1195.46625pt x 697.8572pt>
 File: img/method/fig1.png Graphic file (type png)
 <use img/method/fig1.png>
-Package pdftex.def Info: img/method/fig1.png  used on input line 80.
+Package pdftex.def Info: img/method/fig1.png  used on input line 92.
 (pdftex.def)             Requested size: 199.73708pt x 116.58965pt.
-<img/method/fig2.png, id=150, 1194.71344pt x 682.80093pt>
+<img/method/fig2.png, id=154, 1194.71344pt x 682.80093pt>
 File: img/method/fig2.png Graphic file (type png)
 <use img/method/fig2.png>
-Package pdftex.def Info: img/method/fig2.png  used on input line 87.
+Package pdftex.def Info: img/method/fig2.png  used on input line 99.
 (pdftex.def)             Requested size: 199.73708pt x 114.14716pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[5] [6 <H:/Thesis PPRE/Paper/MDPI_template/img/method/fig1.png> <H:/Thesis PPRE
-/Paper/MDPI_template/img/method/fig2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 134--135
+[4 <./img//method/SI.png>] [5 <./img/method/fig1.png> <./img/method/fig2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 147--148
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--145
+Underfull \hbox (badness 10000) in paragraph at lines 157--158
 
  []
 
-<img//method/ieee.png, id=179, 727.96968pt x 308.65312pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 180--181
+
+ []
+
+<img//method/ieee.png, id=181, 727.96968pt x 308.65312pt>
 File: img//method/ieee.png Graphic file (type png)
 <use img//method/ieee.png>
-Package pdftex.def Info: img//method/ieee.png  used on input line 172.
+Package pdftex.def Info: img//method/ieee.png  used on input line 184.
 (pdftex.def)             Requested size: 266.32062pt x 112.91882pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[7]
-<img//method/IEEE_FPRmodel.png, id=190, 2098.84125pt x 1617.04124pt>
-File: img//method/IEEE_FPRmodel.png Graphic file (type png)
-<use img//method/IEEE_FPRmodel.png>
-Package pdftex.def Info: img//method/IEEE_FPRmodel.png  used on input line 191.
 
-(pdftex.def)             Requested size: 221.9316pt x 170.96635pt.
- [8 <H:/Thesis PPRE/Paper/MDPI_template/img//method/ieee.png> <H:/Thesis PPRE/P
-aper/MDPI_template/img//method/IEEE_FPRmodel.png>] [9]
-Underfull \hbox (badness 10000) in paragraph at lines 277--278
+Underfull \hbox (badness 10000) in paragraph at lines 190--191
 
  []
 
-[10]) [11]
+[6]
+<img//method/IEEE_FPRmodel.png, id=193, 2098.84125pt x 1617.04124pt>
+File: img//method/IEEE_FPRmodel.png Graphic file (type png)
+<use img//method/IEEE_FPRmodel.png>
+Package pdftex.def Info: img//method/IEEE_FPRmodel.png  used on input line 207.
+
+(pdftex.def)             Requested size: 221.9316pt x 170.96635pt.
+ [7 <./img//method/ieee.png> <./img//method/IEEE_FPRmodel.png>] [8]
+Underfull \hbox (badness 10000) in paragraph at lines 293--294
+
+ []
+
+[9]) [10]
 Underfull \hbox (badness 10000) in paragraph at lines 306--306
 
  []
@@ -1775,39 +1310,38 @@ Underfull \hbox (badness 2165) in paragraph at lines 361--361
 -ative Com-mons At-tri-bu-tion (CC BY) li-cense
  []
 
-[12] [13]
+[11]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 361.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 361.
- ("H:\Thesis PPRE\Paper\MDPI_template\IBFPR_paper.aux")
+ (IBFPR_paper.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 361.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 361.
 Package rerunfilecheck Info: File `IBFPR_paper.out' has not changed.
 (rerunfilecheck)             Checksum: 2236A787DCD52BB313E783F3345A0D2E;3199.
  ) 
 Here is how much of TeX's memory you used:
- 26656 strings out of 494045
- 462833 string characters out of 3147578
- 554161 words of memory out of 3000000
- 29130 multiletter control sequences out of 15000+200000
- 66604 words of font info for 258 fonts, out of 3000000 for 9000
- 715 hyphenation exceptions out of 8191
- 62i,17n,50p,2414b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\AlRubi\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
-\ecss0500.pk>{C:/Users/AlRubi/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips
-/base/8r.enc} <C:\Users\AlRubi\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappe
-n\ec\dpi600\ecrm1000.pk><C:/Users/AlRubi/AppData/Local/Programs/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/AlRubi/AppData/Local/Programs/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/AlRubi/AppData/Loc
-al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/AlRub
-i/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/mathpazo/fplmr.pfb><C:/U
-sers/AlRubi/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/mathpazo/fplmr
-i.pfb><C:/Users/AlRubi/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palati
-no/uplb8a.pfb><C:/Users/AlRubi/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/ur
-w/palatino/uplr8a.pfb><C:/Users/AlRubi/AppData/Local/Programs/MiKTeX 2.9/fonts/
-type1/urw/palatino/uplri8a.pfb>
-Output written on IBFPR_paper.pdf (13 pages, 879833 bytes).
+ 26232 strings out of 492950
+ 454028 string characters out of 3123825
+ 563485 words of memory out of 3000000
+ 29307 multiletter control sequences out of 15000+200000
+ 66685 words of font info for 259 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 62i,17n,50p,2416b,598s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}{C:/Use
+rs/Alejandro/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/
+Users/Alejandro/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmr10.pfb><C:/Users/Alejandro/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmsy10.pfb><C:/Users/Alejandro/AppData/Local/Programs/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files/MiKTeX 2.9/fonts
+/type1/public/mathpazo/fplmr.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
+c/mathpazo/fplmri.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/
+sfss0500.pfb><C:/Users/Alejandro/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
+urw/palatino/uplb8a.pfb><C:/Users/Alejandro/AppData/Local/Programs/MiKTeX 2.9/f
+onts/type1/urw/palatino/uplr8a.pfb><C:/Users/Alejandro/AppData/Local/Programs/M
+iKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on IBFPR_paper.pdf (11 pages, 881007 bytes).
 PDF statistics:
- 314 PDF objects out of 1000 (max. 8388607)
- 69 named destinations out of 1000 (max. 500000)
- 44771 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 289 PDF objects out of 1000 (max. 8388607)
+ 68 named destinations out of 1000 (max. 500000)
+ 44776 words of extra memory for PDF output out of 51595 (max. 10000000)
 
