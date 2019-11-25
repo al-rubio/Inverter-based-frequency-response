@@ -7,14 +7,15 @@
 \usepackage{caption}
 \usepackage{subcaption}
 \graphicspath{{img/}}
-\usepackage{natbib}
+
 \usepackage{amsmath}
 \usepackage{footnote}
 \usepackage{steinmetz}
-\makesavenoteenv{tabular}
-\makesavenoteenv{table}
+%\makesavenoteenv{tabular}
+%\makesavenoteenv{table}
 \usepackage{fixltx2e}
-
+\usepackage[style=numeric,backend=biber]{biblatex}
+\addbibresource{Thesisref_LATEX.bib}
 % If you would like to post an early version of this manuscript as a preprint, you may use preprint as the journal and change 'submit' to 'accept'. The document class line would be, e.g., \documentclass[preprints,article,accept,moreauthors,pdftex]{mdpi}. This is especially recommended for submission to arXiv, where line numbers should be removed before posting. For preprints.org, the editorial staff will make this change immediately prior to posting.
 
 %--------------------
@@ -332,15 +333,15 @@ All appendix sections must be cited in the main text. In the appendixes, Figures
 %=====================================
 % References, variant B: internal bibliography
 %=====================================
-\begin{thebibliography}{999}
+%\begin{thebibliography}{999}
 % Reference 1
-\bibitem[Author1(year)]{ref-journal}
-Author1, T. The title of the cited article. {\em Journal Abbreviation} {\bf 2008}, {\em 10}, 142--149.
+%\bibitem[Author1(year)]{ref-journal}
+%Author1, T. The title of the cited article. {\em Journal Abbreviation} {\bf 2008}, {\em 10}, 142--149.
 % Reference 2
-\bibitem[Author2(year)]{ref-book}
-Author2, L. The title of the cited contribution. In {\em The Book Title}; Editor1, F., Editor2, A., Eds.; Publishing House: City, Country, 2007; pp. 32--58.
-\end{thebibliography}
-
+%\bibitem[Author2(year)]{ref-book}
+%Author2, L. The title of the cited contribution. In {\em The Book Title}; Editor1, F., Editor2, A., Eds.; Publishing House: City, Country, 2007; pp. 32--58.
+%\end{thebibliography}
+\printbibliography
 % The following MDPI journals use author-date citation: Arts, Econometrics, Economies, Genealogy, Humanities, IJFS, JRFM, Laws, Religions, Risks, Social Sciences. For those journals, please follow the formatting guidelines on http://www.mdpi.com/authors/references
 % To cite two works by the same author: \citeauthor{ref-journal-1a} (\citeyear{ref-journal-1a}, \citeyear{ref-journal-1b}). This produces: Whittaker (1967, 1975)
 % To cite two works by the same author with specific pages: \citeauthor{ref-journal-3a} (\citeyear{ref-journal-3a}, p. 328; \citeyear{ref-journal-3b}, p.475). This produces: Wong (1999, p. 328; 2000, p. 475)
