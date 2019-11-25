@@ -2,7 +2,7 @@
 %  In case you need support, please attach all files that are necessary for compiling as well as the log file, and specify the details of your LaTeX setup (which operating system and LaTeX version / tools you are using).
 
 %=================================================================
-\documentclass[journal,article,submit,moreauthors,pdftex]{Definitions/mdpi} 
+\documentclass[journal,article,submit,moreauthors,pdftex]{Definitions/mdpi}
 \usepackage{graphicx}
 \usepackage{caption}
 \usepackage{subcaption}
@@ -14,8 +14,10 @@
 %\makesavenoteenv{tabular}
 %\makesavenoteenv{table}
 \usepackage{fixltx2e}
+\externalbibliography{yes}
 \usepackage[style=numeric,backend=biber]{biblatex}
 \addbibresource{Thesisref_LATEX.bib}
+%\bibliography{Thesisref_LATEX.bib}
 % If you would like to post an early version of this manuscript as a preprint, you may use preprint as the journal and change 'submit' to 'accept'. The document class line would be, e.g., \documentclass[preprints,article,accept,moreauthors,pdftex]{mdpi}. This is especially recommended for submission to arXiv, where line numbers should be removed before posting. For preprints.org, the editorial staff will make this change immediately prior to posting.
 
 %--------------------
@@ -30,7 +32,7 @@
 %---------
 % article
 %---------
-% The default type of manuscript is "article", but can be replaced by: 
+% The default type of manuscript is "article", but can be replaced by:
 % abstract, addendum, article, benchmark, book, bookreview, briefreport, casereport, changes, comment, commentary, communication, conceptpaper, conferenceproceedings, correction, conferencereport, expressionofconcern, extendedabstract, meetingreport, creative, datadescriptor, discussion, editorial, essay, erratum, hypothesis, interestingimages, letter, meetingreport, newbookreceived, obituary, opinion, projectreport, reply, retraction, review, perspective, protocol, shortnote, supfile, technicalnote, viewpoint
 % supfile = supplementary materials
 
@@ -50,9 +52,9 @@
 % The option pdftex is for use with pdfLaTeX. If eps figures are used, remove the option pdftex and use LaTeX and dvi2pdf.
 
 %=================================================================
-\firstpage{1} 
-\makeatletter 
-\setcounter{page}{\@firstpage} 
+\firstpage{1}
+\makeatletter
+\setcounter{page}{\@firstpage}
 \makeatother
 \pubvolume{xx}
 \issuenum{1}
@@ -63,7 +65,7 @@
 \history{Received: date; Accepted: date; Published: date}
 %\updates{yes} % If there is an update available, un-comment this line
 
-%% MDPI internal command: uncomment if new journal that already uses continuous page numbers 
+%% MDPI internal command: uncomment if new journal that already uses continuous page numbers
 %\continuouspages{yes}
 
 %------------------------------------------------------------------
@@ -100,7 +102,7 @@ $^{2}$ \quad Affiliation 2; e-mail@e-mail.com}
 \corres{Correspondence: e-mail@e-mail.com; Tel.: (optional; include country code; if there are multiple corresponding authors, add author initials) +xx-xxxx-xxx-xxxx (F.L.)}
 
 % Current address and/or shared authorship
-\firstnote{Current address: Affiliation 3} 
+\firstnote{Current address: Affiliation 3}
 \secondnote{These authors contributed equally to this work.}
 % The commands \thirdnote{} till \eighthnote{} are available for further notes
 
@@ -108,7 +110,7 @@ $^{2}$ \quad Affiliation 2; e-mail@e-mail.com}
 
 %\conference{} % An extended version of a conference paper
 
-% Abstract (Do not insert blank lines, i.e. \\) 
+% Abstract (Do not insert blank lines, i.e. \\)
 \abstract{Decommissioning of conventional power plants and the installation of inverter-based renewable energy technologies decreases overall power system inertia. This reduction in system inertia has an impact in the power system frequency response when an imbalance between generation and load occurs, increasing the rate of change of frequency (RoCoF) of the system. In a future scenario where renewables are predominant in power systems and due to the natural variability of the resource, imbalances of 40\% or more are prompt to happen. When a system is islanded or operates as such and combined with low inertia, it may lead to frequency collapse. This expected high values of RoCoF shorten the response time needed before load shedding or generation curtailment take place and a subsequent possible black out occurs. Through the simulation of two scenarios with different primary reserve response, the requirements for the fleet of connected inverters was determined in terms of activation time and total power to be provided in order to avoid load shedding. This activation time was determined to be the time at which frequency would reach the load shedding value, known as critical time. With such value and knowing the time required for the synchronous reserve to deploy the imbalance power, a simple expression based on nullifying RoCoF at the critical time was obtained for the required inverter based fast power reserve. It was obtained that full activation time for inverter fast power reserve with penetration above 80\% of inverter based generation would need to be between 50-500 ms for imbalances up to 40\%; meaning that current frequency measurement techniques and renewable deployment times would not ensure system stability under the foreseen future possible power system conditions. A power ramp in the order of 300\% the load per second is necessary for fast power reserve to maintain frequency within the allowed limits.}
 
 % Keywords
@@ -154,98 +156,11 @@ $^{2}$ \quad Affiliation 2; e-mail@e-mail.com}
 %\input{intro}
 %The introduction should briefly place the study in a broad context and highlight why it is important. It should define the purpose of the work and its significance. The current state of the research field should be reviewed carefully and key publications cited. Please highlight controversial and diverging hypotheses when necessary. Finally, briefly mention the main aim of the work and highlight the principal conclusions. As far as possible, please keep the introduction comprehensible to scientists outside your particular field of research. Citing a journal paper \cite{ref-journal}. And now citing a book reference \cite{ref-book}. Please use the command \citep{ref-journal} for the following MDPI journals, which use author-date citation: Administrative Sciences, Arts, Econometrics, Economies, Genealogy, Humanities, IJFS, JRFM, Languages, Laws, Religions, Risks, Social Sciences.
 
- 
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Results}
-
-This section may be divided by subheadings. It should provide a concise and precise description of the experimental results, their interpretation as well as the experimental conclusions that can be drawn.
-\begin{quote}
-This section may be divided by subheadings. It should provide a concise and precise description of the experimental results, their interpretation as well as the experimental conclusions that can be drawn.
-\end{quote}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Subsection}
-\unskip
-\subsubsection{Subsubsection}
-
-Bulleted lists look like this:
-\begin{itemize}[leftmargin=*,labelsep=5.8mm]
-\item	First bullet
-\item	Second bullet
-\item	Third bullet
-\end{itemize}
-
-Numbered lists can be added as follows:
-\begin{enumerate}[leftmargin=*,labelsep=4.9mm]
-\item	First item 
-\item	Second item
-\item	Third item
-\end{enumerate}
-
-The text continues here.
-
-\subsection{Figures, Tables and Schemes}
-
-All figures and tables should be cited in the main text as Figure 1, Table 1, etc.
-
-\begin{figure}[h]
-\centering
-\includegraphics[width=2 cm]{Definitions/logo-mdpi}
-\caption{This is a figure, Schemes follow the same formatting. If there are multiple panels, they should be listed as: (\textbf{a}) Description of what is contained in the first panel. (\textbf{b}) Description of what is contained in the second panel. Figures should be placed in the main text near to the first time they are cited. A caption on a single line should be centered.}
-\end{figure}   
- 
-Text
-
-Text
-
-\begin{table}[h]
-\caption{This is a table caption. Tables should be placed in the main text near to the first time they are cited.}
-\centering
-%% \tablesize{} %% You can specify the fontsize here, e.g., \tablesize{\footnotesize}. If commented out \small will be used.
-\begin{tabular}{ccc}
-\toprule
-\textbf{Title 1}	& \textbf{Title 2}	& \textbf{Title 3}\\
-\midrule
-entry 1		& data			& data\\
-entry 2		& data			& data\\
-\bottomrule
-\end{tabular}
-\end{table}
-
-Text
-
-Text
-
-%\begin{listing}[H]
-%\caption{Title of the listing}
-%\rule{\textwidth}{1pt}
-%\raggedright Text of the listing. In font size footnotesize, small, or normalsize. Preferred format: left aligned and single spaced. Preferred border format: top border line and bottom border line.
-%\rule{\textwidth}{1pt}
-%\end{listing}
-
-
-\subsection{Formatting of Mathematical Components}
-
-This is an example of an equation:
-
-\begin{equation}
-a + b = c
-\end{equation}
-%% If the documentclass option "submit" is chosen, please insert a blank line before and after any math environment (equation and eqnarray environments). This ensures correct linenumbering. The blank line should be removed when the documentclass option is changed to "accept" because the text following an equation should not be a new paragraph. 
-
-Please punctuate equations as regular text. Theorem-type environments (including propositions, lemmas, corollaries etc.) can be formatted as follows:
-%% Example of a theorem:
-\begin{Theorem}
-Example text of a theorem.
-\end{Theorem}
-
-The text continues here. Proofs must be formatted as follows:
-
-%% Example of a proof:
-\begin{proof}[Proof of Theorem 1]
-Text of the proof. Note that the phrase `of Theorem 1' is optional if it is clear which theorem is being referred to.
-\end{proof}
-The text continues here.
+\label{sec:results}
+\input{results}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Discussion}
@@ -260,7 +175,7 @@ Authors should discuss the results and how they can be interpreted in perspectiv
 
 %Research manuscripts reporting large datasets that are deposited in a publicly available database should specify where the data have been deposited and provide the relevant accession numbers. If the accession numbers have not yet been obtained at the time of submission, please state that they will be provided during review. They must be provided prior to publication.
 
-%Interventionary studies involving animals or humans, and other studies require ethical approval must list the authority that provided approval and the corresponding ethical approval code. 
+%Interventionary studies involving animals or humans, and other studies require ethical approval must list the authority that provided approval and the corresponding ethical approval code.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Conclusions}
@@ -272,7 +187,7 @@ This section is not mandatory, but can be added to the manuscript if the discuss
 This section is not mandatory, but may be added if there are patents resulting from the work reported in this manuscript.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\vspace{6pt} 
+\vspace{6pt}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% optional
@@ -292,13 +207,13 @@ This section is not mandatory, but may be added if there are patents resulting f
 \acknowledgments{In this section you can acknowledge any support given which is not covered by the author contribution or funding sections. This may include administrative and technical support, or donations in kind (e.g., materials used for experiments).}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\conflictsofinterest{Declare conflicts of interest or state ``The authors declare no conflict of interest.'' Authors must identify and declare any personal circumstances or interest that may be perceived as inappropriately influencing the representation or interpretation of reported research results. Any role of the funders in the design of the study; in the collection, analyses or interpretation of data; in the writing of the manuscript, or in the decision to publish the results must be declared in this section. If there is no role, please state ``The funders had no role in the design of the study; in the collection, analyses, or interpretation of data; in the writing of the manuscript, or in the decision to publish the results''.} 
+\conflictsofinterest{Declare conflicts of interest or state ``The authors declare no conflict of interest.'' Authors must identify and declare any personal circumstances or interest that may be perceived as inappropriately influencing the representation or interpretation of reported research results. Any role of the funders in the design of the study; in the collection, analyses or interpretation of data; in the writing of the manuscript, or in the decision to publish the results must be declared in this section. If there is no role, please state ``The funders had no role in the design of the study; in the collection, analyses, or interpretation of data; in the writing of the manuscript, or in the decision to publish the results''.}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% optional
 \abbreviations{The following abbreviations are used in this manuscript:\\
 
-\noindent 
+\noindent
 \begin{tabular}{@{}ll}
 MDPI & Multidisciplinary Digital Publishing Institute\\
 DOAJ & Directory of open access journals\\
@@ -316,19 +231,20 @@ LD & linear dichroism
 The appendix is an optional section that can contain details and data supplemental to the main text. For example, explanations of experimental details that would disrupt the flow of the main text, but nonetheless remain crucial to understanding and reproducing the research shown; figures of replicates for experiments of which representative data is shown in the main text can be added here if brief, or as Supplementary data. Mathematical proofs of results not central to the paper can be added as an appendix.
 
 \section{}
-All appendix sections must be cited in the main text. In the appendixes, Figures, Tables, etc. should be labeled starting with `A', e.g., Figure A1, Figure A2, etc. 
+All appendix sections must be cited in the main text. In the appendixes, Figures, Tables, etc. should be labeled starting with `A', e.g., Figure A1, Figure A2, etc.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \reftitle{References}
 
 % Please provide either the correct journal abbreviation (e.g. according to the “List of Title Word Abbreviations” http://www.issn.org/services/online-services/access-to-the-ltwa/) or the full name of the journal.
-% Citations and References in Supplementary files are permitted provided that they also appear in the reference list here. 
+% Citations and References in Supplementary files are permitted provided that they also appear in the reference list here.
 
 %=====================================
 % References, variant A: external bibliography
 %=====================================
-%\externalbibliography{yes}
-%\bibliography{your_external_BibTeX_file}
+\printbibliography
+
+%\bibliography{Thesisref_LATEX.bib}
 
 %=====================================
 % References, variant B: internal bibliography
@@ -341,7 +257,7 @@ All appendix sections must be cited in the main text. In the appendixes, Figures
 %\bibitem[Author2(year)]{ref-book}
 %Author2, L. The title of the cited contribution. In {\em The Book Title}; Editor1, F., Editor2, A., Eds.; Publishing House: City, Country, 2007; pp. 32--58.
 %\end{thebibliography}
-\printbibliography
+%\printbibliography
 % The following MDPI journals use author-date citation: Arts, Econometrics, Economies, Genealogy, Humanities, IJFS, JRFM, Laws, Religions, Risks, Social Sciences. For those journals, please follow the formatting guidelines on http://www.mdpi.com/authors/references
 % To cite two works by the same author: \citeauthor{ref-journal-1a} (\citeyear{ref-journal-1a}, \citeyear{ref-journal-1b}). This produces: Whittaker (1967, 1975)
 % To cite two works by the same author with specific pages: \citeauthor{ref-journal-3a} (\citeyear{ref-journal-3a}, p. 328; \citeyear{ref-journal-3b}, p.475). This produces: Wong (1999, p. 328; 2000, p. 475)
@@ -360,4 +276,3 @@ All appendix sections must be cited in the main text. In the appendixes, Figures
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \end{document}
-
