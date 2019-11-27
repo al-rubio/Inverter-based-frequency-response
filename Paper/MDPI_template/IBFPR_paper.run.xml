@@ -41,7 +41,11 @@
   >
 ]>
 <requests version="1.0">
+<<<<<<< HEAD
   <internal package="biblatex" priority="9" active="0">
+=======
+  <internal package="biblatex" priority="9" active="1">
+>>>>>>> c2fb7c3a339ed76419227264ca697f0143368fbb
     <generic>latex</generic>
     <provides type="dynamic">
       <file>IBFPR_paper.bcf</file>
@@ -60,7 +64,11 @@
       <file>english.lbx</file>
     </requires>
   </internal>
+<<<<<<< HEAD
   <external package="biblatex" priority="5" active="0">
+=======
+  <external package="biblatex" priority="5" active="1">
+>>>>>>> c2fb7c3a339ed76419227264ca697f0143368fbb
     <generic>biber</generic>
     <cmdline>
       <binary>biber</binary>
@@ -79,7 +87,11 @@
       <file>IBFPR_paper.bcf</file>
     </requires>
     <requires type="editable">
+<<<<<<< HEAD
       <file>Thesisref_LATEX.bib</file>
+=======
+      <file>Thesisref_LATEX</file>
+>>>>>>> c2fb7c3a339ed76419227264ca697f0143368fbb
     </requires>
   </external>
 </requests>

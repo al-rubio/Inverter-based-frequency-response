@@ -1,64 +1,103 @@
 
-In this section a deeper look is given to the obtained results out of the simulated cases. In order to allow understandable comparisons between each approach and models; the chapter is divided in three main sections, in which the main results of the simulations will be discussed. This chapter is divided in the following sub-sections:
-	Analysis of critical time.
-	Analysis of Synthetic Inertia and Fast Power Reserve
-	Synchronizing effect and lack of damping torque.
-
-\subsection{Analysis of Critical Time} 
-
-Due to the nature of the swing equation, which describes the frequency response in synchronous machines, a reduction of the available time for the inverters to react to perturbations was found as RoCoF increases.
-As it was expected, the frequency response is highly dependent on the primary reserve response (governor response). When the IEEE 9 bus model is simplified to one machine and losses are disregarded; critical time deviations from the full dynamic extended model are observed to reach values up to 34\%. From the fit plots it can be noticed that the highest deviations occur at high system acceleration constants and in the low range of RoCoF, allowing primary reserve to take effect. Therefore, it can be stated that the simplifications in the model have a greater influence on the results for low RoCoF and IBG penetration values; in this sense, the simplifications become less significant as the RoCoF increases in such a manner that the activated synchronous primary reserve is not relevant in frequency support.
-Despite the discrepancy in the critical time between both approaches in the IEEE 9 bus model; the power ramp calculated for the simplified model and the extended model does not differ from each other in a great manner as exhibit later in Figure 5 2. It is then inferred that the discrepancy in critical time estimation is compensated by the factor of nadir time, which due to non-linearity characteristics considered in the Extended model, varies upon change in inertia and load imbalance (perturbation); contrary as the linear simplified model in which the nadir time is invariable for perturbations.
-In the theory section, the typical frequency measurement time and technologies activation time were discussed [14]. Figure 5 1 contrasts the critical times obtained from the models with the required time for frequency measurement and full power activation from different technologies.
+\subsection{Analysis of Critical Time}
 
 
-It is observed that in the range higher than 2 Hz/s; the critical time trend for the European island and the  simplified IEEE model get closer each to other as RoCoF increases. In the same way the extended model but for very high values. Therefore, it is infered that under high RoCoF conditions in any of the models, the primary reserve does not significantly counteract the frequency drop [16]. Figure 5 1 demonstrates that primary reserve can be neglected for determination of the critical time when the combination of inverter based generation and load imbalances would lead to high values of RoCoF (>2 Hz/s); as RoCoF increases, the approximation of critical time as 1(Hz)/RoCoF narrows the difference with the results obtained from simulations [14]. Nevertheless such simplification is applicable to the simplified IEEE model and the European island. Hence, the influence of all the dynamics and machine components, such as generator exciter and armotisour windings, seems to improve the critical time; extending up to a 34\% the calculated time with the simplified approach. Damping torque in swing equation [7, 8] was not considered for the IEEE simplifed model; the inclution of such may lead to more precise times when comparing with the extended model.
-Also it is then stated the need of a fast power response to avoid frequency collapse of islanded micro-grid or an electric island in the European scale. Even assuming that power reserve can immediately fully activated after RoCoF reading, the 100 ms limitation is a constraint for high unbalanced islands with high penetration of IBG in the European case as demonstrated in the result section. Additionally, the direct measurement of RoCoF in the 100 ms interval can lead to misleading readings [14]. In general, when penetration of IBG is higher than 90\%; for the 40\% imbalance an activation time between 30 and 50 ms would be needed to keep frequency within the allowed limits.
-Due to the fact that the characteristics of the interconnected scenario provided by ENTSOE were assumed to be the same than the resulting islands after a severe event; the results for the European island can be understood as the behavior of the whole European system with bigger perturbations. The dimensioning scenario assumes a power imbalance of 3 GW, which corresponds to a 2\% of the 150 GW load [1]. If in future a bigger dimensioning case is utilized, then synchronous response would not be enough to balance the system before load shedding occurs. 
-Table 5 1 exhibits the required time when the dimensioning scenario is increased up to 10\% for different IBG penetration. 
-IBG share (%)	Load imbalance (%)
-	3	4	5	6	7	8	9	10
-20	-	-	6.081	4.517	3.629	3.050	2.638	2.316
-40	-	6.226	4.169	3.215	2.628	2.222	1.934	1.705
-60	7.142	3.639	2.623	2.062	1.698	1.451	1.263	1.122
-80	2.753	1.744	1.277	1.018	0.843	0.722	0.628	0.559
-92	1.109	0.700	0.514	0.406	0.338	0.288	0.252	0.224
-95	0.697	0.436	0.322	0.254	0.211	0.179	0.157	0.140
-Table 5 1: Critical times for European case in seconds.
+When the simplified and the extended models of the IEEE benchmark are compared for the estimation of critical time, it is noticed a higher deviation in the low range of RoCoF. This due to the fact that in this range of RoCoF the critical time is long enough to allow the governor response activation of the respective synchronous machines representation. Therefore it can be stated that the simplifications made in the model have a greater influence on the results for low values of penetration of IBG and low power imbalances; in this sense, the simplifications become less significant as the RoCoF increases in such a manner that the activated synchronous primary reserve is not relevant in frequency support.
+______________
+%Despite the discrepancy in the critical time between both approaches in the IEEE 9 bus model; the power ramp calculated for the simplified model and the extended model does
+%not differ from each other in a great manner as exhibit later in Figure 5 2. It is then inferred that the discrepancy in critical time estimation is compensated by the factor of
+%nadir time, which due to non-linearity characteristics considered in the Extended model, varies upon change in inertia and load imbalance (perturbation); contrary as the linear
+%simplified model in which the nadir time is invariable for perturbations.
+%In the theory section, the typical frequency measurement time and technologies activation time were discussed [14]. Figure 5 1 contrasts the critical times obtained from the
+%models with the required time for frequency measurement and full power activation from different technologies.
+____________________
+
+%insert figure here
+
+In the range of RoCoF higher than 2 Hz/s, the critical time trend for the European grid-scale and the simplified IEEE model get closer each to other as RoCoF increases. Therefore under high RoCoF conditions in any of the models, the primary reserve does not significantly counteract the frequency drop [16]. Figure 5 1 demonstrates that primary reserve can be neglected for determination of the critical time when the combination of inverter-based generation and load imbalances would lead to high values of RoCoF; as RoCoF increases, the approximation of critical time as 1(Hz)/RoCoF narrows the difference with the results obtained from simulations [14].
+Nevertheless, such simplification applies to the simplified IEEE model and the European island. Hence, the influence of all the dynamics and machine components, such as
+generator exciter and damping windings, seems to improve the critical time; extending up to a 34\% the calculated time with the simplified approach. Damping torque in swing equation [7, 8] was not considered for the IEEE simplified model; the inclusion of such may lead to more precise times when compared with the extended model.
+%Also it is then stated the need of a fast power response to avoid frequency collapse of islanded micro-grid or an electric island in the European scale.% Even assuming that power reserve can
+%immediately fully activated after RoCoF reading, the 100 ms limitation is a constraint for high unbalanced islands with high penetration of IBG in the European case as demonstrated in the result section.
+
+% As conclusion
+
+%Additionally, the direct measurement of RoCoF in the 100 ms interval can lead to misleading readings [14]. In general, when penetration
+%of IBG is higher than 90\%; for the 40\% imbalance an activation time between 30 and 50 ms would be needed to keep frequency within the allowed limits.
+Due to the fact that the characteristics of the interconnected scenario provided by ENTSOE were assumed to be the same than the resulting islands after a severe event; the results for the European island can be understood as the behavior of the whole European system with bigger perturbations. The dimensioning scenario assumes a power imbalance of 3 GW, which corresponds to a 2\% of the 150 GW load [1]. If in future a bigger dimensioning case is utilized, then synchronous response would not be enough to balance the system before load shedding occurs. Table 5 1 exhibits the required time when the dimensioning scenario is increased up to 10\% for different IBG penetration.
+
+\begin{table}[h]
+	\caption{\label{tb:crtime}:Critical time for European-scale case given in seconds.}
+	\centering
+	%% \tablesize{} %% You can specify the fontsize here, e.g., \tablesize{\footnotesize}. If commented out \small will be used.
+	\begin{tabular}{*9c}
+		\toprule
+		\textbf{IBG share (\%)}	& \multicolumn{8}{c}{\textbf{Load Imbalance (\%)}} \\
+		\midrule
+		{} & 3&	4&	5&	6&	7&	8&	9	&10 \\
+		\midrule
+		20&	-&	-&	6.081&	4.517&	3.629&	3.050&	2.638&	2.316\\
+		40&	-&	6.226&	4.169&	3.215&	2.628&	2.222&	1.934&	1.705\\
+		60	&7.142&	3.639&	2.623&	2.062&	1.698&	1.451&	1.263&	1.122\\
+		80&	2.753&	1.744&	1.277&	1.018&	0.843&	0.722&	0.628&	0.559\\
+		92&	1.109&	0.700&	0.514&	0.406&	0.338&	0.288&	0.252&	0.224\\
+		95&	0.697&	0.436&	0.322&	0.254&	0.211&	0.179&	0.157&	0.140\\
+	\end{tabular}
+\end{table}
 
 
-
-
-
-Scenarios with higher imbalance than the reference scenario combined with high penetration of renewables will require fast power reserve as indicated in Table 5 1. Even though it was assumed enough synchronous reserve, this is too slow under such conditions.
-Nadir freq.
-Nadir for 3 cases with no support: behavior of governor response
-Nadir for 2 cases with synthetic inertia/critical time improvement with synthetic inertia
-Nadir for 3 cases with inverter based fast power reserve
 \subsection{Analysis of Synthetic Inertia and Fast Power Reserve}
-\subsubsection{Effect of Ramp Response on Frequency}
 
-When the power ramp required to meet the power load imbalance at the critical time was calculated in chapter 3; the contribution from the ramping power in diminishing system RoCoF during the inception of the perturbation until the critical time was disregarded. Therefore the fast inverter based power response values at the critical time correspond to the accelerating power at that time. Assuming an instant switching of the IBFPR at critical time, the frequency nadir would be 49 Hz (no ramping power before critical time). Nevertheless, a ramp power response was assumed instead. Therefore the calculated power ramp, when applied to the unbalanced system, commonly exhibits a frequency nadir higher than 49 Hz, due to the contribution of the ramping period. In this sense, it can be inferred that the longer the ramping period (shorter measuring time), the higher frequency nadir will be obtained. Here again the relevance of the prompt activation in time of the IBFPR. On the other hand, with the faster IBFPR activation, the ramp slope and the steady power output (Inverter based power reserve) can be diminished compromising frequency nadir. 
-When the activation does not takes place instantaneously, frequency nadir and therefore system stability can be compromised for some combination of system inertia and load imbalance as demonstrated in the result section. In order to assure stability a stepper ramp slope is required in order to meet the required power before critical time. That is achieved by changing equation 3-2 by the adjusted expression:
-Equation 5 1
+\subsubsection{Effect Synthetic Inertia on Frequency}
+
+In this section are presented the results of the simulations carried out in the simplified IEEE model and the European model with the implementation of synthetic inertia control to a part of the wind share of the IBG. The frequency nadir for such systems is illustrated in figures XXX and XXX. In such figures no additional balancing power is supplied to the system appart from the power fed by the synchronous share. 
+
+
+
+Insert the figures here
+
+this as caption For the acceleration constant corresponding to the 80\% of the IBG, the frequency nadir reaches values lower than 49 Hz with power imbalances starting at $ \sim 7\% $.
+this as caption At 80\% ($\sim2.5$s) of IBG frequecy nadir reaches 48.73 Hz with only $\sim 3\% $ of imbalance. 
+
+
+Insert figures with synthetic inertia here.
+
+In any of the cases UFLS is not avoided for all combination of variables (imbalance and acceleration constant). It can also be observed that frequency nadir under 49 Hz are reached for imbalances bigger than 14\% combined with shares of IBG above 80\%. simpl
+
+In the same manner than fig, in fig XXX the synthetic inertia is not enough for withstanding severe imbalances under high penetration of inverter based generators. At 80\% of IBG, the frequecy nadir reaches 48.89 Hz with an imbalance of 3\%. 
+
+An enhenced performance is achieved in the simplified IEEE model as depicted in FIGIRE XXX. The reason behind this, is the faster response of the syncrhonous share present in the system, which perfomes conjointly with the synthetic inertia to improve over all frequency response performance. In Figure XXX can be observed how power is deployed in a few seconds in the simplified IEEE model, whereas in the European model the response is always limited to fully deploy in $ \sim 30 $s.
+
+Insert figure of the power response and freq response over time
+
+Figure 4 9 and Figure 4 10 indicate the frequency response obtained of the system with an non-synchronous generation of 80\% for different load imbalances.  
+In Figure 4 9 can be observed how the frequency drops below 49 Hz with a 10\% of imbalance, when no IBFPR or synthetic inertia is used as frequency support estrategy. In the same figure, the frequency responses for different levels of synthetic inertia is presented. 
+
+It is noticed the improvementin FIG XXX in the response with the implementation of synthetic inertia with each contribution of wind energy to the non-synchronous generation. UFLS is avoided for every share of synthetic inertia, assuming that primary reserve takes place after SI.
+As the imbalance increases, the effectiveness of the synthetic inertia decreases, depending on the contribution of wind power to the inverter based generation. Figure 4 10 shows how a contribution of wind power of 40\% from the inverter based generation is capable of avoiding UFLS. Nevertheless the share of 80\% begins with a low rate of frequency decrement, the frequency sudenly drops below 49 Hz. This is due to the high amount of synthetic inertial power when compared to the load imbalance. This situation leads to UFLS after the 10 s because frequency has been sustained during that time by the synthetic inertial power. Since 10 seconds is the assumed time limit for exceeding nominal turbine power rate; the synthetic inertial power, which has a big contribution to counteract the power imbalance, is switched off as depicted in Figure 4 11. On the other hand, when a higher imbalance occurs and the synthetic inertial response is saturated, due to the limitation of 10\% of rated power, the mechanical power increases at 10 seconds, having a less severe impact the switching off of the inertial response.
+
+
+
+\subsubsection{Effect of Power Ramp Response on Frequency}
+
+The contribution from the ramping power in diminishing system RoCoF during the inception of the perturbation until the critical time was disregarded when EQ:tcr was calculated. Assuming an instant switching of the IBFPR at critical time, the frequency nadir would be 49 Hz. Nevertheless, a ramp power response was assumed instead. Therefore the calculated power ramp, when applied to the unbalanced system, commonly exhibits a frequency nadir higher than 49 Hz, due to the contribution of the ramping period. In this sense, it can be inferred that the longer the ramping period, the higher frequency nadir will be obtained. Here again the relevance of the prompt activation in time of the IBFPR. On the other hand, with the faster IBFPR activation, the ramp slope and the steady power output (Inverter based power reserve) can be diminished compromising frequency nadir.
+When the activation does not takes place instantaneously, frequency nadir and therefore system stability can be compromised for some combination of system inertia and load imbalance. %In order to assure stability a stepper ramp slope is required in order to meet the required power before critical time. That is achieved by changing equation 3-2 by the adjusted expression:
+%Equation 5 1
 %P_IBFPR (t)=∆P*((1-t_cr⁄t_nadir ))/((t_cr-t_d ) )*t
-Where td is the time delay needed to start the activation of IBFPR.
+%Where td is the time delay needed to start the activation of IBFPR.
 When a comparison is established beween all the calculated power ramp slopes in per unit  (pu), it is noted that with high penetration of non-synchronous power in the power system, the required power to ensure no UFLS have a consistent trend between the three models, and a close proximity in the values for RoCoF in the range of 2 to 5 Hz/s is observed between both IEEE models. Such trends can be seen in Figure 5 2.
-A bigger amount of power ramp slope is needed in all the range of RoCoF for the European case. After inspecting Equation 3-2, it is noticed that the IBFPR is affected by the factor(1-t_cr⁄t_nadir ), then as nadir time increases, IBFPR increases as well. The nadir time for the European case, due to the action of the self-regulation and primary reserve deployment of 30 seconds, is in the range of 3-12 seconds (6 seconds for 80\% IBG penetration) whereas the nadir time for the simplified IEEE model is between 1-3 seconds. See Appendix III for more details in regards of nadir time.
-Fast Power Reserve
+A bigger amount of power ramp slope is needed in all the range of RoCoF for the European case. After inspecting Equation XXX, it is noticed that the IBFPR is affected by the factor $ 1-t_{cr}⁄t_{nadir} $, then as nadir time increases, IBFPR increases as well. The nadir time for the European case, due to the action of the self-regulation and primary reserve deployment of 30 seconds, is in the range of 3-12 seconds (6 seconds for 80\% IBG penetration) whereas the nadir time for the simplified IEEE model is between 1-3 seconds as listed in table XXXX.
 
-So far, the power ramp required to avoid load shedding has been found for the IEEE 9 bus model with a fast governor response and for the European island with conventional primary reserve response. Hence, the investigated inverter based fast power response at critical time which remain constant afterwards, would be accounted as the fast power reserve. Similarly as primary reserve estimations are performed considering the loss of generation at certain level; for fast power reserve the results are presented for the scenarios in which imbalance could reach even 40\%.   
+\subsubsection{Fast Power Reserve}
 
- Figure 5 3 shows the results of the needed fast power reserve for each case under 80\% of IBG penetration. A linear behavior is exhibit by the simplified model and the European.
 
-A proportion of almost one to one is observed for the European model, this is caused by the slow primary reserve. Therefore for imbalances higher than 3\% the fast power reserve has to cover all the imbalance. The observed offset from the one to one relation is due to the load reduction caused by the frequency drop (load self-regulation). The dashed line represents the one to one proportion. In the case of the IEEE grid; the simplified model exhibits a permanent offset from the dashed line of around 0.05 pu, this due to the action of a faster governor response. Therefore, it can be said that in such scenario, the conventional governor response of synchronous machines would cover 5\% of the imbalances starting at 8\%. Since the values for nadir time are not independent from the imbalance in the Extended model, due to the non-linearity of the model, the calculated power reserve tend to equalize the whole imbalance. As imbalance increases, the critical time decreases and the nadir time increases, this makes the reducing factor tcr/tnadir from Equation 3-2 to decrease and narrows the difference between the calculated reserve and power imbalance.
-Similarly as critical time was presented in Table 5 1 the required fast power reserve in the European context is shown in Table 5 2 for extraordinary events 
+So far, the power ramp required to avoid load shedding has been found for both IEEE 9 bus models with a fast governor response and for the European-scale model  with conventional primary reserve response. Hence, the IBFPR at critical time which remain constant after the critical time, would be accounted as the fast power reserve. %Similarly as primary reserve estimations are performed considering the loss of generation at certain level; for fast power reserve the results are presented for the scenarios in which imbalance could reach even 40\%.
 
 
 
 Table 5 2: Fast power reserve in per unit for European case
 IBG share (%)	Load imbalance (%)
-	3	4	5	6	7	8	9	10
+3	4	5	6	7	8	9	10
 20	-	-	0.025	0.038	0.049	0.060	0.070	0.081
 40	-	0.016	0.030	0.041	0.052	0.063	0.073	0.083
 60	0.005	0.024	0.035	0.045	0.056	0.066	0.077	0.087
@@ -66,18 +105,15 @@ IBG share (%)	Load imbalance (%)
 92	0.021	0.033	0.043	0.054	0.064	0.074	0.084	0.094
 95	0.024	0.035	0.045	0.055	0.065	0.075	0.085	0.096
 
+For imbalances higher than 3\% the fast power reserve has to cover all the imbalance. The observed offset from the one to one relation is due to the load reduction caused by the frequency drop (load self-regulation). The dashed line represents the one to one proportion. In the case of the IEEE grid; the simplified model exhibits a permanent offset from the dashed line of around 0.05 pu, this due to the action of a faster governor response. Therefore, it can be said that in such scenario, the conventional governor response of synchronous machines would cover 5\% of the imbalances starting at 8\%. Since the values for nadir time are not independent from the imbalance in the Extended model, due to the non-linearity of the model, the calculated power reserve tend to equalize the whole imbalance. As imbalance increases, the critical time decreases and the nadir time increases, this makes the reducing factor tcr/tnadir from Equation 3-2 to decrease and narrows the difference between the calculated reserve and power imbalance.
+Similarly as critical time was presented in Table 5 1 the required fast power reserve in the European context is shown in Table 5 2 for extraordinary events
+
+
 As IBG increases the closer to the imbalance the fast power reserve needs to be. As it was demonstrated in the result section; with a faster conventional reserve, reduction in fast power reserve can be observed.
+
 \subsection{Synchronizing effect, lack of damping torque and implications}
 
 When the IEEE model was implemented using SIMULINK-SIMSCAPE blocks, in order to incorporate all system component dynamics; system instability was found for low inertia values in the system and due to high imbalances (with no IBFPR). In non-linear systems, the stability is not only determined by the equivalent transfer function but also it is dependent on the inputs or sources [7, 22]. In this sense the loss of stability due to huge load imbalances is explained by the non-linearity of the system. When the system is perturbed by a small change in one of the state variables in such a way that the system returns to its initial state or remains close to it; a linearization of the system can be performed and a so called small signal stability analysis can be performed [7].
 In the simulations it was found how the extended model is unstable for imbalances above 15\% with a penetration of non-synchronous generation of 85\%, corresponding to a system acceleration time constant of 2.1 seconds. The diminishing of synchronous machines, and the dependency of system frequency and voltage signal from them, lead to a very weak network, where synchronizing and damping torque, which are inherent characteristics of synchronous machines are not enough to stabilize the system (assuming that such excursion of frequency and rotor speed would be allowed to happen) [7]. Although the implementation of IBFPR contributes keeping synchronous machine on step , low frequency oscillations in the rotor speed/frequency response are observed. This oscillations are created by the lack of damping torque which is provided mainly by the synchronous machines, through damping windings, field exciter and Power System Stabilizer (connected to the machines exciter). For the simplified IEEE model and the European island, only transfer functions describing an equivalent system governor were modeled. Hence in such approaches, the effect and dynamics of synchronous generator’s exciters and inter-machine interaction were not taken into account. The before mention factors influence greatly small signal stability [7, 8]
 Even though the scoop of this thesis is to analyze the power-time characteristics needed to avoid frequency collapse; oscillations associated to big perturbation were observed but they could not been addressed by the simple injection of power to the system. Also in the IEEE model, when a penetration of 95\% of inverter based generation and 2\% of load imbalance are considered, UFLS is not reached but the system becomes unstable as shown in Figure 5 6 and Figure 5 5. From penetrations levels above 85\% complete frequency stability is not ensure with the injection of fast power reserve, only UFLS on the first 10 seconds approximately. Then the system becomes unstable with increasing amplitude oscillations.
 It is important to note that ENTSOE in its EUROPEAN interconnected scenario, determined that there is no UFLS when an unbalance of 2\% with high contribution of non-synchronous generation occurs. Nevertheless, no inter-machine interaction was considered and therefore a similar effect as the one in Figure 5 6 could be experienced.
-
-
-
-
-
-
-
-

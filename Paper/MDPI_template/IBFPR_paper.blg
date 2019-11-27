@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [0] Config.pm:304> INFO - This is Biber 2.13
 [0] Config.pm:307> INFO - Logfile is 'IBFPR_paper.blg'
 [29] biber-MSWIN64:315> INFO - === 
@@ -15,3 +16,10 @@
 [365] Biber.pm:4030> INFO - No sort tailoring available for locale 'en-US'
 [386] bbl.pm:648> INFO - Writing 'IBFPR_paper.bbl' with encoding 'UTF-8'
 [396] bbl.pm:751> INFO - Output to IBFPR_paper.bbl
+=======
+[0] Config.pm:300> INFO - This is Biber 0.9.8
+[1] Config.pm:303> INFO - Logfile is 'IBFPR_paper.blg'
+[4] biber-MSWIN:131> INFO - === %a %b %e, %Y, %H:%M:%S
+[20] Biber.pm:271> INFO - Reading 'IBFPR_paper.bcf'
+[104] Utils.pm:168> WARN - Warning: Found biblatex control file version 3.6, expected version 1.7
+>>>>>>> c2fb7c3a339ed76419227264ca697f0143368fbb
