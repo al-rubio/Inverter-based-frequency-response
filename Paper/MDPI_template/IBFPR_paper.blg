@@ -1,5 +1,5 @@
-[0] Config.pm:300> INFO - This is Biber 0.9.8
-[1] Config.pm:303> INFO - Logfile is 'IBFPR_paper.blg'
-[4] biber-MSWIN:131> INFO - === %a %b %e, %Y, %H:%M:%S
-[20] Biber.pm:271> INFO - Reading 'IBFPR_paper.bcf'
-[104] Utils.pm:168> WARN - Warning: Found biblatex control file version 3.6, expected version 1.7
+This is BibTeX, Version 0.99dThe top-level auxiliary file: IBFPR_paper.aux
+The style file: Definitions/mdpi.bst
+I found no \citation commands---while reading file IBFPR_paper.aux
+I found no \bibdata command---while reading file IBFPR_paper.aux
+(There were 2 error messages)

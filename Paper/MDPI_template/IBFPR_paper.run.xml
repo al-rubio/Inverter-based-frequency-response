@@ -79,7 +79,7 @@
       <file>IBFPR_paper.bcf</file>
     </requires>
     <requires type="editable">
-      <file>Thesisref_LATEX</file>
+      <file>Thesisref_LATEX.bib</file>
     </requires>
   </external>
 </requests>
