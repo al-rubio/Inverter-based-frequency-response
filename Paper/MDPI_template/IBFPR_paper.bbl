@@ -1,4 +1,580 @@
+<<<<<<< HEAD
 \begin{thebibliography}{-------}
 \providecommand{\natexlab}[1]{#1}
 
 \end{thebibliography}
+=======
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{Anderson.2002}{book}{}
+      \name{author}{2}{}{%
+        {{hash=09266f2405fc6b0d4a6f03b21bea188e}{%
+           family={Anderson},
+           familyi={A\bibinitperiod},
+           given={P.\bibnamedelimi M.},
+           giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=408b6964c8144705d37ea52152eb7d37}{%
+           family={Fouad},
+           familyi={F\bibinitperiod},
+           given={A.\bibnamedelimi A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{location}{2}{%
+        {New York}%
+        {Chichester}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{37ab5253a1f68f582852640611e3ede3}
+      \strng{fullhash}{37ab5253a1f68f582852640611e3ede3}
+      \strng{bibnamehash}{37ab5253a1f68f582852640611e3ede3}
+      \strng{authorbibnamehash}{37ab5253a1f68f582852640611e3ede3}
+      \strng{authornamehash}{37ab5253a1f68f582852640611e3ede3}
+      \strng{authorfullhash}{37ab5253a1f68f582852640611e3ede3}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2nd ed.}
+      \field{isbn}{0-471-23862-7}
+      \field{title}{Power system control and stability}
+      \field{year}{2002}
+    \endentry
+    \entry{delavari2018simscape}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=c4b2f1580dff77aeae94942f66825451}{%
+           family={Delavari},
+           familyi={D\bibinitperiod},
+           given={Atieh},
+           giveni={A\bibinitperiod}}}%
+        {{hash=6dad76729104393071c18157d8e5490e}{%
+           family={Kamwa},
+           familyi={K\bibinitperiod},
+           given={Innocent},
+           giveni={I\bibinitperiod}}}%
+        {{hash=8932bcd6bec4b59cf30559764904f56e}{%
+           family={Brunelle},
+           familyi={B\bibinitperiod},
+           given={Patrice},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{629aa0734b4c59417f344ce6cc4215cd}
+      \strng{fullhash}{629aa0734b4c59417f344ce6cc4215cd}
+      \strng{bibnamehash}{629aa0734b4c59417f344ce6cc4215cd}
+      \strng{authorbibnamehash}{629aa0734b4c59417f344ce6cc4215cd}
+      \strng{authornamehash}{629aa0734b4c59417f344ce6cc4215cd}
+      \strng{authorfullhash}{629aa0734b4c59417f344ce6cc4215cd}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2018 IEEE Canadian Conference on Electrical \& Computer Engineering (CCECE)}
+      \field{title}{Simscape power systems benchmarks for education and research in power grid dynamics and control}
+      \field{year}{2018}
+      \field{pages}{1\bibrangedash 5}
+      \range{pages}{5}
+    \endentry
+    \entry{dreidy2017inertia}{article}{}
+      \name{author}{3}{}{%
+        {{hash=059d77431fa06a6cf727f3b076d1995c}{%
+           family={Dreidy},
+           familyi={D\bibinitperiod},
+           given={Mohammad},
+           giveni={M\bibinitperiod}}}%
+        {{hash=418147bc8528aaac9361549a00fc9e16}{%
+           family={Mokhlis},
+           familyi={M\bibinitperiod},
+           given={H},
+           giveni={H\bibinitperiod}}}%
+        {{hash=a5186597376c7b31a4aa4fc0c6534565}{%
+           family={Mekhilef},
+           familyi={M\bibinitperiod},
+           given={Saad},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{d32a7461e9b76f49872344c125b582d0}
+      \strng{fullhash}{d32a7461e9b76f49872344c125b582d0}
+      \strng{bibnamehash}{d32a7461e9b76f49872344c125b582d0}
+      \strng{authorbibnamehash}{d32a7461e9b76f49872344c125b582d0}
+      \strng{authornamehash}{d32a7461e9b76f49872344c125b582d0}
+      \strng{authorfullhash}{d32a7461e9b76f49872344c125b582d0}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Renewable and sustainable energy reviews}
+      \field{title}{Inertia response and frequency control techniques for renewable energy sources: A review}
+      \field{volume}{69}
+      \field{year}{2017}
+      \field{pages}{144\bibrangedash 155}
+      \range{pages}{12}
+    \endentry
+    \entry{E.MuljadiV.GevorgianandM.Singh:NREL.2012}{article}{}
+      \name{author}{2}{}{%
+        {{hash=525d4c26b3cd7764f30c05a3ce0f3340}{%
+           family={{E. Muljadi, V. Gevorgian, and M. Singh: NREL}},
+           familyi={E\bibinitperiod}}}%
+        {{hash=cb5fde092a13ff22ee87dccf6d3b38ff}{%
+           family={{S. Santoso: University of Texas - Austin}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{787eb02624c5c6f148ba172745ad6e38}
+      \strng{fullhash}{787eb02624c5c6f148ba172745ad6e38}
+      \strng{bibnamehash}{787eb02624c5c6f148ba172745ad6e38}
+      \strng{authorbibnamehash}{787eb02624c5c6f148ba172745ad6e38}
+      \strng{authornamehash}{787eb02624c5c6f148ba172745ad6e38}
+      \strng{authorfullhash}{787eb02624c5c6f148ba172745ad6e38}
+      \field{sortinit}{E}
+      \field{sortinithash}{c554bd1a0b76ea92b9f105fe36d9c7b0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{To be presented at the IEEE Symposium on Power Electronics and Machines in Wind Applications; Denver, Colorado; July 16-18, 2012}
+      \field{title}{Understanding Inertial and Frequency Response of Wind Power Plants: Preprint}
+      \field{year}{2012}
+      \keyw{frequency response;governor response;inertial response;July 2012;National Renewable Energy Laboratory;NREL;NREL/CP-5500-55335;wind turbine}
+    \endentry
+    \entry{ENTSOE.2016}{article}{}
+      \name{author}{1}{}{%
+        {{hash=be091100ca6b5b479e6051c29e93ca32}{%
+           family={ENTSOE},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{be091100ca6b5b479e6051c29e93ca32}
+      \strng{fullhash}{be091100ca6b5b479e6051c29e93ca32}
+      \strng{bibnamehash}{be091100ca6b5b479e6051c29e93ca32}
+      \strng{authorbibnamehash}{be091100ca6b5b479e6051c29e93ca32}
+      \strng{authornamehash}{be091100ca6b5b479e6051c29e93ca32}
+      \strng{authorfullhash}{be091100ca6b5b479e6051c29e93ca32}
+      \field{sortinit}{E}
+      \field{sortinithash}{c554bd1a0b76ea92b9f105fe36d9c7b0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Frequency Stability Evaluation Criteria for the Synchronous Zone of Continental Europe}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb www.entsoe.eu
+      \endverb
+      \verb{url}
+      \verb www.entsoe.eu
+      \endverb
+    \endentry
+    \entry{GeneralElectricInternational.2013}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=4cbf8094a40712c8736cfd41e2717d4a}{%
+           family={{General Electric International}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {General Electric International}%
+      }
+      \strng{namehash}{4cbf8094a40712c8736cfd41e2717d4a}
+      \strng{fullhash}{4cbf8094a40712c8736cfd41e2717d4a}
+      \strng{bibnamehash}{4cbf8094a40712c8736cfd41e2717d4a}
+      \strng{authorbibnamehash}{4cbf8094a40712c8736cfd41e2717d4a}
+      \strng{authornamehash}{4cbf8094a40712c8736cfd41e2717d4a}
+      \strng{authorfullhash}{4cbf8094a40712c8736cfd41e2717d4a}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Presented at the First International Workshop on Grid Simulator Testing of Wind Turbine Drivetrains on June 13--14, 2013.}
+      \field{title}{GE Wind Plant Advance Controls}
+      \field{year}{2013}
+      \field{dateera}{ce}
+    \endentry
+    \entry{Gevorgian.2017}{report}{}
+      \name{author}{2}{}{%
+        {{hash=0763f8e44e1d4478a693c085cf5fcc40}{%
+           family={Gevorgian},
+           familyi={G\bibinitperiod},
+           given={Vahan},
+           giveni={V\bibinitperiod}}}%
+        {{hash=192638a04edb865be6252ceeb186c9ab}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yingchen\bibnamedelimb :.\bibnamedelimi NREL},
+           giveni={Y\bibinitperiod\bibinitdelim :\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {National Renewable Energy Lab.(NREL), Golden, CO (United States)}%
+      }
+      \strng{namehash}{c26f966e64537ec51273343afae845a5}
+      \strng{fullhash}{c26f966e64537ec51273343afae845a5}
+      \strng{bibnamehash}{c26f966e64537ec51273343afae845a5}
+      \strng{authorbibnamehash}{c26f966e64537ec51273343afae845a5}
+      \strng{authornamehash}{c26f966e64537ec51273343afae845a5}
+      \strng{authorfullhash}{c26f966e64537ec51273343afae845a5}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Presented at the 15th International Workshop on Large-Scale Integration of Wind Power into Power Systems as well as on Transmission Networks for Offshore Wind Power Plants; Vienna, Austria; November 15--17, 2016}
+      \field{title}{Wind Generation Participation in Power System Frequency Response}
+      \field{type}{techreport}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb www.nrel.gov
+      \endverb
+      \verb{url}
+      \verb www.nrel.gov
+      \endverb
+      \keyw{Inertia;interconnecion frequency response;January 2017;NREL/CP-5D00-67287;primary frequency response}
+    \endentry
+    \entry{GonzalezRodriguez.2007}{article}{}
+      \name{author}{3}{}{%
+        {{hash=8f7df21914cc5d26960b3895f2ae5387}{%
+           family={{Gonz{á}lez Rodriguez}},
+           familyi={G\bibinitperiod},
+           given={A.\bibnamedelimi G.},
+           giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=3ea2894a2c8532bcac80fb1063c61b8d}{%
+           family={{Gonz{á}lez Rodriguez}},
+           familyi={G\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=27d930bb7f601a645bca1ead4ec557c9}{%
+           family={{Burgos Pay{á}n}},
+           familyi={B\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{338635f0d38b2dc298c3935c2055dc9d}
+      \strng{fullhash}{338635f0d38b2dc298c3935c2055dc9d}
+      \strng{bibnamehash}{338635f0d38b2dc298c3935c2055dc9d}
+      \strng{authorbibnamehash}{338635f0d38b2dc298c3935c2055dc9d}
+      \strng{authornamehash}{338635f0d38b2dc298c3935c2055dc9d}
+      \strng{authorfullhash}{338635f0d38b2dc298c3935c2055dc9d}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Renewable Energy and Power Quality Journal}
+      \field{number}{05}
+      \field{title}{Estimating wind turbines mechanical constants}
+      \field{volume}{1}
+      \field{year}{2007}
+      \field{pages}{697\bibrangedash 704}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.24084/repqj05.361
+      \endverb
+    \endentry
+    \entry{john1994power}{book}{}
+      \name{author}{2}{}{%
+        {{hash=e0de754e648173edac26c50305c7af45}{%
+           family={Grainger},
+           familyi={G\bibinitperiod},
+           given={John\bibnamedelima J..},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=760564613ff34201df2ea4e89f0ce57d}{%
+           family={Stevenson},
+           familyi={S\bibinitperiod},
+           given={William\bibnamedelima D},
+           giveni={W\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {McGraw-Hill New York}%
+      }
+      \strng{namehash}{178fa45e0c3da8648325bd7ff9e88de1}
+      \strng{fullhash}{178fa45e0c3da8648325bd7ff9e88de1}
+      \strng{bibnamehash}{178fa45e0c3da8648325bd7ff9e88de1}
+      \strng{authorbibnamehash}{178fa45e0c3da8648325bd7ff9e88de1}
+      \strng{authornamehash}{178fa45e0c3da8648325bd7ff9e88de1}
+      \strng{authorfullhash}{178fa45e0c3da8648325bd7ff9e88de1}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Power system analysis}
+      \field{volume}{67}
+      \field{year}{1994}
+    \endentry
+    \entry{hultholm2015optimal}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=d5f9032c389015e259d4eb7f4b1d8dec}{%
+           family={Hultholm},
+           familyi={H\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+        {{hash=8f3faaf837ed621edd7c3e845a169bc7}{%
+           family={W{ä}gar},
+           familyi={W\bibinitperiod},
+           given={Niklas},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{3980f18cc0bd2ec25d4aa98e41399588}
+      \strng{fullhash}{3980f18cc0bd2ec25d4aa98e41399588}
+      \strng{bibnamehash}{3980f18cc0bd2ec25d4aa98e41399588}
+      \strng{authorbibnamehash}{3980f18cc0bd2ec25d4aa98e41399588}
+      \strng{authornamehash}{3980f18cc0bd2ec25d4aa98e41399588}
+      \strng{authorfullhash}{3980f18cc0bd2ec25d4aa98e41399588}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Power-Gen Europe}
+      \field{title}{Optimal reserve operation in Turkey--frequency control and non-spinning reserves}
+      \field{year}{2015}
+    \endentry
+    \entry{kundur1994power}{book}{}
+      \name{author}{3}{}{%
+        {{hash=39882366f85507fce005c512ac3b2240}{%
+           family={Kundur},
+           familyi={K\bibinitperiod},
+           given={Prabha},
+           giveni={P\bibinitperiod}}}%
+        {{hash=55d2ef9a8f4a6b24f2b7850183655391}{%
+           family={Balu},
+           familyi={B\bibinitperiod},
+           given={Neal\bibnamedelima J},
+           giveni={N\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=1704eeab8b8010cf834f4d1cf33d517d}{%
+           family={Lauby},
+           familyi={L\bibinitperiod},
+           given={Mark\bibnamedelima G},
+           giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {McGraw-hill New York}%
+      }
+      \strng{namehash}{57f9f5610a8b43e210fa134f6076f5a8}
+      \strng{fullhash}{57f9f5610a8b43e210fa134f6076f5a8}
+      \strng{bibnamehash}{57f9f5610a8b43e210fa134f6076f5a8}
+      \strng{authorbibnamehash}{57f9f5610a8b43e210fa134f6076f5a8}
+      \strng{authornamehash}{57f9f5610a8b43e210fa134f6076f5a8}
+      \strng{authorfullhash}{57f9f5610a8b43e210fa134f6076f5a8}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Power system stability and control}
+      \field{volume}{7}
+      \field{year}{1994}
+    \endentry
+    \entry{nesje2015need}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=ddc307437425174347cd3720bb2a03e4}{%
+           family={Nesje},
+           familyi={N\bibinitperiod},
+           given={Beate},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {NTNU}%
+      }
+      \strng{namehash}{ddc307437425174347cd3720bb2a03e4}
+      \strng{fullhash}{ddc307437425174347cd3720bb2a03e4}
+      \strng{bibnamehash}{ddc307437425174347cd3720bb2a03e4}
+      \strng{authorbibnamehash}{ddc307437425174347cd3720bb2a03e4}
+      \strng{authornamehash}{ddc307437425174347cd3720bb2a03e4}
+      \strng{authorfullhash}{ddc307437425174347cd3720bb2a03e4}
+      \field{sortinit}{N}
+      \field{sortinithash}{98cf339a479c0454fe09153a08675a15}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The need for Inertia in the Nordic Power System}
+      \field{type}{mathesis}
+      \field{year}{2015}
+    \endentry
+    \entry{ogata1999ingenieria}{book}{}
+      \name{author}{1}{}{%
+        {{hash=a14bd2f7e8c11d8bbc4c9bc08a394aee}{%
+           family={Ogata},
+           familyi={O\bibinitperiod},
+           given={Katsushiko},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Prentice Hall}%
+      }
+      \strng{namehash}{a14bd2f7e8c11d8bbc4c9bc08a394aee}
+      \strng{fullhash}{a14bd2f7e8c11d8bbc4c9bc08a394aee}
+      \strng{bibnamehash}{a14bd2f7e8c11d8bbc4c9bc08a394aee}
+      \strng{authorbibnamehash}{a14bd2f7e8c11d8bbc4c9bc08a394aee}
+      \strng{authornamehash}{a14bd2f7e8c11d8bbc4c9bc08a394aee}
+      \strng{authorfullhash}{a14bd2f7e8c11d8bbc4c9bc08a394aee}
+      \field{sortinit}{O}
+      \field{sortinithash}{ff8d4eeb5101e3cf3809959b3592d942}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Ingenieria de Control Moderna (Spanish Edition)}
+      \field{year}{1999}
+    \endentry
+    \entry{orum2015future}{article}{}
+      \name{author}{8}{}{%
+        {{hash=9794e789c32196b367e8c716d8da9fcf}{%
+           family={{Ø}rum},
+           familyi={Ø\bibinitperiod},
+           given={Erik},
+           giveni={E\bibinitperiod}}}%
+        {{hash=3e5018da7e1dda35c997bcd60319cec3}{%
+           family={Kuivaniemi},
+           familyi={K\bibinitperiod},
+           given={Mikko},
+           giveni={M\bibinitperiod}}}%
+        {{hash=b23d0c49dd417e436f91c149a33568a9}{%
+           family={Laasonen},
+           familyi={L\bibinitperiod},
+           given={Minna},
+           giveni={M\bibinitperiod}}}%
+        {{hash=43184d19ecd50ec4498b7598c0de7edf}{%
+           family={Bruseth},
+           familyi={B\bibinitperiod},
+           given={Alf\bibnamedelima Ivar},
+           giveni={A\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=26e27a8661cd4052038c24ce0b1f237f}{%
+           family={Jansson},
+           familyi={J\bibinitperiod},
+           given={Erik\bibnamedelima Alexander},
+           giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=18d518e85e9c01d1b487bc692e31d2bb}{%
+           family={Danell},
+           familyi={D\bibinitperiod},
+           given={Anders},
+           giveni={A\bibinitperiod}}}%
+        {{hash=ccf770006ad3ebf91de08f307c3f48fd}{%
+           family={Elkington},
+           familyi={E\bibinitperiod},
+           given={Katherine},
+           giveni={K\bibinitperiod}}}%
+        {{hash=32c5c79c6fd408fcb3ed8c889318446b}{%
+           family={Modig},
+           familyi={M\bibinitperiod},
+           given={Niklas},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{26e47cf9cdc7db40f5b7f8673f87497c}
+      \strng{fullhash}{92dcb33b2e09bb9972e195d8fa5d5c8b}
+      \strng{bibnamehash}{26e47cf9cdc7db40f5b7f8673f87497c}
+      \strng{authorbibnamehash}{26e47cf9cdc7db40f5b7f8673f87497c}
+      \strng{authornamehash}{26e47cf9cdc7db40f5b7f8673f87497c}
+      \strng{authorfullhash}{92dcb33b2e09bb9972e195d8fa5d5c8b}
+      \field{sortinit}{Ø}
+      \field{sortinithash}{ff8d4eeb5101e3cf3809959b3592d942}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ENTSOE, Brussels, Tech. Rep}
+      \field{title}{Future system inertia}
+      \field{year}{2015}
+    \endentry
+    \entry{sundaram2008comparing}{article}{}
+      \name{author}{2}{}{%
+        {{hash=2262a355da22bac2264f8a3de1e205a8}{%
+           family={Sundaram},
+           familyi={S\bibinitperiod},
+           given={Dinakar},
+           giveni={D\bibinitperiod}}}%
+        {{hash=c4bc2bbcf3f1ca78163a0acd2580121a}{%
+           family={Bhuiyan},
+           familyi={B\bibinitperiod},
+           given={Mohammad},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Chalmers University of Technology}%
+      }
+      \strng{namehash}{a9870643efc575b88a670ffe95da829e}
+      \strng{fullhash}{a9870643efc575b88a670ffe95da829e}
+      \strng{bibnamehash}{a9870643efc575b88a670ffe95da829e}
+      \strng{authorbibnamehash}{a9870643efc575b88a670ffe95da829e}
+      \strng{authornamehash}{a9870643efc575b88a670ffe95da829e}
+      \strng{authorfullhash}{a9870643efc575b88a670ffe95da829e}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Comparing and Evaluating Frequency Response characteristics of}
+      \field{year}{2008}
+    \endentry
+    \entry{ucte2007final}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=2f864273024b23dbe2dd1787919a781e}{%
+           family={UCTE},
+           familyi={U\bibinitperiod},
+           given={UCTE},
+           giveni={U\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Union for the Co-ordination of Transmission of Electricity}%
+      }
+      \strng{namehash}{2f864273024b23dbe2dd1787919a781e}
+      \strng{fullhash}{2f864273024b23dbe2dd1787919a781e}
+      \strng{bibnamehash}{2f864273024b23dbe2dd1787919a781e}
+      \strng{authorbibnamehash}{2f864273024b23dbe2dd1787919a781e}
+      \strng{authornamehash}{2f864273024b23dbe2dd1787919a781e}
+      \strng{authorfullhash}{2f864273024b23dbe2dd1787919a781e}
+      \field{sortinit}{U}
+      \field{sortinithash}{77a6935510e008adcf5b555e7b4f0711}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Final report system disturbance on 4 November 2006}
+      \field{year}{2007}
+    \endentry
+    \entry{Wu.2013}{article}{}
+      \name{author}{2}{}{%
+        {{hash=198e54cc63a5449a28e8c1c6b8ef6bfe}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Lei},
+           giveni={L\bibinitperiod}}}%
+        {{hash=0f1df95582999042b96dfb14465cbc46}{%
+           family={Infield},
+           familyi={I\bibinitperiod},
+           given={David\bibnamedelima G.},
+           giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \strng{namehash}{d16209ec22179fffface8ce27b72f62a}
+      \strng{fullhash}{d16209ec22179fffface8ce27b72f62a}
+      \strng{bibnamehash}{d16209ec22179fffface8ce27b72f62a}
+      \strng{authorbibnamehash}{d16209ec22179fffface8ce27b72f62a}
+      \strng{authornamehash}{d16209ec22179fffface8ce27b72f62a}
+      \strng{authorfullhash}{d16209ec22179fffface8ce27b72f62a}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{IEEE Transactions on Power Systems;2013;28;3;10.1109/TPWRS.2012.2236365}
+      \field{issn}{0885-8950}
+      \field{journaltitle}{IEEE Transactions on Power Systems}
+      \field{number}{3}
+      \field{title}{Towards an Assessment of Power System Frequency Support From Wind Plant---Modeling Aggregate Inertial Response}
+      \field{volume}{28}
+      \field{year}{2013}
+      \field{pages}{2283\bibrangedash 2291}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1109/TPWRS.2012.2236365
+      \endverb
+      \keyw{Gaussian distribution;inertial response;power system operation;synthetic inertia;variable speed wind turbine;wind turbulence;wind variation}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
+>>>>>>> b7f1ee08f4cbdc00248d0a102221562a441b9e4b

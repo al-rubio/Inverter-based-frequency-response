@@ -1,3 +1,8 @@
+\subsection{Background}
+When the global security of the system is endangered and under/above frequency is experienced then load shedding is activated; the system is said to be in the emergency state [ref]. If the frequency exceeds the range of 47.5 Hz or 51.5 Hz, a system blackout can hardly be avoided [1]. Consequently the system will reach the so-called blackout state and will have to be restored. Before black out, the system tries to recover balance by load shedding and generation curtailment. Load shedding starts at 49 Hz  rejecting partial loads as frequecy decreases. On the other hand, curtailment thresholds between 50.2 and 50.5 have been studied by ENTSOE for over-frequency scenarios [1]. In this research, a deviation of ±1 Hz is used as threshold before load shedding and curtailment starts. Hence, to keep frequency within such threshold; the investigated critical time and power response, correspond to the maximum allowed activation time for fast power reserve in order to inject power from renewables or storage in case of under-frequency; or to extract power from the grid to be stored or converter in another energy form in the case of over-frequency.\\
+
+Although the focus of this investigation was centered in  the positive power injection to avoid under frequency load shedding; as it will be demonstrated in the result section, the required fast power reserve and critical times can be also understood as negative reserve for over-frequency cases too. \\
+
 The transitory frequency response of the system and therefore its stable and reliable operation after a perturbation, depends on the inherent characteristics of the power system and the counteraction measurements engaged automatically by the power system. As the share of inverter based generation increases, the more sensible to instability the power system becomes. In this sense the added inverter based fast power reserve must be capable of maintaining transitory frequency value within the allowed limits. 
 Two terms commonly found in the literature of power system stability will be used along this section:
 
@@ -7,28 +12,31 @@ Two terms commonly found in the literature of power system stability will be use
 	 Acceleration time constant is a measure of the robustness before disturbances of the system. It could be interpreted as the required time to remove the kinetic energy from the rotating masses of the generators connected in a grid at the rate of the supplied power load. Hence, the higher the time constant, the higher the kinetic energy available. As the share of synchronous generations decreases, this constant decreases proportionally.
 \end{itemize}
 
-With $f$ as frequency, $f_0$ as nominal frequency and $\Delta P$ as power imbalance the swing equation can be expressed as follows:
+With $f$ as frequency, $f_0$ as nominal frequency and $\Delta P$ as power imbalance the swing equation can be expressed as follows [ref]:
 %Equation 3 1
 \begin{equation}
 	\label{eq:swing}
 	\frac{df}{dt}=\dfrac{\Delta P*f_0}{2*H*S_{nom}}=\frac{\Delta P*f_0}{T_a*P_{nom}}=\frac{\Delta P*f_0}{2*E_k}
 \end{equation}
 %df/dt=(∆P*f_0)/(2*H*S_nom )=(∆P*f_0)/(T_a*P_nom )=(∆P*f_0)/(2*E_k )
-In this paper, the inertia constant $ H $ is used for the description of synthetic inertia in wind turbines, whereas the system acceleration constant $ T_a $ is used to express the whole system inertia related to the load in terms of real power.
+In this paper, the inertia constant $ H $ is used for the description of synthetic inertia in wind turbines and single synchronous machine representation, whereas the system acceleration constant $ T_a $ is used to express the whole system inertia related to the load in terms of real power.
 
-\subsection{Synthetic Inertia}
+\subsection{Frequency Support from Inverter based Generation}
 
+In this section the methodology and considerations for the implementation of inverter based generation for frequency support are explained. In this research the application of inverter based generation for frequency support is limited to the implementation of synthetic inertia and fast power reserve.
+ 
+\subsubsection{Synthetic Inertia}
 
 Synthetic inertia is one of the new techniques that manufactures and researchers are considering to tackle with the low inertia problem in power systems \cite{Gevorgian.2017}\cite{GeneralElectricInternational.2013}. Frequency support through synthetic inertia was considered with the following assumptions \cite{dreidy2017inertia}\cite{nesje2015need}:
 \begin{enumerate}[leftmargin=*,labelsep=4.9mm]
 	\item Power output from synthetic inertia is limited to 10\% of wind turbine nominal power.
 	\item Due to mechanical and thermal stresses, the additional power can be delivered only for a maximum time of 10 s.
-	\item It is assumed that all wind turbines operate at its maximum power output. The value of 1.5 MW was selected for such purpose.
-	\item In order to avoid wind turbine stall, the removed kinetic energy from the blades (injected to the grid in electrical form) it is limited to half \cite{E.MuljadiV.GevorgianandM.Singh:NREL.2012}.
+	\item It is assumed that all wind turbines operate at its nominal power output. The value of 1.5 MW was selected for such purpose.
+	\item The maximum allowable amount of kinetic energy to be extracted from the turbines was limit to half of the kinetic energy while the turmine operates at nominal speed \cite{E.MuljadiV.GevorgianandM.Singh:NREL.2012}.
 
 \end{enumerate}
 
-	An adequate control system is needed so the stored energy in the rotating blades can be extracted from the wind turbine. From the expression of power as the derivative of energy stored in the blades \eqref{eq:si}, the rate of energy extracted from the wind turbine can be obtained, considering that the rotational speed changes in time ref.
+	An adequate control system is needed so the stored energy in the rotating blades can be extracted from the wind turbine. From the expression of power as the derivative of energy stored in the blades \eqref{eq:si}, the rate of energy extracted from the wind turbine can be obtained, considering that the rotational speed changes in time [ref].
 
 \begin{equation}
 	\label{eq:si}
@@ -79,7 +87,7 @@ It is assumed that all the wind turbines deliver their nominal power output. A r
 	\end{tabular}
 \end{table}
 
-\subsection{Inverter based fast Power Reserve}
+\subsubsection{Inverter based fast Power Reserve}
 
 
 %Figure 3 1 depicts the typical frequency response when a negative power imbalance occurs in a power system. If the imbalance is high enough or the system inertia is too low, the initial RoCoF can lead to frequency %excursions below the UFLS value. The value of RoCoF is brought to zero normally by the action of the primary reserve; equalizing the power imbalance assuming no load frequency dependency. At this time the minimum value %of frequency (frequency nadir) is reached as well.
