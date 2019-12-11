@@ -3,21 +3,7 @@
 
 %=================================================================
 \documentclass[energies,article,submit,moreauthors,pdftex]{Definitions/mdpi}
-\usepackage{graphicx}
-\usepackage{caption}
-\usepackage{subcaption}
-\graphicspath{{img/}}
-\usepackage{booktabs}
-\usepackage{amsmath}
-\usepackage{footnote}
-\usepackage{steinmetz}
-\usepackage{adjustbox}
-%\makesavenoteenv{tabular}
-%\makesavenoteenv{table}
-\usepackage{fixltx2e}
-\externalbibliography{yes}
-\usepackage[style=numeric,backend=biber]{biblatex}
-\addbibresource{Thesisref_LATEX.bib}
+
 %\bibliography{Thesisref_LATEX.bib}
 % If you would like to post an early version of this manuscript as a preprint, you may use preprint as the journal and change 'submit' to 'accept'. The document class line would be, e.g., \documentclass[preprints,article,accept,moreauthors,pdftex]{mdpi}. This is especially recommended for submission to arXiv, where line numbers should be removed before posting. For preprints.org, the editorial staff will make this change immediately prior to posting.
 
@@ -75,7 +61,22 @@
 
 %=================================================================
 % Add packages and commands here. The following packages are loaded in our class file: fontenc, calc, indentfirst, fancyhdr, graphicx, lastpage, ifthen, lineno, float, amsmath, setspace, enumitem, mathpazo, booktabs, titlesec, etoolbox, amsthm, hyphenat, natbib, hyperref, footmisc, geometry, caption, url, mdframed, tabto, soul, multirow, microtype, tikz
-
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\graphicspath{{img/}}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{footnote}
+\usepackage{steinmetz}
+\usepackage{adjustbox}
+%\makesavenoteenv{tabular}
+%\makesavenoteenv{table}
+\usepackage{fixltx2e}
+%\externalbibliography{yes}
+%\usepackage{biblatex}
+%\addbibresource{Thesisref_LATEX.bib}
+%\bibliography{Thesisref_LATEX.bib}
 %=================================================================
 %% Please use the following mathematics environments: Theorem, Lemma, Corollary, Proposition, Characterization, Property, Problem, Example, ExamplesandDefinitions, Hypothesis, Remark, Definition, Notation, Assumption
 %% For proofs, please use the proof environment (the amsthm package is loaded by the MDPI class).
@@ -85,11 +86,11 @@
 \Title{Determination of the required Power Response of Inverters to provide fast Frequency Support in Power Systems with low Synchronous Inertia}
 
 % Author Orchid ID: enter ID or remove command
-\newcommand{\orcidauthorA}{0000-0000-000-000X} % Add \orcidA{} behind the author's name
+%\newcommand{\orcidauthorA}{0000-0000-000-000X} % Add \orcidA{} behind the author's name
 %\newcommand{\orcidauthorB}{0000-0000-000-000X} % Add \orcidB{} behind the author's name
 
 % Authors, for the paper (add full first names)
-\Author{Alejandro Rubio $^{1,\dagger,\ddagger}$\orcidA{}, Holger Behrends $^{1,\ddagger}$ and Stefan Geißendörfer $^{2,}$*}
+\Author{Alejandro Rubio $^{1,\dagger,\ddagger}, Holger Behrends $^{1,\ddagger}$ and Stefan Geißendörfer $^{2,}$*}
 
 % Authors, for metadata in PDF
 \AuthorNames{Alejandro Rubio, Holger Behrends and Stefan Geißendörfer}
@@ -112,15 +113,10 @@ $^{2}$ \quad Affiliation 2; e-mail@e-mail.com}
 %\conference{} % An extended version of a conference paper
 
 % Abstract (Do not insert blank lines, i.e. \\)
-\abstract{Decommissioning of conventional power plants and the installation of inverter-based renewable energy technologies decrease overall power system's inertia. This reduction in system inertia has an impact in the power system frequency response when an imbalance between generation and load occurs, increasing the rate of change of frequency (RoCoF) of the system. These expected high values of RoCoF shorten the time response needed before load shedding or generation curtailment take place and a possible subsequent black out occurs. In a future scenario where renewables are predominant in power systems, the ability of synchronous machines to meet such conditions is uncertain in terms of capacity and time response. The implementation of fast power reserve and synthetic inertia from inverter based sources was assessed through the simulation of two scenarios with different grid sizes and primary reserve response. The requirements for the fleet of connected inverters was determined in terms of activation time and total power to be provided in order to nullify RoCoF at the critical time. As main results it was obtained that full activation time for fast power reserve with penetration above 80\% of inverter based generation would need to be 100 ms or less for imbalances up to 40\% regardless of the synchronous response and grid size; meaning that current frequency measurement techniques and the time for fast power reserve deployment  would not ensure system stability under high unbalanced conditions. At less unbalanced conditions, The grid in the European scale was found to become critical with imbalances starting at 3\% and non-synchronous share of 60\%. Furthermore, synthetic inertia contributed to extend the critical imbalance threshold but only when it is combined with a fast response from the synchronous share and it also depends on the actual share of wind turbines with synthetic inertia in the models.}
-	
-	
-	
-	
-%As a result it was obtained that full activation time for inverter fast power reserve with penetration above 80\% of inverter based generation would need to be between 50-500 ms for imbalances up to 40\%; meaning that current frequency measurement techniques and renewable deployment times would not ensure system stability under the foreseen future possible power system conditions. A power ramp in the order of 300\% the load per second is necessary for fast power reserve to maintain frequency within the allowed limits.}
+\abstract{Decommissioning of conventional power plants and the installation of inverter-based renewable energy technologies decrease overall power system's inertia, increasing the rate of change of frequency of the system. These expected high values of RoCoF shorten the time response needed before load shedding or generation curtailment take place. In a future scenario where renewables are predominant in power systems, the ability of synchronous machines to meet such conditions is uncertain in terms of capacity and time response. The implementation of fast power reserve and synthetic inertia from inverter based sources was assessed through the simulation of two scenarios with different grid sizes and primary reserve response. As main results it was obtained that full activation time for fast power reserve with penetration above 80\% of inverter based generation would need to be 100 ms or less for imbalances up to 40\% regardless of the synchronous response and grid size; meaning that current frequency measurement techniques and the time for fast power reserve deployment would not ensure system stability under high unbalanced conditions. At less unbalanced conditions, the grid in the European scale was found to become critical with imbalances starting at 3\% and non-synchronous share of 60\%.}
 
 % Keywords
-\keyword{fast power reserve, frequency support from inverters, critical time}
+\keyword{fast power reserve, frequency nadir, critical time, low inertia grids}
 
 % The fields PACS, MSC, and JEL may be left empty or commented out if not applicable
 %\PACS{J0101}
@@ -186,12 +182,12 @@ $^{2}$ \quad Affiliation 2; e-mail@e-mail.com}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \funding{Please add: ``This research received no external funding'' or ``This research was funded by NAME OF FUNDER grant number XXX.'' and  and ``The APC was funded by XXX''. Check carefully that the details given are accurate and use the standard spelling of funding agency names at \url{https://search.crossref.org/funding}, any errors may affect your future funding.}
+This research received no external funding
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\acknowledgments{In this section you can acknowledge any support given which is not covered by the author contribution or funding sections. This may include administrative and technical support, or donations in kind (e.g., materials used for experiments).}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\acknowledgments{In this section you can acknowledge any support given which is not covered by the author contribution or funding sections. This may include administrative and technical support, or donations in kind (e.g., materials used for experiments).}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\conflictsofinterest{Declare conflicts of interest or state ``The authors declare no conflict of interest.'' Authors must identify and declare any personal circumstances or interest that may be perceived as inappropriately influencing the representation or interpretation of reported research results. Any role of the funders in the design of the study; in the collection, analyses or interpretation of data; in the writing of the manuscript, or in the decision to publish the results must be declared in this section. If there is no role, please state ``The funders had no role in the design of the study; in the collection, analyses, or interpretation of data; in the writing of the manuscript, or in the decision to publish the results''.}
+\conflictsofinterest{The authors declare no conflict of interest.}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% optional
@@ -199,10 +195,18 @@ $^{2}$ \quad Affiliation 2; e-mail@e-mail.com}
 
 \noindent
 \begin{tabular}{@{}ll}
-MDPI & Multidisciplinary Digital Publishing Institute\\
-DOAJ & Directory of open access journals\\
-TLA & Three letter acronym\\
-LD & linear dichroism
+ENTSOE &European Network of Transmission System Operators for Electricity\\
+FPR &Fast Power Reserve\\
+HVDC& High Voltage Direct Current\\
+IEEE& Institute of Electric and Electronic Engineers\\
+IBFPR& Inverter based Fast Power Reserve\\
+IBG& Inverter Based Generation\\
+PV &Photovoltaic\\
+RoCoF& Rate of Change of Frequency\\
+SI &Synthetic Inertia\\
+UFLS& Under Frequency Load Shedding\\
+WSCC& Western System Coordinated Council
+
 \end{tabular}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -217,7 +221,15 @@ LD & linear dichroism
 %=====================================
 % References, variant A: external bibliography
 %=====================================
-\printbibliography
+%\printbibliography
+\externalbibliography{yes}
+%\usepackage{biblatex}
+%\addbibresource{Thesisref_LATEX.bib}
+\bibliography{Thesisref_LATEX}
+% The following MDPI journals use author-date citation: Arts, Econometrics, Economies, Genealogy, Humanities, IJFS, JRFM, Laws, Religions, Risks, Social Sciences. For those journals, please follow the formatting guidelines on http://www.mdpi.com/authors/references
+% To cite two works by the same author: \citeauthor{ref-journal-1a} (\citeyear{ref-journal-1a}, \citeyear{ref-journal-1b}). This produces: Whittaker (1967, 1975)
+% To cite two works by the same author with specific pages: \citeauthor{ref-journal-3a} (\citeyear{ref-journal-3a}, p. 328; \citeyear{ref-journal-3b}, p.475). This produces: Wong (1999, p. 328; 2000, p. 475)
+
 
 
 \end{document}

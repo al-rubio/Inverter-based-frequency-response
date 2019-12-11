@@ -15,7 +15,7 @@ With $f$ as frequency, $f_0$ as nominal frequency and $\Delta P$ as power imbala
 	\label{eq:swing}
 	\frac{df}{dt}=\dfrac{\Delta P*f_0}{2*H*S_{nom}}=\frac{\Delta P*f_0}{T_a*P_{nom}}=\frac{\Delta P*f_0}{2*E_k}
 \end{equation}
-%df/dt=(∆P*f_0)/(2*H*S_nom )=(∆P*f_0)/(T_a*P_nom )=(∆P*f_0)/(2*E_k )
+
 In this paper, the inertia constant $ H $ is used for the description of inertia in wind turbines and single synchronous machine representation whereas the system acceleration constant $ T_a $ is used to express the whole system inertia related to the load in terms of real power.
 
 \subsection{Frequency Support from Inverter based Generation}
@@ -108,8 +108,8 @@ Recalling Equation \eqref{eq:swing}; it is necessary that the machine’s accele
 \end{equation}
 
 Where $ P_a $ is accelerating power, $ P_{mech} $ is mechanical power, $ P_{elec} $ is electrical power load, $ t_{cr} $ is the critical time and $ P_{IBFPR} $ is inverter based fast power reserve.
-%Typical primary power reserve response follows the indicated behavior shown in Figure 3 . Conventional turbine governor response is frequency dependent and may not respond linearly. For the estimation of IBFPR it was %assumed a linear power deployment over time until the critical time. Inspecting Equation 3 1; it can be notice that only the power imbalance determines the rate of change in frequency in the system along with the kinetic energy stored in the rotating masses of the generators. For this reason the analysis is focused on the change on mechanical power after the event, ignoring the electrical load and mechanical power in the stable operation before the perturbation.
-From the assumption of a linear mechanical power deployment of the synchronous machines governors, the rate of change in mechanical power, after a power imbalance $ \Delta P $, is given by $ \Delta P/t_{nadir} $, where $ t_{nadir} $ represents the time at which the frequency nadir occurs. Given the power balance at the critical time, $ t_{cr} $; the IBFPR response must be equal to $ P_{elec}-P_{mech} $, being $ P_{elec} $ equal to $ \Delta P $. %Figure 3  illustrates the behavior of both responses together. The sum of both at critical time counteracts power imbalance.
+
+From the assumption of a linear mechanical power deployment of the synchronous machines governors, the rate of change in mechanical power, after a power imbalance $ \Delta P $, is given by $ \Delta P/t_{nadir} $, where $ t_{nadir} $ represents the time at which the frequency nadir occurs. Given the power balance at the critical time, $ t_{cr} $; the IBFPR response must be equal to $ P_{elec}-P_{mech} $, being $ P_{elec} $ equal to $ \Delta P $.
 
 
 Substituting $ P_{mech} $ by $ \Delta P* t_{cr} /t_{nadir} $ and $ P_{elec} $ by $ \Delta P $ in Equation \eqref{eq:powerbalance}, the following expression is obtained for the $ P_{IBFPR} $ at time $ t_{cr} $:
@@ -211,7 +211,7 @@ Figure \ref{fig:ieeesimple} is the block representation of the swing equation \e
 \end{figure}
 
 
-The values of kinetic energy and time constants of a synchronous machines of 835 MVA were selected to represent the synchronous response, with the load of 315 MW the system acceleration time constant is 14 s, which is approximately today’s Europe acceleration constant \cite{ENTSOE.2016}. This is the base scenario where an 100\% synchronous generation is assumed . For the sake of evaluating the impact of the penetration of inverter based generation; the values of lower capacity generators were selected, diminishing the total system inertia.\\% assuming the compensation of the remaining power by a constant power source representing the inverter based generation, decreasing in this manner the total system acceleration time constant, thus the kinetic energy of the generator. Up to this point, neither synthetic inertia nor frequency support from renewables is considered. Inverter based power output remains constant before, during and after the perturbation. Therefore the system imbalance is covered only by the synchronous equivalent machine.
+The values of kinetic energy and time constants of a synchronous machines of 835 MVA were selected to represent the synchronous response, with the load of 315 MW the system acceleration time constant is 14 s, which is approximately today’s Europe acceleration constant \cite{ENTSOE.2016}. This is the base scenario where an 100\% synchronous generation is assumed . For the sake of evaluating the impact of the penetration of inverter based generation; the values of lower capacity generators were selected, diminishing the total system inertia.\\
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.75\textwidth]{/method/gov}
@@ -252,18 +252,14 @@ The values of kinetic energy and time constants of a synchronous machines of 835
 
 
 
-Even though load imbalances up to 40\% were simulated in each inertia scenario, for estimation of the critical time the power capacity limit of the generators was disregarded. The negative imbalance was simulated by increasing the system load. %With the help of a MATLAB code several simulations were run and the critical and nadir times acquired for each scenario. With the calculated times, the IBFPR to avoid load shedding under each scenario was calculated as given by Equation 3 3 and it is shown in the Results section.
-%All the acquired values of critical time, as result from the simulations, are then related with the system RoCoF, so a regression can be performed and link the critical time with system RoCoF.
-%For the conditions of the system and the employment of the fitting tool provided by MATLAB, an expression is obtained for critical time as a function of RoCoF.
-%For unstable conditions the maximum critical time is 2.7 seconds. Therefore critical time must be lower or equal to that value; calculating in this way that the minimum RoCoF for activation as 0.6143 Hz/s, when the fitting equation obtained from the regression is used.
+Even though load imbalances up to 40\% were simulated in each inertia scenario, for estimation of the critical time the power capacity limit of the generators was disregarded. The negative imbalance was simulated by increasing the system load. 
 
 \subsection{Extended IEEE 9 bus Model}
 
-%It was previously stated that in the first approach, only the total load was considered in the simulations as well as the synchronous generation represented by one single machine and no system losses.
 Since it is desired to compare the results obtained in Section \ref{ssec:simpleieee} against some model that takes into account the whole system components, losses and dynamics; An  extended representation of the IEEE 9 bus model was implemented in Simulink \cite{delavari2018simscape}. In this representation, simulations for different values of system inertia and load imbalance were performed, similarly as it was done with the simplified representation of the model. Figure \ref{fig:ieeeext} shows the extended IEEE 9 bus grid architecture with IBG added.\\
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.75\textwidth]{/method/IEEE_FPRmodel}
+	\includegraphics[width=0.5\textwidth]{/method/IEEE_FPRmodel}
 	\caption{One line diagram of the IEEE 9 bus model. The inverter based frequency response has been added at the same bus of the generating units.}
 	\label{fig:ieeeext}
 \end{figure}
@@ -318,9 +314,6 @@ This equation is valid for RMS values of voltage and current in which $ S_{3\var
 S_{3\varphi}^1=\dfrac{3*V_{LNpeak}^1*{\bar I_{Lpeak}}^1}{2}
 \end{equation}
 
-%In the SIMULINK model the voltage measurement probes are connected at the medium voltage side of the transformes. %Figure 3 12 shows the block diagram implemented to obtain the positive symmetrical component of line voltage and the positive sequence of current that will be provided by the subsystem to meet to needed power from the ramp input depending on the voltage readings. :
-
-
 
 \begin{equation}
 \label{eq:current_seq}
@@ -362,9 +355,7 @@ Under normal operation ENTSOE has reported values of RoCoF in the range of 5-10 
 	\caption{Large scale grid derived from the simplified IEEE model. The synchronous response was modified to match the European reserve response and the effect of self-regulation was added.}
 	\label{fig:euro}
 \end{figure}
-%When considering the system blackout of November 4th 2006, in which four electric islands resulted from the European system split; system blackout due to under frequency was experienced in the so known western area. This island, at the moment of split, had approximately a load of 190 GW (27\% more than the low load scenario of ENTSOE ) \cite{ucte2007final}. For its comparable `size’ and the uncertainty of knowing beforehand the resulting islands after a major contingency, the selected load for simulation was the same as the ENTSOE reference scenario as well as the primary reserve deployment time. To simulate the behavior of the resulting island in the European split scenario; a simplified approach was selected. Similarly as it was done with the simplified block model for the IEEE 9 bus model, in the equivalent European representation all the synchronous generation will be represented by a single machine, which will provide governor response when a perturbation takes place. Additional to the synchronous response, a load response of 2\% was added to the model, which means that for every Hertz reduced or augmented, the load will reduce or increase by a 2\% \cite{ENTSOE.2016}. \\
 
-%Figure 3 15 depicts the results of ENTSOE for the interconnected reference scenario frequency response model. It is intended that the implemented model for the island would perform in a similar way like the ENTSOE model for the same conditions [1].
 In order to fit the behavior of the system to the one modeled by ENTSOE, the synchronous representation in the simplified IEEE model shown in Figure \ref{fig:gov} was used as a base to emulate such behavior; this was done with the insertion of an additional block at the output of the governor model. With this approach, the primary power reserve can be easily tuned with the assistance of the Control System Tuner App available in MATLAB. The period of time of utmost interest for analysis is from the inception of the power imbalance and the nadir time. Therefore, the system must perform as similar as possible in this region compared to the ENTSOE reference, whereas after the nadir time, the disparity between responses can be neglected. In the European scale the reserves must be completely deployed within 30 s after the occurrence of the disturbance. 
 
 \begin{figure}[h]
