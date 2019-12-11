@@ -19,6 +19,30 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{AgoraEnergiewende.}{article}{}
+      \name{author}{1}{}{%
+        {{hash=501a04fd8f4d60a80744f56a56d121f8}{%
+           family={{Agora Energiewende}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{501a04fd8f4d60a80744f56a56d121f8}
+      \strng{fullhash}{501a04fd8f4d60a80744f56a56d121f8}
+      \strng{bibnamehash}{501a04fd8f4d60a80744f56a56d121f8}
+      \strng{authorbibnamehash}{501a04fd8f4d60a80744f56a56d121f8}
+      \strng{authornamehash}{501a04fd8f4d60a80744f56a56d121f8}
+      \strng{authorfullhash}{501a04fd8f4d60a80744f56a56d121f8}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Energiewende: What do the new laws mean? Ten questions and answers about EEG 2017, the Electricity Market Act, and the Digitisation Act}
+      \verb{urlraw}
+      \verb www.agora-energiewende.de
+      \endverb
+      \verb{url}
+      \verb www.agora-energiewende.de
+      \endverb
+    \endentry
     \entry{Anderson.2002}{book}{}
       \name{author}{2}{}{%
         {{hash=09266f2405fc6b0d4a6f03b21bea188e}{%
@@ -53,6 +77,34 @@
       \field{isbn}{0-471-23862-7}
       \field{title}{Power system control and stability}
       \field{year}{2002}
+    \endentry
+    \entry{hokefreqwatt}{report}{}
+      \name{author}{1}{}{%
+        {{hash=f4b5d2eae66f831f358120144bb5c4a7}{%
+           family={{Andy Hoke, Mohamed Elkhatib, Austin Nelson, Jay Johnson, Jin Tan, Rasel Mahmud, Vahan Gevorgian, Jason Neely, Chris Antonio, Dean Arakawa, and Ken Fong}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{f4b5d2eae66f831f358120144bb5c4a7}
+      \strng{fullhash}{f4b5d2eae66f831f358120144bb5c4a7}
+      \strng{bibnamehash}{f4b5d2eae66f831f358120144bb5c4a7}
+      \strng{authorbibnamehash}{f4b5d2eae66f831f358120144bb5c4a7}
+      \strng{authornamehash}{f4b5d2eae66f831f358120144bb5c4a7}
+      \strng{authorfullhash}{f4b5d2eae66f831f358120144bb5c4a7}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This interim report describes research related to frequency-watt control of solar photovoltaic (PV) inverters conducted under the U.S. Department of Energy's Grid Modernization Laboratory Consortium (GMLC) by a regional partnership for Hawaii. The purpose of this report is to inform an ongoing discussion around frequency-watt control activation in Hawaii.}
+      \field{title}{The Frequency-Watt Function: Simulation and Testing for the Hawaiian Electric Companies}
+      \field{type}{techreport}
+      \field{urlyear}{}
+      \verb{urlraw}
+      \verb https://www.nrel.gov/docs/fy17osti/68884.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.nrel.gov/docs/fy17osti/68884.pdf
+      \endverb
+      \keyw{NREL/TP-5D00-68884}
     \endentry
     \entry{delavari2018simscape}{inproceedings}{}
       \name{author}{3}{}{%
@@ -90,6 +142,38 @@
       \field{year}{2018}
       \field{pages}{1\bibrangedash 5}
       \range{pages}{5}
+    \endentry
+    \entry{dena2014}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=fd9681f1d8aa84aaacc44230ed3977bd}{%
+           family={{Deutsche Energie-Agentur GmbH (dena) -- German Energy}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {German Energy Agency}%
+      }
+      \list{location}{1}{%
+        {Berlin, Germany}%
+      }
+      \strng{namehash}{fd9681f1d8aa84aaacc44230ed3977bd}
+      \strng{fullhash}{fd9681f1d8aa84aaacc44230ed3977bd}
+      \strng{bibnamehash}{fd9681f1d8aa84aaacc44230ed3977bd}
+      \strng{authorbibnamehash}{fd9681f1d8aa84aaacc44230ed3977bd}
+      \strng{authornamehash}{fd9681f1d8aa84aaacc44230ed3977bd}
+      \strng{authorfullhash}{fd9681f1d8aa84aaacc44230ed3977bd}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{dena Ancillary Services Study 2030: Security and reliability of a power supply with a high percentage of renewable energy}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb www.dena.de
+      \endverb
+      \verb{url}
+      \verb www.dena.de
+      \endverb
     \endentry
     \entry{dreidy2017inertia}{article}{}
       \name{author}{3}{}{%
@@ -129,7 +213,7 @@
       \field{pages}{144\bibrangedash 155}
       \range{pages}{12}
     \endentry
-    \entry{E.MuljadiV.GevorgianandM.Singh:NREL.2012}{article}{}
+    \entry{NREL.2012}{article}{}
       \name{author}{2}{}{%
         {{hash=525d4c26b3cd7764f30c05a3ce0f3340}{%
            family={{E. Muljadi, V. Gevorgian, and M. Singh: NREL}},
@@ -152,6 +236,28 @@
       \field{title}{Understanding Inertial and Frequency Response of Wind Power Plants: Preprint}
       \field{year}{2012}
       \keyw{frequency response;governor response;inertial response;July 2012;National Renewable Energy Laboratory;NREL;NREL/CP-5500-55335;wind turbine}
+    \endentry
+    \entry{energiewende2017flexibility}{article}{}
+      \name{author}{1}{}{%
+        {{hash=2b9358c06354ecbe46fef050b5ab6b99}{%
+           family={Energiewende},
+           familyi={E\bibinitperiod},
+           given={Agora},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{2b9358c06354ecbe46fef050b5ab6b99}
+      \strng{fullhash}{2b9358c06354ecbe46fef050b5ab6b99}
+      \strng{bibnamehash}{2b9358c06354ecbe46fef050b5ab6b99}
+      \strng{authorbibnamehash}{2b9358c06354ecbe46fef050b5ab6b99}
+      \strng{authornamehash}{2b9358c06354ecbe46fef050b5ab6b99}
+      \strng{authorfullhash}{2b9358c06354ecbe46fef050b5ab6b99}
+      \field{sortinit}{E}
+      \field{sortinithash}{c554bd1a0b76ea92b9f105fe36d9c7b0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Berlin: Agora Energiewende}
+      \field{title}{Flexibility in thermal power plants--With a focus on existing coal-fired power plants}
+      \field{year}{2017}
     \endentry
     \entry{ENTSOE.2016}{article}{}
       \name{author}{1}{}{%
@@ -309,6 +415,31 @@
       \field{volume}{67}
       \field{year}{1994}
     \endentry
+    \entry{hoke2018fast}{report}{}
+      \name{author}{1}{}{%
+        {{hash=64d4a877b075bd5723198b90f88b3633}{%
+           family={Hoke},
+           familyi={H\bibinitperiod},
+           given={Anderson\bibnamedelima F},
+           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {National Renewable Energy Lab.(NREL), Golden, CO (United States)}%
+      }
+      \strng{namehash}{64d4a877b075bd5723198b90f88b3633}
+      \strng{fullhash}{64d4a877b075bd5723198b90f88b3633}
+      \strng{bibnamehash}{64d4a877b075bd5723198b90f88b3633}
+      \strng{authorbibnamehash}{64d4a877b075bd5723198b90f88b3633}
+      \strng{authornamehash}{64d4a877b075bd5723198b90f88b3633}
+      \strng{authorfullhash}{64d4a877b075bd5723198b90f88b3633}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Fast Grid Frequency Support from Distributed Inverter-Based Resources}
+      \field{type}{techreport}
+      \field{year}{2018}
+    \endentry
     \entry{hultholm2015optimal}{inproceedings}{}
       \name{author}{2}{}{%
         {{hash=d5f9032c389015e259d4eb7f4b1d8dec}{%
@@ -335,6 +466,30 @@
       \field{booktitle}{Power-Gen Europe}
       \field{title}{Optimal reserve operation in Turkey--frequency control and non-spinning reserves}
       \field{year}{2015}
+    \endentry
+    \entry{irena2017electricity}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=dccb07dfc674c936b09706712dddb240}{%
+           family={IRENA},
+           familyi={I\bibinitperiod},
+           given={AD},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Author Abu Dhabi}%
+      }
+      \strng{namehash}{dccb07dfc674c936b09706712dddb240}
+      \strng{fullhash}{dccb07dfc674c936b09706712dddb240}
+      \strng{bibnamehash}{dccb07dfc674c936b09706712dddb240}
+      \strng{authorbibnamehash}{dccb07dfc674c936b09706712dddb240}
+      \strng{authornamehash}{dccb07dfc674c936b09706712dddb240}
+      \strng{authorfullhash}{dccb07dfc674c936b09706712dddb240}
+      \field{sortinit}{I}
+      \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Electricity storage and renewables: Costs and markets to 2030}
+      \field{year}{2017}
     \endentry
     \entry{kundur1994power}{book}{}
       \name{author}{3}{}{%
@@ -370,6 +525,38 @@
       \field{title}{Power system stability and control}
       \field{volume}{7}
       \field{year}{1994}
+    \endentry
+    \entry{miller2017technology}{article}{}
+      \name{author}{3}{}{%
+        {{hash=b7f9a62c26a0746dcb33872c286b5b68}{%
+           family={Miller},
+           familyi={M\bibinitperiod},
+           given={N},
+           giveni={N\bibinitperiod}}}%
+        {{hash=11c00df2c1c9c56d3aac187db3d79245}{%
+           family={Lew},
+           familyi={L\bibinitperiod},
+           given={D},
+           giveni={D\bibinitperiod}}}%
+        {{hash=ceb7a7285d416ce67462cc76a33bb6b8}{%
+           family={Piwko},
+           familyi={P\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{693b095f033dc03f87792e5e4fee73cf}
+      \strng{fullhash}{693b095f033dc03f87792e5e4fee73cf}
+      \strng{bibnamehash}{693b095f033dc03f87792e5e4fee73cf}
+      \strng{authorbibnamehash}{693b095f033dc03f87792e5e4fee73cf}
+      \strng{authornamehash}{693b095f033dc03f87792e5e4fee73cf}
+      \strng{authorfullhash}{693b095f033dc03f87792e5e4fee73cf}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{GE Energy Consulting, Tech. Rep.}
+      \field{title}{Technology capabilities for fast frequency response}
+      \field{year}{2017}
     \endentry
     \entry{nesje2015need}{thesis}{}
       \name{author}{1}{}{%
@@ -544,6 +731,7 @@
       \keyw{Gaussian distribution;inertial response;power system operation;synthetic inertia;variable speed wind turbine;wind turbulence;wind variation}
     \endentry
   \enddatalist
+  \missing{E.MuljadiV.GevorgianandM.Singh:NREL.2012}
 \endrefsection
 \endinput
 

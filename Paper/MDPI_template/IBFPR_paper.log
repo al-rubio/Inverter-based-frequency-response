@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.11.24)  10 DEC 2019 17:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.11.24)  11 DEC 2019 18:52
 entering extended mode
 **./IBFPR_paper.tex
 (IBFPR_paper.tex
@@ -636,13 +636,6 @@ Package: totcount 2011/01/25 v1.2 package for gettingthe total value of LaTeX c
 ounters
 )
 (Definitions/journalnames.tex)
-
-Class mdpi Warning: You used an invalid journal name or you have not specified 
-the journal. The first option of the documentclass command specifies the journa
-l. The word 'journal' should be replaced by one of the journal names specified 
-in template.tex (in the comment 'Choose between the following MDPI journal'). o
-n input line 123.
-
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amscls\amsthm.sty"
 Package: amsthm 2017/10/31 v2.20.4
 \thm@style=\toks47
@@ -1398,7 +1391,15 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'IBFPR_paper.bbl' found.
-(IBFPR_paper.bbl)
+(IBFPR_paper.bbl
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                E.MuljadiV.GevorgianandM.Singh:NREL.2012
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+)
 Package biblatex Info: Reference section=0 on input line 151.
 Package biblatex Info: Reference segment=0 on input line 151.
 Package epstopdf Info: Source file: <Definitions/logo-mdpi.eps>
@@ -1508,262 +1509,6 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
  (intro.tex
-Underfull \hbox (badness 10000) in paragraph at lines 2--3
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--6
-
- []
-
-[1
-
-{C:/Users/Alejandro/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./Defin
-itions/logo-mdpi-eps-converted-to.pdf> <./Definitions/logo-orcid-eps-converted-
-to.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 7--9
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 12--13
-
- []
-
-[2]) (method.tex
-Underfull \hbox (badness 10000) in paragraph at lines 2--3
-
- []
-
-LaTeX Font Info:    Trying to load font information for OMS+ppl on input line 7
-.
-("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\omsppl.fd"
-File: omsppl.fd 
-)
-LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 7.
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
-
- []
-
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <7.6> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 9.
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 46--47
-
- []
-
-<img//method/SI3.png, id=130, 1690.06406pt x 374.14781pt>
-File: img//method/SI3.png Graphic file (type png)
-<use img//method/SI3.png>
-Package pdftex.def Info: img//method/SI3.png  used on input line 50.
-(pdftex.def)             Requested size: 355.0919pt x 78.6076pt.
-[4 <./img//method/SI3.png>]
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <7> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 72.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 74.
-
-Underfull \hbox (badness 10000) in paragraph at lines 82--83
-
- []
-
-<img/method/fig1.png, id=158, 1195.46625pt x 697.8572pt>
-File: img/method/fig1.png Graphic file (type png)
-<use img/method/fig1.png>
-Package pdftex.def Info: img/method/fig1.png  used on input line 88.
-(pdftex.def)             Requested size: 199.73708pt x 116.58965pt.
-<img/method/fig2.png, id=159, 1194.71344pt x 682.80093pt>
-File: img/method/fig2.png Graphic file (type png)
-<use img/method/fig2.png>
-Package pdftex.def Info: img/method/fig2.png  used on input line 95.
-(pdftex.def)             Requested size: 199.73708pt x 114.14716pt.
-[5 <./img/method/fig1.png> <./img/method/fig2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 140--141
-
- []
-
-[6]
-Underfull \hbox (badness 10000) in paragraph at lines 173--174
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 199--200
-
- []
-
-<img//method/ieee2.png, id=202, 1719.42375pt x 566.115pt>
-File: img//method/ieee2.png Graphic file (type png)
-<use img//method/ieee2.png>
-Package pdftex.def Info: img//method/ieee2.png  used on input line 203.
-(pdftex.def)             Requested size: 332.89738pt x 109.60158pt.
-<img//method/gov.png, id=206, 1691.56969pt x 371.88937pt>
-File: img//method/gov.png Graphic file (type png)
-<use img//method/gov.png>
-Package pdftex.def Info: img//method/gov.png  used on input line 212.
-(pdftex.def)             Requested size: 332.89738pt x 73.18489pt.
-[7 <./img//method/ieee2.png>]
-<img//method/IEEE_FPRmodel.png, id=225, 2098.84125pt x 1617.04124pt>
-File: img//method/IEEE_FPRmodel.png Graphic file (type png)
-<use img//method/IEEE_FPRmodel.png>
-Package pdftex.def Info: img//method/IEEE_FPRmodel.png  used on input line 261.
-
-(pdftex.def)             Requested size: 332.89738pt x 256.46187pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[8 <./img//method/gov.png>] [9 <./img//method/IEEE_FPRmodel.png>]
-<img//method/extended_ibfpr.png, id=251, 1720.92938pt x 502.87875pt>
-File: img//method/extended_ibfpr.png Graphic file (type png)
-<use img//method/extended_ibfpr.png>
-Package pdftex.def Info: img//method/extended_ibfpr.png  used on input line 344
-.
-(pdftex.def)             Requested size: 399.47415pt x 116.72626pt.
-<img//method/euro.png, id=260, 1700.60344pt x 739.26187pt>
-File: img//method/euro.png Graphic file (type png)
-<use img//method/euro.png>
-Package pdftex.def Info: img//method/euro.png  used on input line 357.
-(pdftex.def)             Requested size: 355.0919pt x 154.35843pt.
- [10 <./img//method/extended_ibfpr.png>]
-<img//method/goveuro.png, id=270, 1697.5922pt x 400.49625pt>
-File: img//method/goveuro.png Graphic file (type png)
-<use img//method/goveuro.png>
-Package pdftex.def Info: img//method/goveuro.png  used on input line 368.
-(pdftex.def)             Requested size: 221.9316pt x 52.35355pt.
- [11 <./img//method/euro.png> <./img//method/goveuro.png>]) (results.tex
-Underfull \hbox (badness 10000) in paragraph at lines 5--6
-
- []
-
-<img//result/tcr80.png, id=285, 1145.4795pt x 583.58025pt>
-File: img//result/tcr80.png Graphic file (type png)
-<use img//result/tcr80.png>
-Package pdftex.def Info: img//result/tcr80.png  used on input line 9.
-(pdftex.def)             Requested size: 332.89738pt x 169.59903pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[12]
-Underfull \hbox (badness 10000) in paragraph at lines 57--58
-
- []
-
-<img/result/base.png, id=299, 1145.4795pt x 583.58025pt>
-File: img/result/base.png Graphic file (type png)
-<use img/result/base.png>
-Package pdftex.def Info: img/result/base.png  used on input line 63.
-(pdftex.def)             Requested size: 217.49539pt x 110.80125pt.
-<img/result/base_euro.png, id=300, 1431.84938pt x 729.47531pt>
-File: img/result/base_euro.png Graphic file (type png)
-<use img/result/base_euro.png>
-Package pdftex.def Info: img/result/base_euro.png  used on input line 70.
-(pdftex.def)             Requested size: 217.49539pt x 110.7968pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<img/result/SI40.png, id=303, 1145.4795pt x 583.58025pt>
-File: img/result/SI40.png Graphic file (type png)
-<use img/result/SI40.png>
-Package pdftex.def Info: img/result/SI40.png  used on input line 87.
-(pdftex.def)             Requested size: 217.49539pt x 110.80125pt.
-<img/result/SI80Euro.png, id=304, 1431.84938pt x 729.47531pt>
-File: img/result/SI80Euro.png Graphic file (type png)
-<use img/result/SI80Euro.png>
-Package pdftex.def Info: img/result/SI80Euro.png  used on input line 94.
-(pdftex.def)             Requested size: 217.49539pt x 110.7968pt.
-[13 <./img//result/tcr80.png>]
-Underfull \hbox (badness 1817) in paragraph at lines 108--110
-[]\T1/ppl/m/n/10 (+20) Figure [][]12a[][] and [][]12b[][] in-di-cate the fre-qu
-ency re-sponse ob-tained of the sys-tem with an
- []
-
-[14 <./img/result/base.png> <./img/result/base_euro.png> <./img/result/SI40.png
-> <./img/result/SI80Euro.png>]
-<img/result/SI10imb.png, id=327, 1431.84938pt x 729.47531pt>
-File: img/result/SI10imb.png Graphic file (type png)
-<use img/result/SI10imb.png>
-Package pdftex.def Info: img/result/SI10imb.png  used on input line 115.
-(pdftex.def)             Requested size: 217.49539pt x 110.7968pt.
-<img/result/SI15imb.png, id=328, 1431.84938pt x 729.47531pt>
-File: img/result/SI15imb.png Graphic file (type png)
-<use img/result/SI15imb.png>
-Package pdftex.def Info: img/result/SI15imb.png  used on input line 122.
-(pdftex.def)             Requested size: 217.49539pt x 110.7968pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 131--132
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 133--134
-
- []
-
-<img//result/powerramps.png, id=332, 1431.84938pt x 729.47531pt>
-File: img//result/powerramps.png Graphic file (type png)
-<use img//result/powerramps.png>
-Package pdftex.def Info: img//result/powerramps.png  used on input line 137.
-(pdftex.def)             Requested size: 332.89738pt x 169.59012pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 167--168
-
- []
-
-<img/result/NadirIBFPR2.png, id=336, 1145.4795pt x 583.58025pt>
-File: img/result/NadirIBFPR2.png Graphic file (type png)
-<use img/result/NadirIBFPR2.png>
-Package pdftex.def Info: img/result/NadirIBFPR2.png  used on input line 173.
-(pdftex.def)             Requested size: 217.49539pt x 110.80125pt.
-<img/result/extnd.png, id=337, 1145.4795pt x 583.58025pt>
-File: img/result/extnd.png Graphic file (type png)
-<use img/result/extnd.png>
-Package pdftex.def Info: img/result/extnd.png  used on input line 180.
-(pdftex.def)             Requested size: 217.49539pt x 110.80125pt.
-<img/result/eu.png, id=338, 1145.4795pt x 583.58025pt>
-File: img/result/eu.png Graphic file (type png)
-<use img/result/eu.png>
-Package pdftex.def Info: img/result/eu.png  used on input line 187.
-(pdftex.def)             Requested size: 217.49539pt x 110.80125pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 203--204
-
- []
-
-[15 <./img/result/SI10imb.png (PNG copy)> <./img/result/SI15imb.png (PNG copy)>
-]
-<img/result/ss1.png, id=346, 1156.32pt x 593.8185pt>
-File: img/result/ss1.png Graphic file (type png)
-<use img/result/ss1.png>
-Package pdftex.def Info: img/result/ss1.png  used on input line 209.
-(pdftex.def)             Requested size: 217.49539pt x 111.685pt.
-<img/result/ss2.png, id=347, 1145.4795pt x 583.58025pt>
-File: img/result/ss2.png Graphic file (type png)
-<use img/result/ss2.png>
-Package pdftex.def Info: img/result/ss2.png  used on input line 216.
-(pdftex.def)             Requested size: 217.49539pt x 110.80125pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) (discussion.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
  []
@@ -1773,45 +1518,251 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
-[16 <./img//result/powerramps.png (PNG copy)>] [17 <./img/result/NadirIBFPR2.pn
-g> <./img/result/extnd.png> <./img/result/eu.png> <./img/result/ss1.png> <./img
-/result/ss2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 5--7
+[1
+
+{C:/Users/Alejandro/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./Defin
+itions/logo-mdpi-eps-converted-to.pdf> <./Definitions/logo-orcid-eps-converted-
+to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+) [2] (method.tex
+LaTeX Font Info:    Trying to load font information for OMS+ppl on input line 6
+.
+ ("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\omsppl.fd"
+File: omsppl.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 6.
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <7.6> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 8.
+[3]
+<img//method/SI2.png, id=160, 1711.1428pt x 232.61906pt>
+File: img//method/SI2.png Graphic file (type png)
+<use img//method/SI2.png>
+Package pdftex.def Info: img//method/SI2.png  used on input line 49.
+(pdftex.def)             Requested size: 355.0919pt x 48.27287pt.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <7> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 71.
+<img/method/fig1.png, id=172, 1195.46625pt x 697.8572pt>
+File: img/method/fig1.png Graphic file (type png)
+<use img/method/fig1.png>
+Package pdftex.def Info: img/method/fig1.png  used on input line 87.
+(pdftex.def)             Requested size: 199.73708pt x 116.58965pt.
+<img/method/fig2.png, id=173, 1194.71344pt x 682.80093pt>
+File: img/method/fig2.png Graphic file (type png)
+<use img/method/fig2.png>
+Package pdftex.def Info: img/method/fig2.png  used on input line 94.
+(pdftex.def)             Requested size: 199.73708pt x 114.14716pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[4 <./img//method/SI2.png>] [5 <./img/method/fig1.png> <./img/method/fig2.png>]
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--140
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
+Underfull \hbox (badness 10000) in paragraph at lines 178--179
 
  []
 
-<img//result/over_under.png, id=364, 1445.4pt x 742.27313pt>
+[6]
+<img//method/ieee2.png, id=230, 1719.42375pt x 566.115pt>
+File: img//method/ieee2.png Graphic file (type png)
+<use img//method/ieee2.png>
+Package pdftex.def Info: img//method/ieee2.png  used on input line 208.
+(pdftex.def)             Requested size: 332.89738pt x 109.60158pt.
+<img//method/gov.png, id=234, 1696.08656pt x 259.7203pt>
+File: img//method/gov.png Graphic file (type png)
+<use img//method/gov.png>
+Package pdftex.def Info: img//method/gov.png  used on input line 217.
+(pdftex.def)             Requested size: 332.89738pt x 50.97617pt.
+<img//method/IEEE_FPRmodel.png, id=242, 2098.84125pt x 1617.04124pt>
+File: img//method/IEEE_FPRmodel.png Graphic file (type png)
+<use img//method/IEEE_FPRmodel.png>
+Package pdftex.def Info: img//method/IEEE_FPRmodel.png  used on input line 266.
+
+(pdftex.def)             Requested size: 332.89738pt x 256.46187pt.
+ [7 <./img//method/ieee2.png> <./img//method/gov.png>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[8 <./img//method/IEEE_FPRmodel.png>]
+<img//method/extended_ibfpr.png, id=270, 1694.58093pt x 433.62pt>
+File: img//method/extended_ibfpr.png Graphic file (type png)
+<use img//method/extended_ibfpr.png>
+Package pdftex.def Info: img//method/extended_ibfpr.png  used on input line 349
+.
+(pdftex.def)             Requested size: 332.89738pt x 85.18082pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[9]
+<img//method/euro.png, id=288, 1699.85063pt x 633.11531pt>
+File: img//method/euro.png Graphic file (type png)
+<use img//method/euro.png>
+Package pdftex.def Info: img//method/euro.png  used on input line 361.
+(pdftex.def)             Requested size: 266.32062pt x 99.18484pt.
+ [10 <./img//method/extended_ibfpr.png> <./img//method/euro.png>]
+<img//method/goveuro.png, id=295, 1711.1428pt x 350.81062pt>
+File: img//method/goveuro.png Graphic file (type png)
+<use img//method/goveuro.png>
+Package pdftex.def Info: img//method/goveuro.png  used on input line 372.
+(pdftex.def)             Requested size: 221.9316pt x 45.49457pt.
+)
+(results.tex [11 <./img//method/goveuro.png>]
+<img//result/tcr80.png, id=313, 1145.4795pt x 583.58025pt>
+File: img//result/tcr80.png Graphic file (type png)
+<use img//result/tcr80.png>
+Package pdftex.def Info: img//result/tcr80.png  used on input line 9.
+(pdftex.def)             Requested size: 266.32062pt x 135.681pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--49
+
+ []
+
+[12 <./img//result/tcr80.png>]
+<img/result/base.png, id=328, 1145.4795pt x 583.58025pt>
+File: img/result/base.png Graphic file (type png)
+<use img/result/base.png>
+Package pdftex.def Info: img/result/base.png  used on input line 54.
+(pdftex.def)             Requested size: 217.49539pt x 110.80125pt.
+<img/result/base_euro.png, id=329, 1431.84938pt x 729.47531pt>
+File: img/result/base_euro.png Graphic file (type png)
+<use img/result/base_euro.png>
+Package pdftex.def Info: img/result/base_euro.png  used on input line 61.
+(pdftex.def)             Requested size: 217.49539pt x 110.7968pt.
+<img/result/SI40.png, id=332, 1145.4795pt x 583.58025pt>
+File: img/result/SI40.png Graphic file (type png)
+<use img/result/SI40.png>
+Package pdftex.def Info: img/result/SI40.png  used on input line 75.
+(pdftex.def)             Requested size: 217.49539pt x 110.80125pt.
+<img/result/SI80Euro.png, id=333, 1431.84938pt x 729.47531pt>
+File: img/result/SI80Euro.png Graphic file (type png)
+<use img/result/SI80Euro.png>
+Package pdftex.def Info: img/result/SI80Euro.png  used on input line 82.
+(pdftex.def)             Requested size: 217.49539pt x 110.7968pt.
+
+Underfull \hbox (badness 1817) in paragraph at lines 92--93
+[]\T1/ppl/m/n/10 (+20) Figure [][]12a[][] and [][]12b[][] in-di-cate the fre-qu
+ency re-sponse ob-tained of the sys-tem with an
+ []
+
+[13 <./img/result/base.png> <./img/result/base_euro.png> <./img/result/SI40.png
+> <./img/result/SI80Euro.png>]
+<img/result/SI10imb.png, id=349, 1431.84938pt x 729.47531pt>
+File: img/result/SI10imb.png Graphic file (type png)
+<use img/result/SI10imb.png>
+Package pdftex.def Info: img/result/SI10imb.png  used on input line 98.
+(pdftex.def)             Requested size: 217.49539pt x 110.7968pt.
+<img/result/SI15imb.png, id=350, 1431.84938pt x 729.47531pt>
+File: img/result/SI15imb.png Graphic file (type png)
+<use img/result/SI15imb.png>
+Package pdftex.def Info: img/result/SI15imb.png  used on input line 105.
+(pdftex.def)             Requested size: 217.49539pt x 110.7968pt.
+<img//result/powerramps.png, id=353, 1431.84938pt x 729.47531pt>
+File: img//result/powerramps.png Graphic file (type png)
+<use img//result/powerramps.png>
+Package pdftex.def Info: img//result/powerramps.png  used on input line 122.
+(pdftex.def)             Requested size: 266.32062pt x 135.67432pt.
+ [14 <./img/result/SI10imb.png (PNG copy)> <./img/result/SI15imb.png (PNG copy)
+> <./img//result/powerramps.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 134--135
+
+ []
+
+<img/result/NadirIBFPR2.png, id=362, 1145.4795pt x 583.58025pt>
+File: img/result/NadirIBFPR2.png Graphic file (type png)
+<use img/result/NadirIBFPR2.png>
+Package pdftex.def Info: img/result/NadirIBFPR2.png  used on input line 159.
+(pdftex.def)             Requested size: 217.49539pt x 110.80125pt.
+<img/result/extnd.png, id=363, 1145.4795pt x 583.58025pt>
+File: img/result/extnd.png Graphic file (type png)
+<use img/result/extnd.png>
+Package pdftex.def Info: img/result/extnd.png  used on input line 166.
+(pdftex.def)             Requested size: 217.49539pt x 110.80125pt.
+<img/result/eu.png, id=364, 1145.4795pt x 583.58025pt>
+File: img/result/eu.png Graphic file (type png)
+<use img/result/eu.png>
+Package pdftex.def Info: img/result/eu.png  used on input line 173.
+(pdftex.def)             Requested size: 213.05243pt x 108.53946pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 181--182
+
+ []
+
+[15 <./img/result/NadirIBFPR2.png> <./img/result/extnd.png> <./img/result/eu.pn
+g>]
+<img//result/fit.png, id=380, 1431.84938pt x 729.47531pt>
+File: img//result/fit.png Graphic file (type png)
+<use img//result/fit.png>
+Package pdftex.def Info: img//result/fit.png  used on input line 188.
+(pdftex.def)             Requested size: 221.9316pt x 113.05637pt.
+<img/result/Smallsignal.png, id=383, 1431.84938pt x 729.47531pt>
+File: img/result/Smallsignal.png Graphic file (type png)
+<use img/result/Smallsignal.png>
+Package pdftex.def Info: img/result/Smallsignal.png  used on input line 201.
+(pdftex.def)             Requested size: 217.49539pt x 110.7968pt.
+<img/result/Smallsignal2.png, id=384, 1431.84938pt x 729.47531pt>
+File: img/result/Smallsignal2.png Graphic file (type png)
+<use img/result/Smallsignal2.png>
+Package pdftex.def Info: img/result/Smallsignal2.png  used on input line 208.
+(pdftex.def)             Requested size: 217.49539pt x 110.7968pt.
+) [16 <./img//result/fit.png (PNG copy)> <./img/result/Smallsignal.png (PNG cop
+y)> <./img/result/Smallsignal2.png (PNG copy)>] (discussion.tex
+Underfull \hbox (badness 10000) in paragraph at lines 1--2
+
+ []
+
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 8.33606pt on input line 3.
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
+
+ []
+
+[17]
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
+
+ []
+
+<img//result/over_under.png, id=412, 1445.4pt x 742.27313pt>
 File: img//result/over_under.png Graphic file (type png)
 <use img//result/over_under.png>
-Package pdftex.def Info: img//result/over_under.png  used on input line 12.
-(pdftex.def)             Requested size: 332.89738pt x 170.95708pt.
-) [18 <./img//result/over_under.png (PNG copy)>]
+Package pdftex.def Info: img//result/over_under.png  used on input line 34.
+(pdftex.def)             Requested size: 266.32062pt x 136.7634pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [18]
 Underfull \hbox (badness 10000) in paragraph at lines 206--206
 
  []
 
-[19]
+[19 <./img//result/over_under.png (PNG copy)>]
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <9> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 223.
- 
+
+
 AED: lastpage setting LastPage
-
-Underfull \hbox (badness 10000) in paragraph at lines 223--223
-  [] \T1/ppl/m/n/9 (+20) 2019 by the au-thors. Sub-mit-ted to \T1/ppl/m/it/9 (+
-20) Jour-nal Not Spec-i-fied \T1/ppl/m/n/9 (+20) for pos-si-ble open ac-cess
- []
-
-
-Underfull \hbox (badness 2165) in paragraph at lines 223--223
-\T1/ppl/m/n/9 (+20) pub-li-ca-tion un-der the terms and con-di-tions of the Cre
--ative Com-mons At-tri-bu-tion (CC BY) li-cense
- []
-
 [20]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 223.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 223.
@@ -1822,20 +1773,25 @@ Package rerunfilecheck Info: File `IBFPR_paper.out' has not changed.
 (rerunfilecheck)             Checksum: 46562253C5893241F388081C6D18B445;4087.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were undefined references.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                IBFPR_paper
+(biblatex)                and rerun LaTeX afterwards.
 
 Package logreq Info: Writing requests to 'IBFPR_paper.run.xml'.
 \openout1 = `IBFPR_paper.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 34506 strings out of 492446
- 610543 string characters out of 3129605
- 1095533 words of memory out of 3000000
- 37863 multiletter control sequences out of 15000+200000
- 71402 words of font info for 289 fonts, out of 3000000 for 9000
+ 34559 strings out of 492446
+ 611854 string characters out of 3129605
+ 1099667 words of memory out of 3000000
+ 37887 multiletter control sequences out of 15000+200000
+ 72607 words of font info for 304 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,17n,79p,2416b,1773s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 68i,16n,79p,2416b,1811s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}{C:/Pro
 gram Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX 2.9/
 fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
@@ -1846,9 +1802,9 @@ o/fplmr.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/mathpazo/fplmri.pfb
 ram Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Files/MiKT
 eX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
 ype1/urw/palatino/uplri8a.pfb>
-Output written on IBFPR_paper.pdf (20 pages, 1962060 bytes).
+Output written on IBFPR_paper.pdf (20 pages, 2050194 bytes).
 PDF statistics:
- 441 PDF objects out of 1000 (max. 8388607)
- 100 named destinations out of 1000 (max. 500000)
- 47402 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 497 PDF objects out of 1000 (max. 8388607)
+ 107 named destinations out of 1000 (max. 500000)
+ 47407 words of extra memory for PDF output out of 51595 (max. 10000000)
 

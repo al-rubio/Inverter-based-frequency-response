@@ -1,17 +1,19 @@
 [0] Config.pm:304> INFO - This is Biber 2.13
 [0] Config.pm:307> INFO - Logfile is 'IBFPR_paper.blg'
-[99] biber-MSWIN64:315> INFO - === 
-[192] Biber.pm:375> INFO - Reading 'IBFPR_paper.bcf'
-[285] Biber.pm:905> INFO - Found 16 citekeys in bib section 0
-[308] Biber.pm:4196> INFO - Processing section 0
-[346] Utils.pm:75> INFO - Globbing data source 'Thesisref_LATEX.bib'
-[387] Utils.pm:91> INFO - Globbed data source 'Thesisref_LATEX.bib' to Thesisref_LATEX.bib
-[445] Biber.pm:4373> INFO - Looking for bibtex format file 'Thesisref_LATEX.bib' for section 0
-[450] bibtex.pm:1462> INFO - LaTeX decoding ...
-[489] bibtex.pm:1281> INFO - Found BibTeX data source 'Thesisref_LATEX.bib'
-[745] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[745] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[745] Biber.pm:4024> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[745] Biber.pm:4030> INFO - No sort tailoring available for locale 'en-US'
-[792] bbl.pm:648> INFO - Writing 'IBFPR_paper.bbl' with encoding 'UTF-8'
-[801] bbl.pm:751> INFO - Output to IBFPR_paper.bbl
+[29] biber-MSWIN64:315> INFO - === 
+[52] Biber.pm:375> INFO - Reading 'IBFPR_paper.bcf'
+[157] Biber.pm:905> INFO - Found 24 citekeys in bib section 0
+[173] Biber.pm:4196> INFO - Processing section 0
+[175] Utils.pm:75> INFO - Globbing data source 'Thesisref_LATEX.bib'
+[185] Utils.pm:91> INFO - Globbed data source 'Thesisref_LATEX.bib' to Thesisref_LATEX.bib
+[199] Biber.pm:4373> INFO - Looking for bibtex format file 'Thesisref_LATEX.bib' for section 0
+[204] bibtex.pm:1462> INFO - LaTeX decoding ...
+[245] bibtex.pm:1281> INFO - Found BibTeX data source 'Thesisref_LATEX.bib'
+[360] Utils.pm:300> WARN - I didn't find a database entry for 'E.MuljadiV.GevorgianandM.Singh:NREL.2012' (section 0)
+[393] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[393] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[393] Biber.pm:4024> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[394] Biber.pm:4030> INFO - No sort tailoring available for locale 'en-US'
+[423] bbl.pm:648> INFO - Writing 'IBFPR_paper.bbl' with encoding 'UTF-8'
+[435] bbl.pm:751> INFO - Output to IBFPR_paper.bbl
+[435] Biber.pm:110> INFO - WARNINGS: 1

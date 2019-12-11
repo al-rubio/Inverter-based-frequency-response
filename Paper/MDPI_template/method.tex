@@ -1,7 +1,6 @@
 \subsection{Frequency limits and Inertia Constants}
-When the global security of the system is endangered and under/above frequency is experienced then load shedding is activated; the system is said to be in the emergency state [ref]. If the frequency exceeds the range of 47.5 Hz or 51.5 Hz, a system blackout can hardly be avoided [1]. Consequently the system will reach the so-called blackout state and will have to be restored. Before black out the system tries to recover balance by rejecting partial load starting at 49 Hz as frequency decreases. On the other hand, curtailment thresholds between 50.2 and 50.5 have been studied by ENTSOE for over-frequency scenarios [1]. In this research, a deviation of $ \pm1 $ Hz is used as threshold before load shedding and curtailment starts. Hence, to keep frequency within such threshold; the investigated critical time and power response, correspond to the maximum allowed time for fast power reserve activation in order to inject power from renewables or storage in case of under-frequency; or to extract power from the grid to be stored or converter in another energy form in the case of over-frequency.\\
+When the global security of the system is endangered and under/above frequency is experienced then load shedding is activated; the system is said to be in the emergency state. If the frequency exceeds the range of 47.5 Hz or 51.5 Hz, a system blackout can hardly be avoided \cite{ENTSOE.2016}. Consequently the system will reach the so-called blackout state and will have to be restored. Before black out the system tries to recover balance by rejecting partial load starting at 49 Hz as frequency decreases. On the other hand, curtailment thresholds between 50.2 and 50.5 have been studied by ENTSOE for over-frequency scenarios \cite{ENTSOE.2016}. In this research, a deviation of $ \pm1 $ Hz is used as threshold before load shedding and curtailment starts. Hence, to keep frequency within such threshold; the investigated critical time and power response, correspond to the maximum allowed time for fast power reserve activation in order to inject power from renewables or storage in case of under-frequency; or to extract power from the grid to be stored or converter in another energy form in the case of over-frequency.
 
-%Although the focus of this investigation was centered in  the positive power injection to avoid under frequency load shedding; as it will be demonstrated in the result section, the required fast power reserve and critical times can be also understood as negative reserve for over-frequency cases.
 Two terms commonly found in the literature of power system stability will be used along this section:
 
 \begin{itemize}[leftmargin=*,labelsep=5.8mm]
@@ -10,7 +9,7 @@ Two terms commonly found in the literature of power system stability will be use
 	 Acceleration time constant is a measure of the robustness before disturbances of the system. It could be interpreted as the required time to remove the kinetic energy from the rotating masses of the generators connected in a grid at the rate of the supplied power load. Hence, the higher the time constant, the higher the kinetic energy available. As the share of synchronous generations decreases, this constant decreases proportionally.
 \end{itemize}
 
-With $f$ as frequency, $f_0$ as nominal frequency and $\Delta P$ as power imbalance, the swing equation can be expressed as follows [ref]:
+With $f$ as frequency, $f_0$ as nominal frequency and $\Delta P$ as power imbalance, the swing equation can be expressed as follows \cite{kundur1994power}:
 %Equation 3 1
 \begin{equation}
 	\label{eq:swing}
@@ -30,11 +29,11 @@ Synthetic inertia is one of the techniques that manufactures and researchers are
 	\item Power output from synthetic inertia is limited to 10\% of the wind turbine nominal power.
 	\item Due to mechanical and thermal stresses, the additional power can be delivered only for a maximum time of 10 s.
 	\item It is assumed that all wind turbines operate at its nominal power output. The value of 1.5 MW was selected for such purpose.
-	\item The maximum allowable amount of kinetic energy to be extracted from the turbines was limit to half of the kinetic energy while the turbine operates at nominal speed \cite{E.MuljadiV.GevorgianandM.Singh:NREL.2012}.
+	\item The maximum allowable amount of kinetic energy to be extracted from the turbines was limit to half of the kinetic energy while the turbine operates at nominal speed \cite{NREL.2012}.
 
 \end{enumerate}
 
-	A control system is needed so the stored energy in the rotating blades can be extracted from the wind turbine. Using the expression of power as the derivative of the stored energy in the blades Equation \eqref{eq:si} is obtained. The additional extracted power from the wind turbine through the implementation of Equation \eqref{eq:si} accounts for the synthetic inertia contribution [ref].
+	A control system is needed so the stored energy in the rotating blades can be extracted from the wind turbine. Using the expression of power as the derivative of the stored energy in the blades Equation \eqref{eq:si} is obtained. The additional extracted power from the wind turbine through the implementation of Equation \eqref{eq:si} accounts for the synthetic inertia contribution \cite{NREL.2012}.
 
 \begin{equation}
 	\label{eq:si}
@@ -43,12 +42,12 @@ Synthetic inertia is one of the techniques that manufactures and researchers are
 
 %Equation 3 4
 
-Where  $H_{wt}$ is the turbine inertia constant and $\omega_{pu}$ the rotational speed in per unit.\\
+Where  $H_{wt}$ is the turbine inertia constant and $\omega_{pu}$ the rotational speed in per unit.
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.8\textwidth]{/method/SI3}
-	\caption{Representation of Equation \eqref{eq:si} in Simulink. In the figure it can be seen the insertion of a filter at the output of the multiplication block [24,25]. A constant block $ K_i $ adjusts the initial response in the model. Since Equation \eqref{eq:si} is given in pu, the output is multiplied by a constant $ P_{wt} $ representing the rated power of the turbine.}
+	\includegraphics[width=0.8\textwidth]{/method/SI2}
+	\caption{Representation of Equation \eqref{eq:si} in Simulink. In the figure it can be seen the insertion of a filter at the output of the multiplication block \cite{GeneralElectricInternational.2013, nesje2015need}. A constant block $ K_i $ adjusts the initial response in the model. Since Equation \eqref{eq:si} is given in pu, the output is multiplied by a constant $ P_{wt} $ representing the rated power of the turbine.}
 	\label{fig:synthetic}
 \end{figure}
 
@@ -60,18 +59,18 @@ Typical values of inertia constant for wind turbines are not openly available fr
 \end{equation}
 
 
-For a wind turbine with nominal power output of 1.5 MW the value of $ H $ corresponds to 4.37 s \cite{Wu.2013}. A rated rotational speed of 18 rev/min was considered [28]. To avoid the wind turbine to stall, a reduction of 5 rev/min is allowed by the implementation of the control system. This change of rotational speed equals a reduction of 3 MWs on kinetic energy out of a total of 6 MWs.
+For a wind turbine with nominal power output of 1.5 MW the value of $ H $ corresponds to 4.37 s \cite{Wu.2013}. A rated rotational speed of 18 rev/min was considered \cite{Wu.2013}. To avoid the wind turbine to stall, a reduction of 5 rev/min is allowed by the implementation of the control system. This change of rotational speed equals a reduction of 3 MWs on kinetic energy out of a total of 6 MWs.
 
 %Table 3 1: Constants for implementation of synthetic inertia.
 \begin{table}[h]
-	\caption{\label{tb:inertia}: Constants for the implementation of synthetic inertia in Simulink.}
+	\caption{\label{tb:inertia}: Constants for the implementation of synthetic inertia in Simulink, $ n_{wt} $ represents the number of wind turbines with synthetic inertia control}
 	\centering
 	%% \tablesize{} %% You can specify the fontsize here, e.g., \tablesize{\footnotesize}. If commented out \small will be used.
 	\begin{tabular}{cccc}
 		\toprule
 		\textbf{T\textsubscript{wt}} 	& \textbf{ H\textsubscript{wt} (s)}	& \textbf{ P\textsubscript{wt} (MW)}  & \textbf{ K\textsubscript{i}} \\
 		\midrule
-			1	       & 4.37		        &  1.5*$ n_{wt} $\footnote{Number of wind turbines with synthetic inertia control} & 10 \\
+			1	       & 4.37		        &  1.5*$ n_{wt} $ & 10 \\
 		%entry 2		& data			& data\\
 		\bottomrule
 	\end{tabular}
@@ -79,21 +78,21 @@ For a wind turbine with nominal power output of 1.5 MW the value of $ H $ corres
 
 \subsubsection{Inverter based fast Power Reserve}
 
-When a power system is subjected to a negative power imbalance and it is assumed that no load is rejected at UFLS frequency, this continues dropping below 49 Hz. The time at which the system frequency equals the UFLS value is then called critical time. This is the maximum available time for the inverter based reserve to deploy the required power to the system. \\
+When a power system is subjected to a negative power imbalance and it is assumed that no load is rejected at UFLS frequency, this continues dropping below 49 Hz. The time at which the system frequency equals the UFLS value is then called critical time. This is the maximum available time for the inverter based reserve to deploy the required power to the system.
 
 \begin{figure}[h]
 	\centering
 	\begin{subfigure}[h]{0.45\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{method/fig1}
-		\caption{}
+		\caption{Without IBFPR}
 		\label{fig:freqresp_before}
 	\end{subfigure}
 	\hfill
 	\begin{subfigure}[h]{0.45\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{method/fig2}
-		\caption{}
+		\caption{With IBFPR}
 		\label{fig:freqresp_after}
 	\end{subfigure}
 
@@ -159,17 +158,23 @@ As presented in the previous section, the values of critical time and frequency 
 		\bottomrule
 	\end{tabular}
 \end{table}
+Therefore with the selected cases, the critical and nadir time are estimated through the simulation of different scenarios combining a range of imbalances and shares of non-synchronous generation. In order to assess Equation \eqref{eq:IBFPR}, a fit of the critical time as function of RoCoF is carried out. With the corresponding fit function for each case, Equation \eqref{eq:IBFPR} can be easily applied assuming that the inertia of the system is known and power imbalance can be calculated as: $ \frac{df}{dt}\frac{T_aP_{LOAD}}{f_0} $.
 
-Therefore with the selected cases, the critical and nadir time are estimated through the simulation of different scenarios combining a range of imbalances and shares of non-synchronous generation. In order to assess Equation \eqref{eq:IBFPR}, a fit of the critical time as function of RoCoF is carried out. With the corresponding fitted function for each case, Equation \eqref{eq:IBFPR} can be easily applied assuming that the inertia of the system is known and power imbalance can be calculated as:
+%\begin{equation}
+%\Delta P(t)=\dfrac{df}{dt}\dfrac{T_aP_{LOAD}}{f_0}
+%\end{equation}
 
-\begin{equation}
-\Delta P(t)=\dfrac{df}{dt}\dfrac{T_aP_{LOAD}}{f_0}
-\end{equation}
+%\begin{figure}[h]
+%	\centering
+%	\includegraphics[width=0.6\textwidth]{/method/method}
+%	\caption{IBFPR methodology: \textbf{1}) Scenarios with different system's inertia and power imbalance are simulated \textbf{2}) Critical time and nadir time is obtained for each scenario \textbf{3}) A fit function relating critical time and RoCoF is obtained \textbf{4}) According to the RoCoF measured in the system, a power response is calculated and injected to the system.}
+%	\label{fig:method}
+%\end{figure}
+
 
 \subsection{Simplified IEEE 9 bus Model}
 \label{ssec:simpleieee}
-%Microgrids can operate connected to the bulk transmission/distribution system or stand alone. In any case
-%It is assumed that imbalances could occur due to internal faults when island configuration is considered or islanding from the external system results from a contigency while a considerable amount of power load of the microgrid was being `imported’ or `exported’. For the study of power systems and the increasing interest in stability analysis for DER integration, the IEEE benchmarks represent a widely used option, based on some real data. This is also the case of the IEEE 9 bus model or WSCC (Western System Coordinated Council). The IEEE 9 bus model is a representation of the former western interconnected power system of North America of 1967. For stability and reliability studies, this system has been employed in many publications as study case [20], which allows the comparison of results. Figure 3 3 illustrates grid’s configuration.
+
 As a first step to evaluate the impact of inverter based generation and power imbalances in the grid, the whole system is simplified as one single generating unit; neglecting all losses in the system (Transformers, transmission lines and generators) with the assumption that the mechanical output of the prime mover is the same than the electrical power output at generator terminals. Table \ref{tb:gridelements} provides a summary of the elements comprising the base model.\\
 
 
@@ -196,7 +201,7 @@ As a first step to evaluate the impact of inverter based generation and power im
 
 
 
-Figure \ref{fig:ieeesimple} is the block representation of the swing equation \eqref{eq:swing}, it only differs in the fact that blocks representing the inverter based generation have been included. The mechanical power is represented by the output of a steam turbine governor model, which is used to represent the synchronous machine as depicted in Figure \ref{fig:gov}. When equilibrium is lost, the accelerating power is multiply by the transfer function $ 1/(2HS) $, where $ H $ is the machine’s inertia constant and $ S $ is the machine’s power rating. From Equation \eqref{eq:swing} this product equals the derivative of frequency, therefore an integrator block is added to obtain the frequency response \cite{kundur1994power, john1994power, ogata1999ingenieria}. A feedback loop is added and an error signal obtained from the reference frequency so the synchronous machine can react as frequency deviates from nominal. \\
+Figure \ref{fig:ieeesimple} is the block representation of the swing equation \eqref{eq:swing}, it only differs in the fact that blocks representing the inverter based generation have been included. The mechanical power is represented by the output of a steam turbine governor model, which is used to represent the synchronous machine as depicted in Figure \ref{fig:gov}. When equilibrium is lost, the accelerating power is multiplied by the transfer function $ 1/(2HS) $, where $ H $ is the machine’s inertia constant and $ S $ is the machine’s power rating. From Equation \eqref{eq:swing} this product equals the derivative of frequency, therefore an integrator block is added to obtain the frequency response \cite{kundur1994power, john1994power, ogata1999ingenieria}. A feedback loop is added and an error signal obtained from the reference frequency so the synchronous machine can react as frequency deviates from nominal.
 
 \begin{figure}[h]
 	\centering
@@ -210,7 +215,7 @@ The values of kinetic energy and time constants of a synchronous machines of 835
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.75\textwidth]{/method/gov}
-	\caption{Model for the general purpose governor representation of synchronous machines where R is the turbine droop, P\textsubscript{ref} is the reference load at nominal frequency, T\textsubscript{1} is the governor delay, T\textsubscript{2} is the reset time constant, T\textsubscript{3} is the servo time constant, T\textsubscript{4} is the steam valve time constant and T\textsubscript{5} is the steam re-heat time constant \cite{Anderson.2002}.}
+	\caption{Model of the general purpose governor for the representation of synchronous machines; where R is the turbine droop, P\textsubscript{ref} is the reference load at nominal frequency, T\textsubscript{1} is the governor delay, T\textsubscript{2} is the reset time constant, T\textsubscript{3} is the servo time constant, T\textsubscript{4} is the steam valve time constant and T\textsubscript{5} is the steam re-heat time constant \cite{Anderson.2002}.}
 	\label{fig:gov}
 \end{figure}
 
@@ -341,7 +346,7 @@ With the obtained expressions  for the positive sequence of phase voltage \eqref
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.9\textwidth]{/method/extended_ibfpr}
+	\includegraphics[width=0.75\textwidth]{/method/extended_ibfpr}
 	\caption{Implementation of IBFPR in the extended IEEE model. The dashed lines denote the interaction between signals from the power circuit to the control circuit and vice-versa. From the voltages readings of lines a-b and b-c the voltage $ V_{an} $ is calculated using Equation \eqref{eq:volt_seq}, then Equation \eqref{eq:current_seq} is implemented to calculate the current to be fed into the system using the complex power response obtained using Equation \eqref{eq:IBFPR} and the previous calculated value of $ V_{an} $.} 
 	\label{fig:ieeeext_ibfpr}
 \end{figure}
@@ -350,11 +355,10 @@ It must be noticed that when the IBFPR depicted in Figure \ref{fig:ieeeext_ibfpr
 
 \subsection{Large Scale Case: Europe Power System}
 
-Under normal operation ENTSOE has reported values of RoCoF in the range of 5-10 mHz/s for power outages of 1 GW in the current interconnected power system. If an imbalance event of more than 3 GW occurs with depleted primary reserve, extraordinary values of frequency and RoCoF might be reached. After serious disturbances the Continental European Power System has experienced RoCoF between 100 mHz/s and 1 Hz/s. Imbalances of 20\% or more along with RoCoF greater than 1 Hz/s have been determined by experience to be critical \cite{ENTSOE.2016}.
-ENTSOE has determined that the reference scenario (The loss of 3 GW generation with 150 GW load and 2\%/Hz self-regulation) in the interconnected operation, the influence of inverter based generation, and therefore the reduction of system inertia would not jeopardize system stability. Due to the expected increase of non-synchronous generation in the future, international power trade and renewables variability; ENTSOE estates in its future split reference scenario that the power system must be capable of withstanding imbalances greater than 40\% with RoCoF of 2 Hz/s or higher. Under these circumstances the resulting islands must avoid load shedding. Hence, the conditions of the split scenario are considered for further analysis.
+Under normal operation ENTSOE has reported values of RoCoF in the range of 5-10 mHz/s for power outages of 1 GW in the current interconnected power system. If an imbalance event of more than 3 GW occurs with depleted primary reserve, extraordinary values of frequency and RoCoF might be reached. After serious disturbances the Continental European Power System has experienced RoCoF between 100 mHz/s and 1 Hz/s. Imbalances of 20\% or more along with RoCoF greater than 1 Hz/s have been determined by experience to be critical \cite{ENTSOE.2016}. ENTSOE has determined that the reference scenario (The loss of 3 GW generation with 150 GW load and 2\%/Hz self-regulation) in the interconnected operation, the influence of inverter based generation, and therefore the reduction of system inertia would not jeopardize system stability. Due to the expected increase of non-synchronous generation in the future, international power trade and renewables variability; ENTSOE estates in its future split reference scenario that the power system must be capable of withstanding imbalances greater than 40\% with RoCoF of 2 Hz/s or higher. Under these circumstances the resulting islands must avoid load shedding. Hence, the conditions of the split scenario are considered for further analysis.
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.8\textwidth]{/method/euro}
+	\includegraphics[width=0.6\textwidth]{/method/euro}
 	\caption{Large scale grid derived from the simplified IEEE model. The synchronous response was modified to match the European reserve response and the effect of self-regulation was added.}
 	\label{fig:euro}
 \end{figure}
@@ -366,7 +370,7 @@ In order to fit the behavior of the system to the one modeled by ENTSOE, the syn
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.5\textwidth]{/method/goveuro}
-	\caption{Governor representation for the large grid scale case. The synchronous machine block represents the governor model used in Section \ref{ssec:simpleieee}. The Control System Tuner App sets the constants of the additional block in the model in order to have a step response with a rise time of $ \sim30s $ by establishing an overshoot of 2\%  and a time constant of 8 seconds \cite{ogata1999ingenieria}.}
+	\caption{Governor representation for the large grid scale case. The synchronous machine block represents the governor model used in Section \ref{ssec:simpleieee}. The Control System Tuner App sets the constants A, B, C and D of the additional block in the model in order to have a step response with a rise time of $ \sim30s $ by establishing an overshoot of 2\%  and a time constant of 8 seconds \cite{ogata1999ingenieria}.}
 	\label{fig:goveuro}
 \end{figure}
 
