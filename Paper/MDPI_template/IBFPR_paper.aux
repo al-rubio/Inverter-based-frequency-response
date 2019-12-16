@@ -100,8 +100,8 @@
 \newlabel{eq:power_seq}{{9}{9}{IBFPR Representation}{equation.2.9}{}}
 \newlabel{eq:current_seq}{{10}{9}{IBFPR Representation}{equation.2.10}{}}
 \newlabel{eq:volt_seq}{{11}{9}{IBFPR Representation}{equation.2.11}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Implementation of IBFPR in the extended IEEE model. The dashed lines denote the interaction between signals from the power circuit to the control circuit and vice-versa. From the voltages readings of lines a-b and b-c the voltage $ V_{an} $ is calculated using Equation \textup  {\hbox {\mathsurround \z@ \normalfont  (\ignorespaces \ref  {eq:volt_seq}\unskip \@@italiccorr )}}, then Equation \textup  {\hbox {\mathsurround \z@ \normalfont  (\ignorespaces \ref  {eq:current_seq}\unskip \@@italiccorr )}} is implemented to calculate the current to be fed into the system using the complex power response obtained using Equation \textup  {\hbox {\mathsurround \z@ \normalfont  (\ignorespaces \ref  {eq:IBFPR}\unskip \@@italiccorr )}} and the previous calculated value of $ V_{an} $.\relax }}{9}{figure.caption.11}\protected@file@percent }
-\newlabel{fig:ieeeext_ibfpr}{{6}{9}{Implementation of IBFPR in the extended IEEE model. The dashed lines denote the interaction between signals from the power circuit to the control circuit and vice-versa. From the voltages readings of lines a-b and b-c the voltage $ V_{an} $ is calculated using Equation \eqref {eq:volt_seq}, then Equation \eqref {eq:current_seq} is implemented to calculate the current to be fed into the system using the complex power response obtained using Equation \eqref {eq:IBFPR} and the previous calculated value of $ V_{an} $.\relax }{figure.caption.11}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Implementation of IBFPR in the extended IEEE model. From the voltages readings of lines a-b and b-c the voltage $ V_{an} $ is calculated using Equation \textup  {\hbox {\mathsurround \z@ \normalfont  (\ignorespaces \ref  {eq:volt_seq}\unskip \@@italiccorr )}}, then Equation \textup  {\hbox {\mathsurround \z@ \normalfont  (\ignorespaces \ref  {eq:current_seq}\unskip \@@italiccorr )}} is implemented to calculate the current to be fed into the system using the complex power response obtained using Equation \textup  {\hbox {\mathsurround \z@ \normalfont  (\ignorespaces \ref  {eq:IBFPR}\unskip \@@italiccorr )}} and the previous calculated value of $ V_{an} $.\relax }}{9}{figure.caption.11}\protected@file@percent }
+\newlabel{fig:ieeeext_ibfpr}{{6}{9}{Implementation of IBFPR in the extended IEEE model. From the voltages readings of lines a-b and b-c the voltage $ V_{an} $ is calculated using Equation \eqref {eq:volt_seq}, then Equation \eqref {eq:current_seq} is implemented to calculate the current to be fed into the system using the complex power response obtained using Equation \eqref {eq:IBFPR} and the previous calculated value of $ V_{an} $.\relax }{figure.caption.11}{}}
 \citation{ENTSOE.2016}
 \citation{ogata1999ingenieria}
 \citation{ogata1999ingenieria}
@@ -110,10 +110,10 @@
 \newlabel{fig:euro}{{7}{10}{Large scale grid derived from the simplified IEEE model. The synchronous response was modified to match the European reserve response and the effect of self-regulation was added.\relax }{figure.caption.12}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Governor representation for the large grid scale case. The synchronous machine block represents the governor model used in Section \ref  {ssec:simpleieee}. The Control System Tuner App sets the constants A, B, C and D of the additional block in the model in order to have a step response with a rise time of $ \sim 30s $ by establishing an overshoot of 2\% and a time constant of 8 seconds \cite  {ogata1999ingenieria}.\relax }}{10}{figure.caption.13}\protected@file@percent }
 \newlabel{fig:goveuro}{{8}{10}{Governor representation for the large grid scale case. The synchronous machine block represents the governor model used in Section \ref {ssec:simpleieee}. The Control System Tuner App sets the constants A, B, C and D of the additional block in the model in order to have a step response with a rise time of $ \sim 30s $ by establishing an overshoot of 2\% and a time constant of 8 seconds \cite {ogata1999ingenieria}.\relax }{figure.caption.13}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.6.1}System Parameters}{10}{subsubsection.2.6.1}\protected@file@percent }
 \citation{ENTSOE.2016,Anderson.2002}
 \citation{dena2014}
 \citation{miller2017technology}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.6.1}System Parameters}{11}{subsubsection.2.6.1}\protected@file@percent }
 \newlabel{eq:tsyseuro}{{13}{11}{System Parameters}{equation.2.13}{}}
 \newlabel{eq:dfdpeuro}{{14}{11}{System Parameters}{equation.2.14}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {3}Results}{11}{section.3}\protected@file@percent }
@@ -137,17 +137,15 @@
 \newlabel{fig:res_nadireuro_si}{{11b}{13}{European-scale model.\relax }{figure.caption.17}{}}
 \newlabel{sub@fig:res_nadireuro_si}{{b}{13}{European-scale model.\relax }{figure.caption.17}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces (\textbf  {a}) Shows the frequency nadir once synthetic inertia has been applied to the 40\% of the IBG in the simplified IEEE model. (\textbf  {b}) Frequency nadir of the large scale model with same share of contribution from synthetic inertia.\relax }}{13}{figure.caption.17}\protected@file@percent }
-\newlabel{fig:res_ieee_fr10imb}{{12a}{13}{Simplified IEEE model with 10\% imbalance\relax }{figure.caption.18}{}}
-\newlabel{sub@fig:res_ieee_fr10imb}{{a}{13}{Simplified IEEE model with 10\% imbalance\relax }{figure.caption.18}{}}
-\newlabel{fig:res_ieee_fr15imb}{{12b}{13}{Simplified IEEE model with 15\% imbalance\relax }{figure.caption.18}{}}
-\newlabel{sub@fig:res_ieee_fr15imb}{{b}{13}{Simplified IEEE model with 15\% imbalance\relax }{figure.caption.18}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces Cases with contribution of 40\% and 80\% of the total IBG share are compared with the scenario with no support coming from IBG.\relax }}{13}{figure.caption.18}\protected@file@percent }
+\newlabel{fig:res_ieee_fr10imb}{{12a}{14}{Simplified IEEE model with 10\% imbalance\relax }{figure.caption.18}{}}
+\newlabel{sub@fig:res_ieee_fr10imb}{{a}{14}{Simplified IEEE model with 10\% imbalance\relax }{figure.caption.18}{}}
+\newlabel{fig:res_ieee_fr15imb}{{12b}{14}{Simplified IEEE model with 15\% imbalance\relax }{figure.caption.18}{}}
+\newlabel{sub@fig:res_ieee_fr15imb}{{b}{14}{Simplified IEEE model with 15\% imbalance\relax }{figure.caption.18}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces Cases with contribution of 40\% and 80\% of the total IBG share are compared with the scenario with no support coming from IBG.\relax }}{14}{figure.caption.18}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.2}Effect of Power Ramp Response on Frequency}{14}{subsubsection.3.2.2}\protected@file@percent }
 \@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces Comparison of the results of the three models in terms of the IBFPR power ramp which is needed at 80\% of share from non-synchronous generation.\relax }}{14}{figure.caption.19}\protected@file@percent }
 \newlabel{fig:res_pramp}{{13}{14}{Comparison of the results of the three models in terms of the IBFPR power ramp which is needed at 80\% of share from non-synchronous generation.\relax }{figure.caption.19}{}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.3}Fast Power Reserve}{14}{subsubsection.3.2.3}\protected@file@percent }
-\citation{kundur1994power}
-\citation{kundur1994power}
 \@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces : Fast power reserve in per unit for the European case. Power reserve expressed in pu with power load as the base\relax }}{15}{table.caption.20}\protected@file@percent }
 \newlabel{tb:crpowr}{{7}{15}{: Fast power reserve in per unit for the European case. Power reserve expressed in pu with power load as the base\relax }{table.caption.20}{}}
 \newlabel{fig:res_ieee_ibfpr}{{14a}{15}{\relax }{figure.caption.21}{}}
@@ -157,17 +155,17 @@
 \newlabel{fig:res_euro_ibfpr}{{14c}{15}{\relax }{figure.caption.21}{}}
 \newlabel{sub@fig:res_euro_ibfpr}{{c}{15}{\relax }{figure.caption.21}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces Frequency nadir with the implementation of IBFPR in: (\textbf  {a}) The simplified IEEE model (\textbf  {b}) The extended IEEE model. (\textbf  {c}) The large scale (European model). \relax }}{15}{figure.caption.21}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Synchronizing effect, lack of damping torque and implications}{15}{subsection.3.3}\protected@file@percent }
+\citation{kundur1994power}
+\citation{kundur1994power}
 \citation{kundur1994power,Anderson.2002}
 \@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces Overestimation of critical time leading to UFLS in the European-scale model.\relax }}{16}{figure.caption.22}\protected@file@percent }
 \newlabel{fig:res_fit}{{15}{16}{Overestimation of critical time leading to UFLS in the European-scale model.\relax }{figure.caption.22}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Synchronizing effect, lack of damping torque and implications}{16}{subsection.3.3}\protected@file@percent }
 \newlabel{fig:res_osc_noIBFPR}{{16a}{16}{Without IBFPR\relax }{figure.caption.23}{}}
 \newlabel{sub@fig:res_osc_noIBFPR}{{a}{16}{Without IBFPR\relax }{figure.caption.23}{}}
 \newlabel{fig:res_osc_IBFPR}{{16b}{16}{With IBFPR\relax }{figure.caption.23}{}}
 \newlabel{sub@fig:res_osc_IBFPR}{{b}{16}{With IBFPR\relax }{figure.caption.23}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {16}{\ignorespaces In (\textbf  {a}) the oscillatory frequency response is depicted when no additional frequency support is given by the IBG, whereas in (\textbf  {b}) the IBFPR is applied. In both cases an imbalance of 2\% and a penetration of 95\% of IBG were considered.\relax }}{16}{figure.caption.23}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {4}Discussion}{16}{section.4}\protected@file@percent }
-\newlabel{sec:discussion}{{4}{16}{Discussion}{section.4}{}}
 \citation{dena2014}
 \citation{miller2017technology}
 \citation{ENTSOE.2016}
@@ -175,6 +173,8 @@
 \citation{miller2017technology}
 \citation{miller2017technology}
 \citation{Wu.2013}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Discussion}{17}{section.4}\protected@file@percent }
+\newlabel{sec:discussion}{{4}{17}{Discussion}{section.4}{}}
 \@writefile{lot}{\contentsline {table}{\numberline {8}{\ignorespaces : Activation times for fast power reserve of non-synchronous technologies \cite  {miller2017technology}\relax }}{17}{table.caption.24}\protected@file@percent }
 \newlabel{tb:tech_times}{{8}{17}{: Activation times for fast power reserve of non-synchronous technologies \cite {miller2017technology}\relax }{table.caption.24}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {17}{\ignorespaces Under and over-frequency events in the extended IEEE model, a difference of 45 ms between each critical time is found.\relax }}{18}{figure.caption.25}\protected@file@percent }
@@ -195,10 +195,10 @@
 \bibcite{NREL.2012}{{13}{2012}{{{E. Muljadi, V. Gevorgian, and M. Singh: NREL} and {S. Santoso: University of Texas - Austin}}}{{}}}
 \bibcite{GonzalezRodriguez.2007}{{14}{2007}{{{Gonz{\'a}lez Rodriguez} \em  {et~al.}}}{{{Gonz{\'a}lez Rodriguez}, {Gonz{\'a}lez Rodriguez}, and {Burgos Pay{\'a}n}}}}
 \bibcite{Wu.2013}{{15}{2013}{{Wu and Infield}}{{}}}
+\@writefile{toc}{\contentsline {section}{References}{19}{figure.caption.25}\protected@file@percent }
 \bibcite{orum2015future}{{16}{2015}{{{\O }rum \em  {et~al.}}}{{{\O }rum, Kuivaniemi, Laasonen, Bruseth, Jansson, Danell, Elkington, and Modig}}}
 \bibcite{sundaram2008comparing}{{17}{2008}{{Sundaram and Bhuiyan}}{{}}}
 \bibcite{hultholm2015optimal}{{18}{2015}{{Hultholm and W{\"a}gar}}{{}}}
-\@writefile{toc}{\contentsline {section}{References}{19}{figure.caption.25}\protected@file@percent }
 \bibcite{john1994power}{{19}{1994}{{Grainger and Stevenson}}{{}}}
 \bibcite{ogata1999ingenieria}{{20}{1999}{{Ogata}}{{}}}
 \bibcite{Anderson.2002}{{21}{2002}{{Anderson and Fouad}}{{}}}
